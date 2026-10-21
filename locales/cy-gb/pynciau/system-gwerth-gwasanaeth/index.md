@@ -103,7 +103,7 @@ Gall AI helpu i grynhoi galw, fel clystyru cwynion y ganolfan alwadau, a draffti
 
 ### Awtomeiddio
 
-Cymhwyswch yr egwyddor "gwneud y gorau ac awtomeiddio" ar ôl symleiddio: awtomeiddiwch gamau yn y ffrwd werth sy'n sefydlog, wedi'u hailadrodd ac wedi'u deall, a lleiwch beth mae awtomeiddio yn ei wneud. Rhybudd: nid yw awtomeiddio trosglwyddiad yn cael gwared ar yr aros y tu ôl iddo, felly edrychwch ar yr aros yn gyntaf. Gweler Pwnc 6.1 — Strategaeth Awtomeiddio.
+Cymhwyswch yr egwyddor "gwneud y gorau ac awtomeiddio" ar ôl symleiddio: awtomeiddiwch gamau yn y ffrwd werth sy'n sefydlog, wedi'u hailadrodd ac wedi'u deall, a cofnodwch beth mae awtomeiddio yn ei wneud. Rhybudd: nid yw awtomeiddio trosglwyddiad yn cael gwared ar yr aros y tu ôl iddo, felly edrychwch ar yr aros yn gyntaf. Gweler Pwnc 6.1 — Strategaeth Awtomeiddio.
 
 ### Dadansoddeg
 
