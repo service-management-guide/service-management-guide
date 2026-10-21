@@ -15,6 +15,16 @@ export const HERO: Record<string, Record<string, string>> = {
   "intro": "Service management is how organizations co-create value with customers. ITIL 5 frames it around digital products, AI, and measurable value. This guide shows how to run it through four lenses: agile, AI, automation, and analytics, with research, practices, examples, ideas to talk about with teams, AI skills, and AI prompts.",
   "translations": "Translations: "
  },
+ "hi-001": {
+  "tagline": "ITIL 5 के युग में सेवा प्रबंधन की एक व्यावहारिक पुस्तिका: एजाइल, AI, स्वचालन और विश्लेषण।",
+  "intro": "सेवा प्रबंधन वह तरीक़ा है जिससे संगठन ग्राहकों के साथ मिलकर मूल्य रचते हैं। ITIL 5 इसे डिजिटल उत्पादों, AI और मापने योग्य मूल्य के इर्द-गिर्द ढालता है। यह मार्गदर्शिका बताती है कि इसे चार दृष्टिकोणों से कैसे चलाएँ: एजाइल, AI, स्वचालन और विश्लेषण, शोध, अभ्यास, उदाहरण, टीम-चर्चा के विचार, AI कौशल और AI प्रॉम्प्ट के साथ।",
+  "translations": "अनुवाद: "
+ },
+ "hi-in": {
+  "tagline": "ITIL 5 के युग में सेवा प्रबंधन की एक व्यावहारिक पुस्तिका: एजाइल, AI, स्वचालन और विश्लेषण।",
+  "intro": "सेवा प्रबंधन वह तरीक़ा है जिससे संगठन ग्राहकों के साथ मिलकर मूल्य रचते हैं। ITIL 5 इसे डिजिटल उत्पादों, AI और मापने योग्य मूल्य के इर्द-गिर्द ढालता है। यह मार्गदर्शिका बताती है कि इसे चार दृष्टिकोणों से कैसे चलाएँ: एजाइल, AI, स्वचालन और विश्लेषण, शोध, अभ्यास, उदाहरण, टीम-चर्चा के विचार, AI कौशल और AI प्रॉम्प्ट के साथ।",
+  "translations": "अनुवाद: "
+ },
  "zh-cn": {
   "tagline": "一本在 ITIL 5 时代做服务管理的实用手册：敏捷、AI、自动化与分析。",
   "intro": "服务管理是组织与客户共同创造价值的方式。ITIL 5 围绕数字产品、AI 和可度量的价值来构建它。本指南通过敏捷、AI、自动化与分析四个视角说明如何运行服务管理，并结合研究、实践、案例、可与团队讨论的想法、AI技能和AI提示词。",

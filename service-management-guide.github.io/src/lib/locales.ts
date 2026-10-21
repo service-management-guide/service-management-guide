@@ -11,6 +11,8 @@ export const LOCALES: Locale[] = [
   { slug: 'cy-gb', label: 'Cymraeg - Cymru' },
   { slug: 'de-de', label: 'Deutsch - Deutschland' },
   { slug: 'en-001', label: 'English - World' },
+  { slug: 'hi-001', label: 'हिन्दी - विश्व' },
+  { slug: 'hi-in', label: 'हिन्दी - भारत' },
   { slug: 'zh-cn', label: '简体中文 - 中国' },
 ];
 

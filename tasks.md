@@ -141,6 +141,18 @@ Translate serially, one topic per commit, following `locales/de-de/terminologie/
 - [ ] de-de glossary and index translations
 - [ ] de-de review by a fluent German speaker
 
+
+## Phase 11 — Hindi (hi-in, hi-001)
+
+Translate serially, one topic per commit, following `locales/hi-in/शब्द-चयन/index.md`. `locales/hi-001/` is a copy of `locales/hi-in/`: translate hi-in first, then copy the finished topics across. `bin/check` reads headings from each locale's `locale.json`.
+
+- [x] Scaffold `locales/hi-in/` (peer ids, symlinks, titled stubs, `locale.json`, terminology)
+- [x] Copy to `locales/hi-001/`
+- [x] hi-in and hi-001 site integration (`hi-in.json`, `hi-001.json`, `locales.ts`, `hero.ts`)
+- [ ] Translate the 65 topics into hi-in, then copy to hi-001
+- [ ] hi glossary and index translations
+- [ ] hi review by a fluent Hindi speaker
+
 ## Phases 3–6
 
 - [x] Glossary and index complete

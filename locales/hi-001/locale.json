@@ -1,0 +1,45 @@
+{
+  "name": "हिन्दी",
+  "topic_word": "विषय",
+  "topics_word": "विषय",
+  "h2": {
+    "Why this matters": "यह क्यों मायने रखता है",
+    "Core concepts": "मूल अवधारणाएँ",
+    "Best practices": "सर्वोत्तम अभ्यास",
+    "Questions to discuss with your team": "अपनी टीम के साथ चर्चा के प्रश्न",
+    "In practice: a service management example": "व्यवहार में: सेवा प्रबंधन का एक उदाहरण",
+    "Four perspectives": "चार दृष्टिकोण",
+    "Agile, AI, automation, and analytics": "एजाइल, AI, स्वचालन और विश्लेषण",
+    "Common failure modes": "आम विफलता के तरीके",
+    "Maturity model": "परिपक्वता मॉडल",
+    "Checklist": "जाँच-सूची",
+    "AI prompts": "AI प्रॉम्प्ट",
+    "AI skills": "AI कौशल",
+    "Key sources": "प्रमुख स्रोत",
+    "References": "संदर्भ"
+  },
+  "h3": {
+    "Product and delivery teams": "उत्पाद और डिलीवरी टीमें",
+    "Service and operations teams": "सेवा और संचालन टीमें",
+    "Leadership and governance": "नेतृत्व और गवर्नेंस",
+    "Customers and users": "ग्राहक और उपयोगकर्ता",
+    "Agile": "एजाइल",
+    "AI": "AI",
+    "Automation": "स्वचालन",
+    "Analytics": "विश्लेषण"
+  },
+  "maturity": {
+    "Initiate": "आरंभ",
+    "Develop": "विकास",
+    "Standardize": "मानकीकरण",
+    "Manage": "प्रबंधन",
+    "Orchestrate": "समन्वय"
+  },
+  "dirs": {
+    "topics": "विषय",
+    "glossary": "शब्दकोश",
+    "index": "अनुक्रमणिका",
+    "terminology": "शब्द-चयन",
+    "contents": "विषय-सूची"
+  }
+}
