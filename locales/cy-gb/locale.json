@@ -1,0 +1,45 @@
+{
+  "name": "Cymraeg (Cymru)",
+  "topic_word": "Pwnc",
+  "topics_word": "Pynciau",
+  "h2": {
+    "Why this matters": "Pam mae hyn yn bwysig",
+    "Core concepts": "Cysyniadau craidd",
+    "Best practices": "Arferion gorau",
+    "Questions to discuss with your team": "Cwestiynau i'w trafod gyda'ch tîm",
+    "Four perspectives": "Pedwar persbectif",
+    "Agile, AI, automation, and analytics": "Ystwyth, AI, awtomeiddio a dadansoddeg",
+    "Common failure modes": "Dulliau methu cyffredin",
+    "Maturity model": "Model aeddfedrwydd",
+    "Checklist": "Rhestr wirio",
+    "AI prompts": "Anogwyr AI",
+    "AI skills": "Sgiliau AI",
+    "Key sources": "Prif ffynonellau",
+    "References": "Cyfeiriadau",
+    "In practice: a service management example": "Yn ymarferol: enghraifft o reoli gwasanaethau"
+  },
+  "h3": {
+    "Product and delivery teams": "Timau cynnyrch a chyflawni",
+    "Service and operations teams": "Timau gwasanaeth a gweithrediadau",
+    "Leadership and governance": "Arweinyddiaeth a llywodraethu",
+    "Customers and users": "Cwsmeriaid a defnyddwyr",
+    "Agile": "Ystwyth",
+    "AI": "AI",
+    "Automation": "Awtomeiddio",
+    "Analytics": "Dadansoddeg"
+  },
+  "maturity": {
+    "Initiate": "Cychwyn",
+    "Develop": "Datblygu",
+    "Standardize": "Safoni",
+    "Manage": "Rheoli",
+    "Orchestrate": "Cydlynu"
+  },
+  "dirs": {
+    "topics": "pynciau",
+    "glossary": "geirfa",
+    "index": "mynegai",
+    "terminology": "terminoleg",
+    "contents": "cynnwys"
+  }
+}
