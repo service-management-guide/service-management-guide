@@ -1,0 +1,756 @@
+{
+  "name": "Service Management Guide",
+  "description": "A practical handbook for service management in the age of ITIL 5: agile, AI, automation, and analytics, with research, practices, examples, team conversations, AI skills, and AI prompts.",
+  "canonical_locale": "en-001",
+  "locales": [
+    "cy-gb",
+    "de-de",
+    "en-001",
+    "zh-cn"
+  ],
+  "site": "https://service-management-guide.github.io",
+  "raw_base": "https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/",
+  "parts": [
+    {
+      "part": "Part 1 — Service management foundations",
+      "topics": [
+        {
+          "number": "1.1",
+          "title": "Service Management",
+          "slug": "service-management",
+          "path": "locales/en-001/topics/service-management/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/service-management/index.md"
+          }
+        },
+        {
+          "number": "1.2",
+          "title": "ITIL",
+          "slug": "itil",
+          "path": "locales/en-001/topics/itil/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/itil/index.md"
+          }
+        },
+        {
+          "number": "1.3",
+          "title": "ITIL 5",
+          "slug": "itil-five",
+          "path": "locales/en-001/topics/itil-five/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/itil-five/index.md"
+          }
+        },
+        {
+          "number": "1.4",
+          "title": "The Service Value System",
+          "slug": "service-value-system",
+          "path": "locales/en-001/topics/service-value-system/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/service-value-system/index.md"
+          }
+        },
+        {
+          "number": "1.5",
+          "title": "ITIL Guiding Principles",
+          "slug": "itil-guiding-principles",
+          "path": "locales/en-001/topics/itil-guiding-principles/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/itil-guiding-principles/index.md"
+          }
+        },
+        {
+          "number": "1.6",
+          "title": "Four Dimensions of Service Management",
+          "slug": "four-dimensions-of-service-management",
+          "path": "locales/en-001/topics/four-dimensions-of-service-management/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/four-dimensions-of-service-management/index.md"
+          }
+        },
+        {
+          "number": "1.7",
+          "title": "The Service Value Chain",
+          "slug": "service-value-chain",
+          "path": "locales/en-001/topics/service-value-chain/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/service-value-chain/index.md"
+          }
+        },
+        {
+          "number": "1.8",
+          "title": "Service Management Frameworks and Standards",
+          "slug": "service-management-frameworks-and-standards",
+          "path": "locales/en-001/topics/service-management-frameworks-and-standards/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/service-management-frameworks-and-standards/index.md"
+          }
+        },
+        {
+          "number": "1.9",
+          "title": "Enterprise Service Management",
+          "slug": "enterprise-service-management",
+          "path": "locales/en-001/topics/enterprise-service-management/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/enterprise-service-management/index.md"
+          }
+        }
+      ]
+    },
+    {
+      "part": "Part 2 — Agile service management",
+      "topics": [
+        {
+          "number": "2.1",
+          "title": "Agile Manifesto and Principles",
+          "slug": "agile-manifesto-and-principles",
+          "path": "locales/en-001/topics/agile-manifesto-and-principles/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/agile-manifesto-and-principles/index.md"
+          }
+        },
+        {
+          "number": "2.2",
+          "title": "Continuous Delivery",
+          "slug": "continuous-delivery",
+          "path": "locales/en-001/topics/continuous-delivery/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/continuous-delivery/index.md"
+          }
+        },
+        {
+          "number": "2.3",
+          "title": "Flow and Kanban",
+          "slug": "flow-and-kanban",
+          "path": "locales/en-001/topics/flow-and-kanban/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/flow-and-kanban/index.md"
+          }
+        },
+        {
+          "number": "2.4",
+          "title": "Lean and Kaizen",
+          "slug": "lean-and-kaizen",
+          "path": "locales/en-001/topics/lean-and-kaizen/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/lean-and-kaizen/index.md"
+          }
+        },
+        {
+          "number": "2.5",
+          "title": "DevOps",
+          "slug": "devops",
+          "path": "locales/en-001/topics/devops/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/devops/index.md"
+          }
+        },
+        {
+          "number": "2.6",
+          "title": "Site Reliability Engineering",
+          "slug": "site-reliability-engineering",
+          "path": "locales/en-001/topics/site-reliability-engineering/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/site-reliability-engineering/index.md"
+          }
+        },
+        {
+          "number": "2.7",
+          "title": "Scaling Agile",
+          "slug": "scaling-agile",
+          "path": "locales/en-001/topics/scaling-agile/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/scaling-agile/index.md"
+          }
+        },
+        {
+          "number": "2.8",
+          "title": "Product and Service Ownership",
+          "slug": "product-and-service-ownership",
+          "path": "locales/en-001/topics/product-and-service-ownership/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/product-and-service-ownership/index.md"
+          }
+        },
+        {
+          "number": "2.9",
+          "title": "Agile Service Management",
+          "slug": "agile-service-management",
+          "path": "locales/en-001/topics/agile-service-management/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/agile-service-management/index.md"
+          }
+        },
+        {
+          "number": "2.10",
+          "title": "Agile Management and Learning",
+          "slug": "agile-management-and-learning",
+          "path": "locales/en-001/topics/agile-management-and-learning/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/agile-management-and-learning/index.md"
+          }
+        }
+      ]
+    },
+    {
+      "part": "Part 3 — Service practices",
+      "topics": [
+        {
+          "number": "3.1",
+          "title": "Service Desk",
+          "slug": "service-desk",
+          "path": "locales/en-001/topics/service-desk/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/service-desk/index.md"
+          }
+        },
+        {
+          "number": "3.2",
+          "title": "Incident Management",
+          "slug": "incident-management",
+          "path": "locales/en-001/topics/incident-management/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/incident-management/index.md"
+          }
+        },
+        {
+          "number": "3.3",
+          "title": "Problem Management",
+          "slug": "problem-management",
+          "path": "locales/en-001/topics/problem-management/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/problem-management/index.md"
+          }
+        },
+        {
+          "number": "3.4",
+          "title": "Change Enablement",
+          "slug": "change-enablement",
+          "path": "locales/en-001/topics/change-enablement/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/change-enablement/index.md"
+          }
+        },
+        {
+          "number": "3.5",
+          "title": "Release and Deployment Management",
+          "slug": "release-and-deployment-management",
+          "path": "locales/en-001/topics/release-and-deployment-management/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/release-and-deployment-management/index.md"
+          }
+        },
+        {
+          "number": "3.6",
+          "title": "Service Request Management",
+          "slug": "service-request-management",
+          "path": "locales/en-001/topics/service-request-management/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/service-request-management/index.md"
+          }
+        },
+        {
+          "number": "3.7",
+          "title": "Service Level Management",
+          "slug": "service-level-management",
+          "path": "locales/en-001/topics/service-level-management/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/service-level-management/index.md"
+          }
+        },
+        {
+          "number": "3.8",
+          "title": "Service Catalog Management",
+          "slug": "service-catalog-management",
+          "path": "locales/en-001/topics/service-catalog-management/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/service-catalog-management/index.md"
+          }
+        },
+        {
+          "number": "3.9",
+          "title": "Knowledge Management",
+          "slug": "knowledge-management",
+          "path": "locales/en-001/topics/knowledge-management/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/knowledge-management/index.md"
+          }
+        },
+        {
+          "number": "3.10",
+          "title": "Monitoring and Event Management",
+          "slug": "monitoring-and-event-management",
+          "path": "locales/en-001/topics/monitoring-and-event-management/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/monitoring-and-event-management/index.md"
+          }
+        },
+        {
+          "number": "3.11",
+          "title": "Availability, Capacity, and Performance",
+          "slug": "availability-capacity-and-performance",
+          "path": "locales/en-001/topics/availability-capacity-and-performance/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/availability-capacity-and-performance/index.md"
+          }
+        },
+        {
+          "number": "3.12",
+          "title": "Service Continuity Management",
+          "slug": "service-continuity-management",
+          "path": "locales/en-001/topics/service-continuity-management/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/service-continuity-management/index.md"
+          }
+        },
+        {
+          "number": "3.13",
+          "title": "Information Security Management",
+          "slug": "information-security-management",
+          "path": "locales/en-001/topics/information-security-management/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/information-security-management/index.md"
+          }
+        },
+        {
+          "number": "3.14",
+          "title": "Supplier Management",
+          "slug": "supplier-management",
+          "path": "locales/en-001/topics/supplier-management/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/supplier-management/index.md"
+          }
+        },
+        {
+          "number": "3.15",
+          "title": "Continual Improvement",
+          "slug": "continual-improvement",
+          "path": "locales/en-001/topics/continual-improvement/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/continual-improvement/index.md"
+          }
+        }
+      ]
+    },
+    {
+      "part": "Part 4 — Asset, configuration, and financial management",
+      "topics": [
+        {
+          "number": "4.1",
+          "title": "Asset Management",
+          "slug": "asset-management",
+          "path": "locales/en-001/topics/asset-management/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/asset-management/index.md"
+          }
+        },
+        {
+          "number": "4.2",
+          "title": "Software Asset Management",
+          "slug": "software-asset-management",
+          "path": "locales/en-001/topics/software-asset-management/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/software-asset-management/index.md"
+          }
+        },
+        {
+          "number": "4.3",
+          "title": "Hardware Asset Management",
+          "slug": "hardware-asset-management",
+          "path": "locales/en-001/topics/hardware-asset-management/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/hardware-asset-management/index.md"
+          }
+        },
+        {
+          "number": "4.4",
+          "title": "Configuration Management",
+          "slug": "configuration-management",
+          "path": "locales/en-001/topics/configuration-management/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/configuration-management/index.md"
+          }
+        },
+        {
+          "number": "4.5",
+          "title": "Financial Management and FinOps",
+          "slug": "financial-management-and-finops",
+          "path": "locales/en-001/topics/financial-management-and-finops/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/financial-management-and-finops/index.md"
+          }
+        }
+      ]
+    },
+    {
+      "part": "Part 5 — AI in service management",
+      "topics": [
+        {
+          "number": "5.1",
+          "title": "AI in Service Management",
+          "slug": "ai-in-service-management",
+          "path": "locales/en-001/topics/ai-in-service-management/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/ai-in-service-management/index.md"
+          }
+        },
+        {
+          "number": "5.2",
+          "title": "AIOps",
+          "slug": "aiops",
+          "path": "locales/en-001/topics/aiops/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/aiops/index.md"
+          }
+        },
+        {
+          "number": "5.3",
+          "title": "AI Service Desk and Virtual Agents",
+          "slug": "ai-service-desk-and-virtual-agents",
+          "path": "locales/en-001/topics/ai-service-desk-and-virtual-agents/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/ai-service-desk-and-virtual-agents/index.md"
+          }
+        },
+        {
+          "number": "5.4",
+          "title": "Generative AI for Incidents, Knowledge, and Changes",
+          "slug": "generative-ai-for-incidents-knowledge-and-changes",
+          "path": "locales/en-001/topics/generative-ai-for-incidents-knowledge-and-changes/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/generative-ai-for-incidents-knowledge-and-changes/index.md"
+          }
+        },
+        {
+          "number": "5.5",
+          "title": "Agentic AI and Human Oversight",
+          "slug": "agentic-ai-and-human-oversight",
+          "path": "locales/en-001/topics/agentic-ai-and-human-oversight/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/agentic-ai-and-human-oversight/index.md"
+          }
+        },
+        {
+          "number": "5.6",
+          "title": "AI Governance, Risk, and Compliance",
+          "slug": "ai-governance-risk-and-compliance",
+          "path": "locales/en-001/topics/ai-governance-risk-and-compliance/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/ai-governance-risk-and-compliance/index.md"
+          }
+        },
+        {
+          "number": "5.7",
+          "title": "AI Skills and Prompts",
+          "slug": "ai-skills-and-prompts",
+          "path": "locales/en-001/topics/ai-skills-and-prompts/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/ai-skills-and-prompts/index.md"
+          }
+        },
+        {
+          "number": "5.8",
+          "title": "AI Operating Model and Skills",
+          "slug": "ai-operating-model-and-skills",
+          "path": "locales/en-001/topics/ai-operating-model-and-skills/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/ai-operating-model-and-skills/index.md"
+          }
+        }
+      ]
+    },
+    {
+      "part": "Part 6 — Automation",
+      "topics": [
+        {
+          "number": "6.1",
+          "title": "Automation Strategy",
+          "slug": "automation-strategy",
+          "path": "locales/en-001/topics/automation-strategy/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/automation-strategy/index.md"
+          }
+        },
+        {
+          "number": "6.2",
+          "title": "Workflow Automation and Orchestration",
+          "slug": "workflow-automation-and-orchestration",
+          "path": "locales/en-001/topics/workflow-automation-and-orchestration/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/workflow-automation-and-orchestration/index.md"
+          }
+        },
+        {
+          "number": "6.3",
+          "title": "Infrastructure as Code and GitOps",
+          "slug": "infrastructure-as-code-and-gitops",
+          "path": "locales/en-001/topics/infrastructure-as-code-and-gitops/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/infrastructure-as-code-and-gitops/index.md"
+          }
+        },
+        {
+          "number": "6.4",
+          "title": "Pipelines and Automated Change",
+          "slug": "pipelines-and-automated-change",
+          "path": "locales/en-001/topics/pipelines-and-automated-change/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/pipelines-and-automated-change/index.md"
+          }
+        },
+        {
+          "number": "6.5",
+          "title": "Self-Service and Automated Fulfilment",
+          "slug": "self-service-and-automated-fulfilment",
+          "path": "locales/en-001/topics/self-service-and-automated-fulfilment/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/self-service-and-automated-fulfilment/index.md"
+          }
+        },
+        {
+          "number": "6.6",
+          "title": "Runbook Automation and Auto-Remediation",
+          "slug": "runbook-automation-and-auto-remediation",
+          "path": "locales/en-001/topics/runbook-automation-and-auto-remediation/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/runbook-automation-and-auto-remediation/index.md"
+          }
+        }
+      ]
+    },
+    {
+      "part": "Part 7 — Analytics",
+      "topics": [
+        {
+          "number": "7.1",
+          "title": "Analytics for Service Management",
+          "slug": "analytics-for-service-management",
+          "path": "locales/en-001/topics/analytics-for-service-management/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/analytics-for-service-management/index.md"
+          }
+        },
+        {
+          "number": "7.2",
+          "title": "Data Foundations and Governance",
+          "slug": "data-foundations-and-governance",
+          "path": "locales/en-001/topics/data-foundations-and-governance/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/data-foundations-and-governance/index.md"
+          }
+        },
+        {
+          "number": "7.3",
+          "title": "Measurement and Reporting",
+          "slug": "measurement-and-reporting",
+          "path": "locales/en-001/topics/measurement-and-reporting/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/measurement-and-reporting/index.md"
+          }
+        },
+        {
+          "number": "7.4",
+          "title": "Observability and Telemetry",
+          "slug": "observability-and-telemetry",
+          "path": "locales/en-001/topics/observability-and-telemetry/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/observability-and-telemetry/index.md"
+          }
+        },
+        {
+          "number": "7.5",
+          "title": "Predictive Analytics and Forecasting",
+          "slug": "predictive-analytics-and-forecasting",
+          "path": "locales/en-001/topics/predictive-analytics-and-forecasting/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/predictive-analytics-and-forecasting/index.md"
+          }
+        },
+        {
+          "number": "7.6",
+          "title": "Process and Value Stream Analytics",
+          "slug": "process-and-value-stream-analytics",
+          "path": "locales/en-001/topics/process-and-value-stream-analytics/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/process-and-value-stream-analytics/index.md"
+          }
+        },
+        {
+          "number": "7.7",
+          "title": "Experience and Sentiment Analytics",
+          "slug": "experience-and-sentiment-analytics",
+          "path": "locales/en-001/topics/experience-and-sentiment-analytics/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/experience-and-sentiment-analytics/index.md"
+          }
+        }
+      ]
+    },
+    {
+      "part": "Part 8 — Governance, people, and adoption",
+      "topics": [
+        {
+          "number": "8.1",
+          "title": "Governance, Risk, and Compliance",
+          "slug": "governance-risk-and-compliance",
+          "path": "locales/en-001/topics/governance-risk-and-compliance/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/governance-risk-and-compliance/index.md"
+          }
+        },
+        {
+          "number": "8.2",
+          "title": "Sustainability and Responsible Service Management",
+          "slug": "sustainability-and-responsible-service-management",
+          "path": "locales/en-001/topics/sustainability-and-responsible-service-management/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/sustainability-and-responsible-service-management/index.md"
+          }
+        },
+        {
+          "number": "8.3",
+          "title": "Organizational Change and Adoption",
+          "slug": "organizational-change-and-adoption",
+          "path": "locales/en-001/topics/organizational-change-and-adoption/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/organizational-change-and-adoption/index.md"
+          }
+        },
+        {
+          "number": "8.4",
+          "title": "Team Conversations",
+          "slug": "team-conversations",
+          "path": "locales/en-001/topics/team-conversations/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/team-conversations/index.md"
+          }
+        },
+        {
+          "number": "8.5",
+          "title": "Learning Paths and Certification",
+          "slug": "learning-paths-and-certification",
+          "path": "locales/en-001/topics/learning-paths-and-certification/index.md",
+          "locales": {
+            "en-001": "locales/en-001/topics/learning-paths-and-certification/index.md"
+          }
+        }
+      ]
+    }
+  ],
+  "skills": [
+    "agile-charter",
+    "agile-coaching",
+    "agile-delivery",
+    "agile-discovery",
+    "agile-liftoff",
+    "agile-principles",
+    "agile-reflection",
+    "agile-standup",
+    "anomaly-analysis",
+    "architecture-decision-record",
+    "brainstorming",
+    "budget-forecasting",
+    "business-continuity-plan",
+    "capacity-planning",
+    "cause-and-effect-diagram",
+    "change-request",
+    "changelog",
+    "chaos-testing",
+    "compliance-testing",
+    "configuration-management",
+    "crisis-communication-plan",
+    "data-governance",
+    "data-pipeline",
+    "data-quality",
+    "decision-records",
+    "demand-analysis",
+    "demand-forecasting",
+    "disaster-recovery-plan",
+    "disaster-recovery-testing",
+    "disciplined-agile",
+    "dmaic",
+    "enterprise-architecture",
+    "enterprise-change-management",
+    "evolutionary-architecture",
+    "extreme-programming",
+    "feature-prioritization",
+    "fishbone-diagram",
+    "futurespective",
+    "getting-feedback",
+    "incident-response-plan",
+    "itil-5",
+    "kaizen",
+    "kanban",
+    "key-risk-indicators",
+    "large-scale-scrum",
+    "legal-compliance-audit",
+    "legal-data-privacy-compliance",
+    "load-testing",
+    "machine-learning-model-card",
+    "maturity-models",
+    "mermaid-diagram",
+    "mlops",
+    "on-call-rotation",
+    "performance-testing",
+    "portfolio-management",
+    "postmortem",
+    "product-roadmap",
+    "project-management-body-of-knowledge",
+    "prompt-engineering",
+    "raci-matrix",
+    "release-notes",
+    "risk-register",
+    "risks-actions-issues-decisions",
+    "roi-analysis",
+    "root-cause-analysis",
+    "runbook",
+    "scaled-agile-framework",
+    "scrum",
+    "scrum-of-scrums",
+    "scrumban",
+    "security-testing",
+    "service-catalog",
+    "service-integration-and-management",
+    "service-level-agreement",
+    "service-management-guide-maintainer-skill",
+    "service-management-guide-skill",
+    "shift-left-testing",
+    "six-sigma",
+    "software-engineering-metrics",
+    "stakeholder-analysis",
+    "statistical-analysis",
+    "survey-design",
+    "swot-analysis",
+    "team-focus",
+    "test-driven-development",
+    "training-needs-analysis",
+    "trend-analysis",
+    "two-way-door-decisions",
+    "user-story",
+    "value-stream-map",
+    "vendor-management",
+    "workflow-analysis"
+  ],
+  "reference": [
+    {
+      "title": "Glossary",
+      "path": "glossary/index.md",
+      "note": "A–Z definitions of key terms, each pointing to its home topic"
+    },
+    {
+      "title": "Index",
+      "path": "index/index.md",
+      "note": "Concepts and frameworks by topic number"
+    },
+    {
+      "title": "Style guide",
+      "path": "STYLE_GUIDE.md",
+      "note": "The prose and formatting contract"
+    },
+    {
+      "title": "Specification",
+      "path": "spec/index.md",
+      "note": "Governing specification: topic template, manifest, quality gates"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+"""Regenerate the table of contents in README.md from spec/topics.tsv (part, number, slug) and each topic's first headline.
+
+Run from anywhere:  bin/build-readme
+Only the text between the <!-- toc:start --> and <!-- toc:end --> markers changes.
+"""
+import csv, os, re
+
+
+def title(slug):
+    """The first headline of the topic is its title (the single source of truth)."""
+    with open(os.path.join(root, "locales", "en-001", "topics", slug, "index.md"), encoding="utf-8") as f:
+        return f.readline().strip()[2:].strip()
+
+
+root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+with open(os.path.join(root, "spec", "topics.tsv"), encoding="utf-8") as f:
+    rows = list(csv.DictReader(f, delimiter="\t"))
+out, part = [], None
+for r in rows:
+    if r["part"] != part:
+        part = r["part"]
+        out += ["", f"**Part {part} — {r['part_title']}**", ""]
+    out.append(f"- Topic {r['number']} — [{title(r['slug'])}](locales/en-001/topics/{r['slug']}/)")
+toc = "<!-- toc:start -->\n" + "\n".join(out).lstrip("\n") + "\n<!-- toc:end -->"
+p = os.path.join(root, "README.md")
+s = open(p, encoding="utf-8").read()
+s = re.sub(r"<!-- toc:start -->.*<!-- toc:end -->", lambda m: toc, s, flags=re.S)
+open(p, "w", encoding="utf-8").write(s)
+print("README.md table of contents updated:", len(rows), "topics")

@@ -1,0 +1,345 @@
+#!/usr/bin/env python3
+"""Run the offline quality gates over every locale. Exits non-zero on any failure.
+
+  bin/check            structural, completeness, peer-id, skill-link and cross-reference gates
+  bin/check --links    also resolve every distinct Wikipedia slug (needs network)
+  bin/check --strict   also fail on topics that are still stubs (use for release)
+
+Gates (spec §11):
+  locale names  every directory under locales/ is <language>-<region>[-<variant>] (spec §4a)
+  completeness  every locale has exactly the topic slugs in spec/topics.tsv, each with
+                index.md, a relative README.md -> index.md symlink, and a unique 32-hex .locale-peer-id
+                identical to the canonical locale's
+  structural    the 16-section template (spec §3), for every topic that is not a stub
+  skills        every link in "## AI skills" resolves to an existing skills/<name>/SKILL.md
+  cross-ref     every "Topic N.N — Title" cross-reference carries the target's exact title
+"""
+import csv, glob, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+os.chdir(ROOT)
+L, CANON = "locales", "en-001"
+STUB = "_Not yet written."
+failures = []
+
+
+def fail(msg):
+    failures.append(msg)
+
+
+# --- manifest -------------------------------------------------------------
+manifest = []
+with open("spec/topics.tsv", encoding="utf-8") as f:
+    for r in csv.DictReader(f, delimiter="\t"):
+        manifest.append(r)
+slugs = [r["slug"] for r in manifest]
+by_slug = {r["slug"]: r for r in manifest}
+by_number = {r["number"]: r for r in manifest}
+if len(set(slugs)) != len(slugs):
+    fail("spec/topics.tsv: duplicate slugs")
+
+
+def h1(path):
+    """The topic title: the first headline of the file is the single source of truth."""
+    try:
+        first = open(path, encoding="utf-8").readline().strip()
+    except OSError:
+        return None
+    return first[2:].strip() if first.startswith("# ") and first[2:].strip() else None
+
+
+def tdir(loc):
+    """The directory under locales/<loc>/ that holds the topics: "topics", or the name given in locale.json "dirs"."""
+    path = f"{L}/{loc}/locale.json"
+    if os.path.isfile(path):
+        return json.load(open(path, encoding="utf-8")).get("dirs", {}).get("topics", "topics")
+    return "topics"
+
+
+def peer_id(path):
+    try:
+        v = open(path).read()
+    except OSError:
+        return None
+    return v if re.fullmatch(r"[0-9a-f]{32}\n", v) else None
+
+
+def dir_of(loc):
+    """Canonical slug -> this locale's directory name. A translated directory is matched to its canonical topic by .locale-peer-id."""
+    base = f"{L}/{loc}/{tdir(loc)}"
+    ids = {}
+    for x in os.listdir(f"{L}/{CANON}/{tdir(CANON)}"):
+        v = peer_id(f"{L}/{CANON}/{tdir(CANON)}/{x}/.locale-peer-id")
+        if v:
+            ids[v] = x
+    out = {}
+    if os.path.isdir(base):
+        for x in os.listdir(base):
+            if os.path.isdir(f"{base}/{x}"):
+                out[ids.get(peer_id(f"{base}/{x}/.locale-peer-id"), x)] = x
+    return out
+
+
+def titles_for(loc):
+    dirs = dir_of(loc)
+    return {r["number"]: h1(f"{L}/{loc}/{tdir(loc)}/{dirs.get(r['slug'], r['slug'])}/index.md") for r in manifest}
+
+H2_EN = [
+    "Why this matters", "Core concepts", "Best practices",
+    "Questions to discuss with your team", "In practice: a service management example",
+    "Four perspectives", "Agile, AI, automation, and analytics", "Common failure modes", "Maturity model", "Checklist",
+    "AI prompts", "AI skills", "Key sources", "References",
+]
+H3_EN = ["Product and delivery teams", "Service and operations teams",
+      "Leadership and governance", "Customers and users"]
+H3_4A = ["Agile", "AI", "Automation", "Analytics"]
+MATURITY_EN = ["Initiate", "Develop", "Standardize", "Manage", "Orchestrate"]
+
+
+def split_h2(text):
+    """Return (preamble, {heading: body}, [heading order]) for ## headings, ignoring fenced code."""
+    pre, secs, order, cur, fence = [], {}, [], None, False
+    for ln in text.split("\n"):
+        if ln.startswith("```"):
+            fence = not fence
+        m = re.match(r"## (.+?)\s*$", ln) if not fence else None
+        if m:
+            cur = m.group(1)
+            order.append(cur)
+            secs[cur] = []
+        elif cur is None:
+            pre.append(ln)
+        else:
+            secs[cur].append(ln)
+    return "\n".join(pre), {k: "\n".join(v) for k, v in secs.items()}, order
+
+
+# Planned titles from the spec §4 tables (rows like "| 1.1 | `slug` | Title | scope |").
+# The topic's first headline wins; a difference is only a warning to reconcile the spec.
+planned = {}
+for m in re.finditer(r"^\| (\d\.\d{1,2}) \| `([^`]+)` \| ([^|]+?) \|", open("spec/index.md", encoding="utf-8").read(), re.M):
+    planned[m.group(2)] = m.group(3)
+warnings = []
+
+
+def locale_cfg(loc):
+    """Per-locale heading translations (locales/<loc>/locale.json); canonical locale uses the English names."""
+    path = f"{L}/{loc}/locale.json"
+    if os.path.isfile(path):
+        return json.load(open(path, encoding="utf-8"))
+    return {"h2": {}, "h3": {}, "maturity": {}, "topic_word": "Topic", "topics_word": "Topics"}
+
+
+def check_topic(loc, slug, text, dirname=None):
+    dirname = dirname or slug
+    r, k = by_slug[slug], f"{loc}/{dirname}"
+    cfg = locale_cfg(loc)
+    H2, H3, MATURITY = ([cfg[n].get(x, x) for x in base] for n, base in (("h2", H2_EN), ("h3", H3_EN), ("maturity", MATURITY_EN)))
+    sec = lambda name: secs[cfg["h2"].get(name, name)]
+    pre, secs, order = split_h2(text)
+    lines = [x for x in pre.split("\n") if x.strip()]
+    if not lines or not lines[0].startswith("# ") or not lines[0][2:].strip():
+        fail(f"{k}: the first line must be the title as '# Title'")
+    if loc == CANON and lines and lines[0].startswith("# ") and slug in planned and lines[0][2:].strip() != planned[slug]:
+        warnings.append(f"{k}: title '{lines[0][2:].strip()}' differs from the planned title '{planned[slug]}' in spec/index.md §4")
+    if len(re.findall(r"^# ", text, re.M)) != 1:
+        fail(f"{k}: exactly one H1 expected")
+    if len(lines) < 2 or not re.fullmatch(r"\*\*[^*].*[^*]\*\*", lines[1].strip()):
+        fail(f"{k}: bold one-sentence thesis should follow the H1")
+    if order != H2:
+        fail(f"{k}: H2 sections/order differ from spec §3 (got: {order})")
+        return
+    bp = len(re.findall(r"^\d+\.\s+\*\*", sec("Best practices"), re.M))
+    if not 8 <= bp <= 12:
+        fail(f"{k}: best practices={bp} (need 8–12, each with a bold lead-in)")
+    q = len(re.findall(r"^\*\*[^*\n]+\*\*\s*$|^\*\*[^*\n]+\?\*\*", sec("Questions to discuss with your team"), re.M))
+    if q != 6:
+        fail(f"{k}: questions={q} (need exactly 6 bold questions)")
+    h3 = re.findall(r"^### (.+?)\s*$", sec("Four perspectives"), re.M)
+    if h3 != H3:
+        fail(f"{k}: perspectives {h3} should be {H3}")
+    a4 = re.findall(r"^### (.+?)\s*$", sec("Agile, AI, automation, and analytics"), re.M)
+    H3_4 = [cfg["h3"].get(x, x) for x in H3_4A]
+    if a4 != H3_4:
+        fail(f"{k}: agile/AI/automation/analytics subsections {a4} should be {H3_4}")
+    fb = len(re.findall(r"^[-*] ", sec("Common failure modes"), re.M))
+    if not 5 <= fb <= 8:
+        fail(f"{k}: failure modes={fb} (need 5–8)")
+    rows = [x for x in sec("Maturity model").split("\n") if x.startswith("|")]
+    if rows:
+        head = [c.strip() for c in rows[0].strip("|").split("|")]
+        if head[-5:] != MATURITY:
+            fail(f"{k}: maturity columns should end with {MATURITY}")
+    if not 3 <= len(rows) - 2 <= 5:
+        fail(f"{k}: maturity rows={len(rows) - 2} (need 3–5)")
+    cl = len(re.findall(r"^- \[ \] ", sec("Checklist"), re.M))
+    if not 6 <= cl <= 12:
+        fail(f"{k}: checklist items={cl} (need 6–12)")
+    blocks = re.findall(r"^```text\n(.*?)^```", sec("AI prompts"), re.M | re.S)
+    if not 3 <= len(blocks) <= 5:
+        fail(f"{k}: AI prompts={len(blocks)} (need 3–5 fenced text blocks)")
+    for i, b in enumerate(blocks, 1):
+        if not re.search(r"\[[^\]\n]+\]", b):
+            fail(f"{k}: AI prompt {i} has no [placeholder]")
+    sk = re.findall(r"\]\(([^)]*skills/[^)]*)\)", sec("AI skills"))
+    if not 1 <= len(sk) <= 5:
+        fail(f"{k}: AI skill links={len(sk)} (need 1–5)")
+    for href in sk:
+        target = os.path.normpath(os.path.join(L, loc, tdir(loc), dirname, href))
+        if not os.path.isfile(target) or not target.endswith("SKILL.md"):
+            fail(f"{k}: AI skill link does not resolve: {href}")
+    wiki = set(re.findall(r"https://en\.wikipedia\.org/wiki/[^\s)\]>]+", text.split("\n## " + cfg["h2"].get("References", "References"))[0]))
+    refs = sec("References")
+    n_wiki = len(set(re.findall(r"https://en\.wikipedia\.org/wiki/[^\s)\]>]+", refs)))
+    if not 5 <= n_wiki <= 12:
+        fail(f"{k}: Wikipedia links in References={n_wiki} (need 5–12)")
+    for u in wiki:
+        if u not in refs:
+            fail(f"{k}: Wikipedia link not listed in References: {u}")
+    if not re.search(r"^\d+\.\s", refs, re.M):
+        fail(f"{k}: References should be a numbered list")
+
+
+# --- locales --------------------------------------------------------------
+locales = sorted(x for x in os.listdir(L) if os.path.isdir(f"{L}/{x}"))
+for loc in locales:
+    if not re.fullmatch(r"[a-z]{2}-(?:[a-z]{2}|\d{3})(?:-[a-z]{5,8})?", loc):
+        fail(f"locales/{loc}: directory name is not <language>-<region> (spec §4a)")
+if CANON not in locales:
+    fail(f"canonical locale {CANON} missing")
+
+seen_ids, stubs, written = {}, [], 0
+canon_ids = {}
+canon_slug_of = {}
+for _x in os.listdir(f"{L}/{CANON}/{tdir(CANON)}"):
+    _v = peer_id(f"{L}/{CANON}/{tdir(CANON)}/{_x}/.locale-peer-id")
+    if _v:
+        canon_slug_of[_v] = _x
+for loc in locales:
+    base = f"{L}/{loc}/{tdir(loc)}"
+    if not os.path.isdir(base):
+        fail(f"{loc}: topics/ missing")
+        continue
+    cp = f"{base}/.locale-peer-id"
+    if not os.path.isfile(cp):
+        fail(f"{loc}: topics/.locale-peer-id missing")
+    have = sorted(x for x in os.listdir(base) if os.path.isdir(f"{base}/{x}"))
+    if loc == CANON:
+        for s in sorted(set(slugs) ^ set(have)):
+            fail(f"{loc}: topic directory {s} is " + ("missing" if s in slugs else "not in spec/topics.tsv"))
+    for s in have:
+        d = f"{base}/{s}"
+        if re.search(r"\d", s) and loc == CANON:
+            fail(f"{loc}/{s}: directory names carry no numbers (spec §4)")
+        idx = f"{d}/index.md"
+        if not os.path.isfile(idx) or os.path.getsize(idx) == 0:
+            fail(f"{loc}/{s}: index.md missing or empty")
+            continue
+        rd = f"{d}/README.md"
+        if not os.path.islink(rd) or os.readlink(rd) != "index.md":
+            fail(f"{loc}/{s}: README.md should be a relative symlink to index.md")
+        pid = f"{d}/.locale-peer-id"
+        if not os.path.isfile(pid) or not re.fullmatch(r"[0-9a-f]{32}\n", open(pid).read()):
+            fail(f"{loc}/{s}: .locale-peer-id should be 32 lowercase hex characters and a newline")
+            continue
+        val = open(pid).read()
+        if loc == CANON:
+            if val in seen_ids:
+                fail(f"{loc}/{s}: .locale-peer-id duplicates {seen_ids[val]}")
+            seen_ids[val] = s
+            canon_ids[s] = val
+        elif s in canon_ids and canon_ids[s] != val:
+            fail(f"{loc}/{s}: .locale-peer-id differs from canonical")
+        text = open(idx, encoding="utf-8").read()
+        if STUB in text:
+            stubs.append(f"{loc}/{s}")
+            continue
+        cs = canon_slug_of.get(val, s) if loc != CANON else s
+        if loc != CANON and val not in canon_slug_of and s not in by_slug:
+            fail(f"{loc}/{s}: .locale-peer-id matches no canonical topic")
+        if cs in by_slug:
+            written += 1
+            check_topic(loc, cs, text, s)
+
+# --- cross-reference titles -------------------------------------------------
+bare = 0
+for loc in locales:
+    loc_titles = titles_for(loc)
+    for p in sorted(glob.glob(f"{L}/{loc}/{tdir(loc)}/*/index.md")):
+        text = open(p, encoding="utf-8").read()
+        if STUB in text:
+            continue
+        cfg = locale_cfg(loc)
+        body = text.split("\n## " + cfg["h2"].get("References", "References"))[0].split("\n", 1)[-1]
+        tw = re.escape(cfg["topic_word"]) + "|" + re.escape(cfg["topics_word"])
+        for m in re.finditer(r"(?:%s) (\d\.\d{1,2})(?![\d.]\d)" % tw, body):
+            n = m.group(1)
+            if n not in by_number:
+                fail(f"{p}: cross-reference to unknown topic {n}")
+                continue
+            title = loc_titles.get(n)
+            if not title:
+                fail(f"{p}: cross-reference target {n} has no title (its first line must be '# Title')")
+                continue
+            rest = body[m.end(): m.end() + len(title) + 6]
+            mm = re.match(r"\s*[—–-]\s*(.*)", rest, re.S)
+            if mm and mm.group(1).startswith(title):
+                continue
+            if mm:
+                fail(f"{p}: cross-reference {n} has the wrong title: …{body[max(0, m.start()-10):m.end()+40]!r}")
+            else:
+                bare += 1
+                fail(f"{p}: bare cross-reference number (needs number and title): …{body[max(0, m.start()-10):m.end()+30]!r}")
+
+# --- skills ------------------------------------------------------------------
+if os.path.isdir("skills"):
+    for d in sorted(os.listdir("skills")):
+        sd = f"skills/{d}"
+        if os.path.isdir(sd) and not os.path.isfile(f"{sd}/SKILL.md"):
+            fail(f"{sd}: SKILL.md missing")
+
+# --- optional link gate -------------------------------------------------------
+if "--links" in sys.argv:
+    wslugs = set()
+    for p in [q for l in locales for q in glob.glob(f"{L}/{l}/{tdir(l)}/*/index.md")]:
+        for u in re.findall(r"https://en\.wikipedia\.org/wiki/([\w%()\-.,:'~!+;=@/$&]+)", open(p, encoding="utf-8").read(), re.A):
+            depth, end = 0, len(u)
+            for n, ch in enumerate(u):
+                depth += ch == "("
+                if ch == ")":
+                    if depth == 0:
+                        end = n
+                        break
+                    depth -= 1
+            u = u[:end].rstrip(".,;:'")
+            wslugs.add(urllib.parse.unquote(u).replace("_", " "))
+    titles, missing = sorted(wslugs), []
+    for i in range(0, len(titles), 30):
+        data = urllib.parse.urlencode({"action": "query", "titles": "|".join(titles[i:i + 30]), "format": "json", "redirects": 1}).encode()
+        req = urllib.request.Request("https://en.wikipedia.org/w/api.php", data, {"User-Agent": "service-management-guide-check/1.0 (https://github.com/service-management-guide/service-management-guide)"})
+        for attempt in range(6):
+            try:
+                res = json.load(urllib.request.urlopen(req, timeout=60))
+                break
+            except urllib.error.HTTPError as e:
+                if e.code != 429 or attempt == 5:
+                    raise
+                time.sleep(float(e.headers.get("Retry-After", 5 * (attempt + 1))))
+        missing += [pg["title"] for pg in res["query"]["pages"].values() if "missing" in pg]
+    for t in missing:
+        fail(f"wikipedia article not found: {t}")
+    print(f"link gate: {len(titles)} distinct Wikipedia slugs checked")
+
+if "--strict" in sys.argv:
+    for s in stubs:
+        fail(f"{s}: still a stub")
+
+print(f"{len(locales)} locale(s); {len(manifest)} topics in manifest; {written} written, {len(stubs)} stub(s) skipped")
+if failures:
+    print(f"\n{len(failures)} FAILURE(S):")
+    for f in failures[:80]:
+        print(" -", f)
+    sys.exit(1)
+for w in warnings:
+    print("warning:", w)
+print("all gates pass")

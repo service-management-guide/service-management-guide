@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "Service Management Guide"
+message: "If you use this guide, please cite it using the metadata below."
+type: dataset
+authors:
+  - given-names: "Joel Parker"
+    family-names: "Henderson"
+    email: "joel@joelparkerhenderson.com"
+abstract: >-
+  A practical handbook for service management in the age of ITIL 5, through
+  four lenses: agile, AI, automation, and analytics. Research, practices,
+  worked examples, team conversations, AI skills, and AI prompts.
+keywords:
+  - service management
+  - ITIL 5
+  - IT service management
+  - agile
+  - AI
+  - automation
+  - analytics
+  - DevOps
+  - AI skills
+  - AI prompts
+license: CC-BY-4.0

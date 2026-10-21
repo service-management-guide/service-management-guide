@@ -1,0 +1,66 @@
+part	number	slug	part_title
+1	1.1	service-management	Service management foundations
+1	1.2	itil	Service management foundations
+1	1.3	itil-five	Service management foundations
+1	1.4	service-value-system	Service management foundations
+1	1.5	itil-guiding-principles	Service management foundations
+1	1.6	four-dimensions-of-service-management	Service management foundations
+1	1.7	service-value-chain	Service management foundations
+1	1.8	service-management-frameworks-and-standards	Service management foundations
+1	1.9	enterprise-service-management	Service management foundations
+2	2.1	agile-manifesto-and-principles	Agile service management
+2	2.2	continuous-delivery	Agile service management
+2	2.3	flow-and-kanban	Agile service management
+2	2.4	lean-and-kaizen	Agile service management
+2	2.5	devops	Agile service management
+2	2.6	site-reliability-engineering	Agile service management
+2	2.7	scaling-agile	Agile service management
+2	2.8	product-and-service-ownership	Agile service management
+2	2.9	agile-service-management	Agile service management
+2	2.10	agile-management-and-learning	Agile service management
+3	3.1	service-desk	Service practices
+3	3.2	incident-management	Service practices
+3	3.3	problem-management	Service practices
+3	3.4	change-enablement	Service practices
+3	3.5	release-and-deployment-management	Service practices
+3	3.6	service-request-management	Service practices
+3	3.7	service-level-management	Service practices
+3	3.8	service-catalog-management	Service practices
+3	3.9	knowledge-management	Service practices
+3	3.10	monitoring-and-event-management	Service practices
+3	3.11	availability-capacity-and-performance	Service practices
+3	3.12	service-continuity-management	Service practices
+3	3.13	information-security-management	Service practices
+3	3.14	supplier-management	Service practices
+3	3.15	continual-improvement	Service practices
+4	4.1	asset-management	Asset, configuration, and financial management
+4	4.2	software-asset-management	Asset, configuration, and financial management
+4	4.3	hardware-asset-management	Asset, configuration, and financial management
+4	4.4	configuration-management	Asset, configuration, and financial management
+4	4.5	financial-management-and-finops	Asset, configuration, and financial management
+5	5.1	ai-in-service-management	AI in service management
+5	5.2	aiops	AI in service management
+5	5.3	ai-service-desk-and-virtual-agents	AI in service management
+5	5.4	generative-ai-for-incidents-knowledge-and-changes	AI in service management
+5	5.5	agentic-ai-and-human-oversight	AI in service management
+5	5.6	ai-governance-risk-and-compliance	AI in service management
+5	5.7	ai-skills-and-prompts	AI in service management
+5	5.8	ai-operating-model-and-skills	AI in service management
+6	6.1	automation-strategy	Automation
+6	6.2	workflow-automation-and-orchestration	Automation
+6	6.3	infrastructure-as-code-and-gitops	Automation
+6	6.4	pipelines-and-automated-change	Automation
+6	6.5	self-service-and-automated-fulfilment	Automation
+6	6.6	runbook-automation-and-auto-remediation	Automation
+7	7.1	analytics-for-service-management	Analytics
+7	7.2	data-foundations-and-governance	Analytics
+7	7.3	measurement-and-reporting	Analytics
+7	7.4	observability-and-telemetry	Analytics
+7	7.5	predictive-analytics-and-forecasting	Analytics
+7	7.6	process-and-value-stream-analytics	Analytics
+7	7.7	experience-and-sentiment-analytics	Analytics
+8	8.1	governance-risk-and-compliance	Governance, people, and adoption
+8	8.2	sustainability-and-responsible-service-management	Governance, people, and adoption
+8	8.3	organizational-change-and-adoption	Governance, people, and adoption
+8	8.4	team-conversations	Governance, people, and adoption
+8	8.5	learning-paths-and-certification	Governance, people, and adoption

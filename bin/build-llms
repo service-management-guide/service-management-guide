@@ -1,0 +1,79 @@
+#!/usr/bin/env python3
+"""Generate llms.txt and llms.json from spec/topics.tsv and the locales/ tree.
+
+Run from anywhere:  bin/build-llms
+Output is deterministic; commit the result. Never hand-edit llms.txt or llms.json.
+"""
+import csv, json, os
+
+root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+RAW = "https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/"
+SITE = "https://service-management-guide.github.io"
+CANON = "en-001"
+STUB = "_Not yet written."
+
+with open(os.path.join(root, "spec", "topics.tsv"), encoding="utf-8") as f:
+    rows = list(csv.DictReader(f, delimiter="\t"))
+
+locales = sorted(d for d in os.listdir(os.path.join(root, "locales")) if os.path.isdir(os.path.join(root, "locales", d)))
+
+
+def title_of(slug):
+    """The first headline of the canonical topic is its title (the single source of truth)."""
+    with open(os.path.join(root, "locales", CANON, "topics", slug, "index.md"), encoding="utf-8") as f:
+        return f.readline().strip()[2:].strip()
+
+
+def written(path):
+    p = os.path.join(root, path)
+    return os.path.isfile(p) and STUB not in open(p, encoding="utf-8").read()
+
+
+parts = []
+for r in rows:
+    if not parts or parts[-1]["part"] != f"Part {r['part']} — {r['part_title']}":
+        parts.append({"part": f"Part {r['part']} — {r['part_title']}", "topics": []})
+    paths = {}
+    for loc in locales:
+        rel = f"locales/{loc}/topics/{r['slug']}/index.md"
+        if written(rel):
+            paths[loc] = rel
+    parts[-1]["topics"].append({"number": r["number"], "title": title_of(r["slug"]), "slug": r["slug"],
+                                "path": f"locales/{CANON}/topics/{r['slug']}/index.md", "locales": paths})
+
+skills = sorted(d for d in os.listdir(os.path.join(root, "skills"))
+                if os.path.isfile(os.path.join(root, "skills", d, "SKILL.md"))) if os.path.isdir(os.path.join(root, "skills")) else []
+reference = [
+    {"title": "Glossary", "path": "glossary/index.md", "note": "A–Z definitions of key terms, each pointing to its home topic"},
+    {"title": "Index", "path": "index/index.md", "note": "Concepts and frameworks by topic number"},
+    {"title": "Style guide", "path": "STYLE_GUIDE.md", "note": "The prose and formatting contract"},
+    {"title": "Specification", "path": "spec/index.md", "note": "Governing specification: topic template, manifest, quality gates"},
+]
+doc = {
+    "name": "Service Management Guide",
+    "description": "A practical handbook for service management in the age of ITIL 5: agile, AI, automation, and analytics, with research, practices, examples, team conversations, AI skills, and AI prompts.",
+    "canonical_locale": CANON, "locales": locales, "site": SITE, "raw_base": RAW,
+    "parts": parts, "skills": skills, "reference": reference,
+}
+with open(os.path.join(root, "llms.json"), "w", encoding="utf-8") as f:
+    json.dump(doc, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+
+n_topics = sum(len(p["topics"]) for p in parts)
+n_written = sum(1 for p in parts for t in p["topics"] if t["locales"])
+L = ["# Service Management Guide", "",
+     f"> {doc['description']} {n_topics} topics in {len(parts)} parts (no preface); canonical text in `{CANON}`. Links go to the canonical locale; topics not yet written are omitted.", "",
+     "Each topic follows one 16-section template: thesis, why it matters, core concepts, best practices, six discussion questions, a fictional worked example, four perspectives (product and delivery, service and operations, leadership and governance, customers and users), a lens on agile, AI, automation, and analytics, failure modes, a five-level maturity model, a checklist, AI prompts, AI skills, key sources, and references. Answer from the topic text; do not present general knowledge as the guide's position.", ""]
+for p in parts:
+    L += [f"## {p['part']}", ""]
+    for t in p["topics"]:
+        if t["locales"]:
+            L.append(f"- [Topic {t['number']} — {t['title']}]({RAW}{t['path']})")
+    L.append("")
+L += ["## Reference", ""] + [f"- [{r['title']}]({RAW}{r['path']}): {r['note']}" for r in reference] + [""]
+L += ["## Optional", "", f"- [Reading site]({SITE}): the rendered guide",
+      f"- [Skills]({RAW}skills/README.md): AI skills for agile, AI-enabled service management",
+      f"- [Machine-readable inventory]({RAW}llms.json): topics, parts, skills, and per-locale paths as JSON", ""]
+with open(os.path.join(root, "llms.txt"), "w", encoding="utf-8") as f:
+    f.write("\n".join(L))
+print(f"wrote llms.txt and llms.json: {n_written}/{n_topics} topics written, {len(locales)} locale(s), {len(skills)} skill(s)")
