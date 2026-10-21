@@ -1,0 +1,122 @@
+#!/usr/bin/env python3
+# Builds locales/zh-cn/术语表/index.md and locales/zh-cn/索引/index.md from the en-001 glossary and index.
+# Chinese terms and definitions are the hand translations in ZH below; titles come from locales/zh-cn/术语/index.md.
+import os, re, sys
+root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+terms = open(f"{root}/locales/zh-cn/术语/index.md").read()
+title = dict(re.findall(r"^\| (\d+\.\d+) \| (.+?) \|$", terms, re.M))
+ZH = {
+"Agile Manifesto": ("敏捷宣言", "2001 年提出的软件开发四项价值观和十二条原则的声明，在这里被理解为对持续的利益相关者参与、改进和交付的号召。"),
+"AI agent": ("AI 代理", "通过工具采取行动而不只是回答问题的 AI 系统，因此需要范围、最小权限、批准关口、审计线索和紧急停止开关。"),
+"AI governance": ("AI 治理", "使 AI 的使用可问责的负责人、规则、风险评估、测试和记录。"),
+"AIOps": ("AIOps", "对运维数据使用机器学习，以减少告警噪声、发现异常并建议原因。"),
+"Alarm fatigue": ("告警疲劳", "对过多或过于频繁误报的告警变得麻木，以致错过真正的告警。"),
+"Alert": ("告警", "通知某个事态现在需要人工关注。"),
+"Asset": ("资产", "组织拥有或控制的有价值的东西，包括硬件、软件、云服务和数据。"),
+"Audit trail": ("审计线索", "对发生了什么、由谁、何时所做的记录，保存在相关人员无法篡改的地方。"),
+"Automation": ("自动化", "使用技术以较少的人工参与来执行任务。"),
+"Availability": ("可用性", "服务在需要时执行其约定功能的能力。"),
+"Backlog": ("待办事项列表（backlog）", "按顺序排列的工作或改进想法列表，每一项都有负责人和状态。"),
+"Business continuity": ("业务连续性", "在严重中断期间及之后保持关键职能运转，或迅速恢复它们。"),
+"Business impact analysis": ("业务影响分析", "研究服务在给定时间内不可用时，组织会发生什么。"),
+"Capacity": ("容量", "服务能够提供的最大吞吐量。"),
+"Change enablement": ("变更赋能", "ITIL 4 的实践：通过评估风险并按风险分配权限，安全而快速地对服务进行变更。"),
+"Change failure rate": ("变更失败率", "导致事件或需要补救的变更所占的比例，是 DORA 报告的四项交付度量之一。"),
+"Chaos engineering": ("混沌工程", "有控制地故意引入故障，以便在真实事件发生之前发现薄弱环节。"),
+"CMDB": ("CMDB", "配置管理数据库：存放配置项、其属性及其关系的存储库。"),
+"Configuration item": ("配置项", "为交付服务而需要管理的任何组成部分。"),
+"Continual improvement": ("持续改进", "循环往复的周期：选择一个小的变更，试行，检查结果，然后保留或撤销。"),
+"Continuous delivery": ("持续交付", "通过自动化的构建、测试和部署，使软件始终处于可发布状态，并经常把小的变更交付到线上服务。"),
+"Data governance": ("数据治理", "把数据作为资产来管理，包括负责人、定义、质量检查，以及访问和保留的规则。"),
+"Data lineage": ("数据血缘", "对数据来自哪里，以及在流向报告或模型的途中发生了什么的记录。"),
+"DevOps": ("DevOps", "一套把开发和运维结合在一起的文化习惯、实践和工具，以便快速变更线上服务并可靠地运行它们。"),
+"DORA metrics": ("DORA 度量", "来自 DORA 研究计划的四项交付度量：部署频率、变更前置时间、变更失败率和服务恢复时间。把它们当作问题，而不是分数来使用。"),
+"Enterprise service management": ("企业服务管理", "把服务管理的实践和工具应用到 IT 之外的职能，例如人力资源、设施和法务。"),
+"Error budget": ("错误预算", "由服务级别目标所隐含的、允许的不可靠程度，用于花在变更和风险上。"),
+"Event": ("事态", "对服务管理具有重要意义的状态变化。"),
+"Experience level agreement (XLA)": ("体验级别协议（XLA）", "在技术目标之外，为用户如何体验服务设定目标的协议。"),
+"Feature flag": ("功能开关", "无需新的部署即可在运行时打开或关闭某项功能的开关，也称为功能切换。"),
+"FinOps": ("FinOps", "通过让工程、财务和产品负责人参与同一场对话，为云支出带来财务问责的实践。"),
+"Flow": ("流动", "工作从请求到完成的顺畅程度。"),
+"Four dimensions": ("四个维度", "ITIL 4 的观点：每项服务都需要组织与人员、信息与技术、合作伙伴与供应商，以及价值流与流程。"),
+"Generative AI": ("生成式 AI", "根据提示词生成新内容（如文本和代码）的 AI 系统。"),
+"GitOps": ("GitOps", "以代码仓库作为期望状态的唯一事实来源，并由自动化代理使线上系统与之保持一致的方法。"),
+"Goodhart's law": ("古德哈特定律", "当一项度量成为目标时，它就不再是好的度量。"),
+"Guardrail": ("护栏", "内置在工具中的边界，使工作保持安全而不使其停顿，与等待批准的关口相对。"),
+"Hallucination": ("幻觉", "AI 的输出流畅却没有依据或是错误的。"),
+"Human in the loop": ("人在回路", "在 AI 的输出或行动生效之前，由人审阅或批准。"),
+"Incident": ("事件", "服务的计划外中断或质量下降。"),
+"Infrastructure as code": ("基础设施即代码", "用经过评审的文本文件定义基础设施，并由工具应用。"),
+"ISO/IEC 20000": ("ISO/IEC 20000", "服务管理体系的国际标准，组织可据此接受审核和认证。"),
+"ITIL": ("ITIL", "IT 服务管理的指导，由 PeopleCert 所有，包含实践、价值模型和面向个人的认证体系。"),
+"ITIL 5": ("ITIL 5", "ITIL（第 5 版），PeopleCert 于 2026 年推出的版本，其所有者将其描述为数字产品与服务管理，包括 AI 和新兴技术的影响。"),
+"Kaizen": ("改善（Kaizen）", "变得更好的改变：由做这项工作的人通过小的变更实现的持续改进。"),
+"Kanban": ("看板（Kanban）", "一种可视化工作、限制在制品并管理流动的方法。"),
+"Knowledge-Centered Service (KCS)": ("以知识为中心的服务（KCS）", "在解决问题的同时，作为副产品获取并改进知识的方法。"),
+"Known error": ("已知错误", "已被分析但尚未解决的问题，通常附有文档化的变通办法。"),
+"Lead time": ("前置时间", "从请求到交付之间经过的时间，按客户所体验的计算。"),
+"Lean": ("精益", "一种关于工作的思维方式，消除浪费并专注于客户所得到的价值。"),
+"Maturity model": ("成熟度模型", "由若干阶段组成的表格，这里是起步、发展、标准化、管理和协同，用作自我评估的辅助。"),
+"Observability": ("可观测性", "对运行中的系统提出新问题，并从它发出的数据中得到答案的能力。"),
+"Operational level agreement (OLA)": ("运营级别协议（OLA）", "内部团队之间支持服务级别协议的协议。"),
+"Orchestration": ("编排", "跨工具协调许多自动化任务，使之成为一个流程。"),
+"Peer review": ("同行评审", "在变更实施之前，由另一位有能力的人对其进行评审。"),
+"Postmortem": ("事后复盘", "重大事件之后的书面评审，着眼于系统并跟踪行动。"),
+"Practice": ("实践", "为执行工作或实现某个目标而设计的一组组织资源，即 ITIL 4 使用该词的含义。"),
+"Problem": ("问题", "一个或多个事件的原因或潜在原因。"),
+"Product owner": ("产品负责人", "对使产品价值最大化并管理其待办事项列表负责的人。"),
+"Prompt": ("提示词", "为了得到回应而给予 AI 模型的文字和材料。"),
+"Prompt injection": ("提示词注入", "隐藏在 AI 模型所读取的内容中的恶意指令，企图改变其行为。"),
+"Recovery point objective (RPO)": ("恢复点目标（RPO）", "可接受的最大数据丢失量，以时间衡量。"),
+"Recovery time objective (RTO)": ("恢复时间目标（RTO）", "中断之后恢复服务的目标最长时间。"),
+"Release": ("发布", "使服务、功能或版本可供使用，这可以与部署分开进行。"),
+"Retrospective": ("回顾会议", "团队回顾自己如何工作并选择要改变什么的定期会议。"),
+"Risk register": ("风险登记册", "记录风险及其负责人、评估、处理和状态的登记册。"),
+"Root cause analysis": ("根因分析", "用于找出问题根本原因的一系列方法。"),
+"Runbook": ("运行手册", "针对特定的、反复出现的运维任务或情形的文档化步骤。"),
+"Service": ("服务", "一种使价值共创成为可能的方式，通过促成客户想要实现的成果，而客户无需管理特定的成本和风险。"),
+"Service catalog": ("服务目录", "对提供者所提供内容的、面向用户的持续维护的描述（ITIL 称 service catalogue），背后有技术视图。"),
+"Service desk": ("服务台", "服务提供者与其用户之间的单一联络点。"),
+"Service level agreement (SLA)": ("服务级别协议（SLA）", "提供者与客户之间关于服务和预期服务水平的书面协议。"),
+"Service level indicator (SLI)": ("服务级别指标（SLI）", "对服务某一方面的度量，按用户所体验的计算。"),
+"Service level objective (SLO)": ("服务级别目标（SLO）", "针对某个服务级别指标在一段时间内的目标。"),
+"Service request": ("服务请求", "发起一项服务行动的请求，该行动被约定为服务交付的正常组成部分。"),
+"Service value chain": ("服务价值链", "ITIL 4 的运作模型，包含六项活动，每个价值流都以自己的顺序经过这些活动。"),
+"Service value system (SVS)": ("服务价值系统（SVS）", "ITIL 4 的模型，说明机会和需求如何通过治理、价值链、实践、指导原则和持续改进转化为价值。"),
+"Shadow IT": ("影子 IT", "在 IT 职能不知情的情况下购买和使用的技术。"),
+"Shift left": ("左移", "把检查和解决向前移动，更靠近用户或生命周期的起点。"),
+"Site reliability engineering (SRE)": ("站点可靠性工程（SRE）", "把运维视为软件问题的工程学科，采用 SLO、错误预算和繁琐工作限额。"),
+"Software bill of materials (SBOM)": ("软件物料清单（SBOM）", "软件中各组成部分的清单，附有版本和许可证。"),
+"Telemetry": ("遥测", "系统自身发出的数据，主要是指标、日志和追踪。"),
+"Toil": ("繁琐工作（toil）", "手工的、重复的、可自动化的工作，随服务增长而增加，且不带来持久的价值。"),
+"Value stream": ("价值流", "组织为创建并向消费者交付产品或服务而采取的一系列步骤。"),
+"Work in progress (WIP)": ("在制品（WIP）", "已开始但尚未完成的事项数量。"),
+}
+src = open(f"{root}/glossary/index.md").read()
+ents = re.findall(r"^\*\*(.+?)\*\* — (.+?) — See Topic (\d+\.\d+) — (.+?)\.$", src, re.M)
+missing = [e[0] for e in ents if e[0] not in ZH]
+if missing or len(ents) != len(ZH): sys.exit(f"mismatch {missing} {len(ents)} {len(ZH)}")
+o = ["# 术语表", "",
+     "关键术语的 A–Z 定义（按英文术语排序），每一条都指向它的主要主题。格式：**英文术语（中文）** — 定义。— 见主题 N.N — 标题。专有名称和英文缩写保持原文写法。用词选择见 `locales/zh-cn/术语/index.md`。本译文是草稿，等待精通中文者的审校。", ""]
+cur = None
+for en, _, n, _ in ents:
+    L = en[0].upper()
+    if L != cur: o += [f"## {L}", ""]; cur = L
+    zt, zd = ZH[en]
+    head = f"**{en}**" if zt == en else f"**{en}（{zt}）**"
+    o += [f"{head} — {zd} — 见主题 {n} — {title[n]}。", ""]
+os.makedirs(f"{root}/locales/zh-cn/术语表", exist_ok=True); open(f"{root}/locales/zh-cn/术语表/index.md", "w").write("\n".join(o))
+isrc = open(f"{root}/index/index.md").read()
+ients = re.findall(r"^\*\*(.+?)\*\* — (.+)$", isrc, re.M)
+o = ["# 索引", "",
+     "按主题编号列出的概念和框架。格式：**英文术语（中文）** — N.N、N.N、……编号升序、去重：包括主要主题，以及深入涉及该概念的每个主题。标题见 README 的目录。本译文是草稿，等待精通中文者的审校。", ""]
+cur = None; bad = []
+for en, ns in ients:
+    if en not in ZH: bad.append(en); continue
+    L = en[0].upper()
+    if L != cur: o += [f"## {L}", ""]; cur = L
+    zt = ZH[en][0]
+    head = f"**{en}**" if zt == en else f"**{en}（{zt}）**"
+    o += [f"{head} — {ns.replace(', ', '、')}", ""]
+os.makedirs(f"{root}/locales/zh-cn/索引", exist_ok=True); open(f"{root}/locales/zh-cn/索引/index.md", "w").write("\n".join(o))
+print("glossary", len(ents), "index", len(ients), "unmapped", bad)

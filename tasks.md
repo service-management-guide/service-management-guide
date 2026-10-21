@@ -118,7 +118,7 @@ Translate serially, one topic per commit, following `locales/zh-cn/术语/index.
 - [x] Scaffold `locales/zh-cn/` (peer ids, symlinks, titled stubs, `locale.json`, terminology)
 - [x] zh-cn site integration (`zh-cn.json`, `locales.ts`, `hero.ts`)
 - [x] Translate the 65 topics (draft by Claude; awaiting fluent-speaker review)
-- [ ] zh-cn glossary and index translations
+- [x] zh-cn glossary and index translations (`locales/zh-cn/术语表/`, `locales/zh-cn/索引/`, built by `bin/build-glossary-index-zh-cn`)
 - [ ] zh-cn review by a fluent Chinese speaker
 
 ## Phase 9 — Welsh (cy-gb)
