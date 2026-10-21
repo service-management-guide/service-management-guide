@@ -127,7 +127,7 @@ Translate serially, one topic per commit, following `locales/cy-gb/terminoleg/in
 
 - [x] Scaffold `locales/cy-gb/` (peer ids, symlinks, titled stubs, `locale.json`, terminology)
 - [x] cy-gb site integration (`cy-gb.json`, `locales.ts`, `hero.ts`)
-- [ ] Translate the 65 topics
+- [x] Translate the 65 topics
 - [ ] cy-gb glossary and index translations
 - [ ] cy-gb review by a fluent Welsh speaker
 
@@ -137,7 +137,7 @@ Translate serially, one topic per commit, following `locales/de-de/terminologie/
 
 - [x] Scaffold `locales/de-de/` (peer ids, symlinks, titled stubs, `locale.json`, terminology)
 - [x] de-de site integration (`de-de.json`, `locales.ts`, `hero.ts`)
-- [ ] Translate the 65 topics
+- [x] Translate the 65 topics
 - [ ] de-de glossary and index translations
 - [ ] de-de review by a fluent German speaker
 
