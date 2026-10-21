@@ -50,7 +50,7 @@ Y ffordd i gysoni'r ddau yw newid sut mae llywodraethu'n edrych. Yn lle pyrth ar
 2. **Rhowch benderfyniadau risg gyda pherchnogion risg.** Enwch berchennog ar gyfer pob risg sylweddol, sy'n ei deall ac sydd ag awdurdod. Dwyswch yn ôl trothwyon diffiniedig, nid yn ôl arfer.
 3. **Cadwch gofrestr risg fyw.** Cofnodwch risgiau gyda pherchnogion, graddfeydd, triniaethau a dyddiadau adolygu, a'i diweddaru pan fydd pethau'n newid. Cysylltwch risgiau â gwasanaethau a rheolaethau.
 4. **Cyfatebwch adolygiad i risg.** Defnyddiwch wiriadau ysgafn, awtomataidd ar gyfer newidiadau risg isel ac adolygiad dynol dyfnach ar gyfer rhai risg uchel. Cyhoeddwch y meini prawf.
-5. **Adeiladwch ganllawiau diogelu i mewn i'r offer.** Ysgrifennwch reolau fel gwiriadau polisi yn y biblinell a'r llwyfannau, fel mai'r llwybr diogel yw'r un hawdd. Defnyddiwch byrth yn gynnil.
+5. **Adeiladwch ganllawiau diogelu i mewn i'r offer.** Ysgrifennwch reolau fel gwiriadau polisi yn y biblinell a'r llwyfannau, fel mai'r llwybr diogel yw'r un hawdd. Defnyddiwch pyrth yn gynnil.
 6. **Cynhyrchwch dystiolaeth o'r gwaith.** Cipiwch gofnodion o adolygiadau, profion, cymeradwyaethau a defnyddio'n awtomatig, a'u storio lle na all y rhai y maent yn ymwneud â hwy eu newid.
 7. **Mapiwch reolaethau i ofynion unwaith.** Cadwch un set reolaethau wedi'i mapio i'r safonau a'r cyfreithiau sy'n berthnasol i chi, yn lle dogfennau ar wahân ar gyfer pob un. Gweler Pwnc 1.8 — Fframweithiau a Safonau Rheoli Gwasanaethau.
 8. **Profwch fod rheolaethau'n gweithio.** Samplwch gofnodion, rhedwch ymarferion, ac ailberfformiwch reolaethau. Trwsiwch y rhai nad ydynt yn gweithio, a gollyngwch y rhai sy'n ychwanegu cost heb leihau risg.
