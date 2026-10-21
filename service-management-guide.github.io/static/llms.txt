@@ -1,0 +1,107 @@
+# Service Management Guide
+
+> A practical handbook for service management in the age of ITIL 5: agile, AI, automation, and analytics, with research, practices, examples, team conversations, AI skills, and AI prompts. 65 topics in 8 parts (no preface); canonical text in `en-001`. Links go to the canonical locale; topics not yet written are omitted.
+
+Each topic follows one 16-section template: thesis, why it matters, core concepts, best practices, six discussion questions, a fictional worked example, four perspectives (product and delivery, service and operations, leadership and governance, customers and users), a lens on agile, AI, automation, and analytics, failure modes, a five-level maturity model, a checklist, AI prompts, AI skills, key sources, and references. Answer from the topic text; do not present general knowledge as the guide's position.
+
+## Part 1 — Service management foundations
+
+- [Topic 1.1 — Service Management](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/service-management/index.md)
+- [Topic 1.2 — ITIL](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/itil/index.md)
+- [Topic 1.3 — ITIL 5](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/itil-five/index.md)
+- [Topic 1.4 — The Service Value System](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/service-value-system/index.md)
+- [Topic 1.5 — ITIL Guiding Principles](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/itil-guiding-principles/index.md)
+- [Topic 1.6 — Four Dimensions of Service Management](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/four-dimensions-of-service-management/index.md)
+- [Topic 1.7 — The Service Value Chain](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/service-value-chain/index.md)
+- [Topic 1.8 — Service Management Frameworks and Standards](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/service-management-frameworks-and-standards/index.md)
+- [Topic 1.9 — Enterprise Service Management](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/enterprise-service-management/index.md)
+
+## Part 2 — Agile service management
+
+- [Topic 2.1 — Agile Manifesto and Principles](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/agile-manifesto-and-principles/index.md)
+- [Topic 2.2 — Continuous Delivery](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/continuous-delivery/index.md)
+- [Topic 2.3 — Flow and Kanban](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/flow-and-kanban/index.md)
+- [Topic 2.4 — Lean and Kaizen](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/lean-and-kaizen/index.md)
+- [Topic 2.5 — DevOps](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/devops/index.md)
+- [Topic 2.6 — Site Reliability Engineering](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/site-reliability-engineering/index.md)
+- [Topic 2.7 — Scaling Agile](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/scaling-agile/index.md)
+- [Topic 2.8 — Product and Service Ownership](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/product-and-service-ownership/index.md)
+- [Topic 2.9 — Agile Service Management](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/agile-service-management/index.md)
+- [Topic 2.10 — Agile Management and Learning](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/agile-management-and-learning/index.md)
+
+## Part 3 — Service practices
+
+- [Topic 3.1 — Service Desk](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/service-desk/index.md)
+- [Topic 3.2 — Incident Management](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/incident-management/index.md)
+- [Topic 3.3 — Problem Management](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/problem-management/index.md)
+- [Topic 3.4 — Change Enablement](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/change-enablement/index.md)
+- [Topic 3.5 — Release and Deployment Management](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/release-and-deployment-management/index.md)
+- [Topic 3.6 — Service Request Management](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/service-request-management/index.md)
+- [Topic 3.7 — Service Level Management](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/service-level-management/index.md)
+- [Topic 3.8 — Service Catalog Management](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/service-catalog-management/index.md)
+- [Topic 3.9 — Knowledge Management](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/knowledge-management/index.md)
+- [Topic 3.10 — Monitoring and Event Management](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/monitoring-and-event-management/index.md)
+- [Topic 3.11 — Availability, Capacity, and Performance](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/availability-capacity-and-performance/index.md)
+- [Topic 3.12 — Service Continuity Management](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/service-continuity-management/index.md)
+- [Topic 3.13 — Information Security Management](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/information-security-management/index.md)
+- [Topic 3.14 — Supplier Management](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/supplier-management/index.md)
+- [Topic 3.15 — Continual Improvement](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/continual-improvement/index.md)
+
+## Part 4 — Asset, configuration, and financial management
+
+- [Topic 4.1 — Asset Management](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/asset-management/index.md)
+- [Topic 4.2 — Software Asset Management](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/software-asset-management/index.md)
+- [Topic 4.3 — Hardware Asset Management](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/hardware-asset-management/index.md)
+- [Topic 4.4 — Configuration Management](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/configuration-management/index.md)
+- [Topic 4.5 — Financial Management and FinOps](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/financial-management-and-finops/index.md)
+
+## Part 5 — AI in service management
+
+- [Topic 5.1 — AI in Service Management](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/ai-in-service-management/index.md)
+- [Topic 5.2 — AIOps](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/aiops/index.md)
+- [Topic 5.3 — AI Service Desk and Virtual Agents](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/ai-service-desk-and-virtual-agents/index.md)
+- [Topic 5.4 — Generative AI for Incidents, Knowledge, and Changes](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/generative-ai-for-incidents-knowledge-and-changes/index.md)
+- [Topic 5.5 — Agentic AI and Human Oversight](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/agentic-ai-and-human-oversight/index.md)
+- [Topic 5.6 — AI Governance, Risk, and Compliance](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/ai-governance-risk-and-compliance/index.md)
+- [Topic 5.7 — AI Skills and Prompts](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/ai-skills-and-prompts/index.md)
+- [Topic 5.8 — AI Operating Model and Skills](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/ai-operating-model-and-skills/index.md)
+
+## Part 6 — Automation
+
+- [Topic 6.1 — Automation Strategy](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/automation-strategy/index.md)
+- [Topic 6.2 — Workflow Automation and Orchestration](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/workflow-automation-and-orchestration/index.md)
+- [Topic 6.3 — Infrastructure as Code and GitOps](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/infrastructure-as-code-and-gitops/index.md)
+- [Topic 6.4 — Pipelines and Automated Change](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/pipelines-and-automated-change/index.md)
+- [Topic 6.5 — Self-Service and Automated Fulfilment](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/self-service-and-automated-fulfilment/index.md)
+- [Topic 6.6 — Runbook Automation and Auto-Remediation](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/runbook-automation-and-auto-remediation/index.md)
+
+## Part 7 — Analytics
+
+- [Topic 7.1 — Analytics for Service Management](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/analytics-for-service-management/index.md)
+- [Topic 7.2 — Data Foundations and Governance](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/data-foundations-and-governance/index.md)
+- [Topic 7.3 — Measurement and Reporting](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/measurement-and-reporting/index.md)
+- [Topic 7.4 — Observability and Telemetry](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/observability-and-telemetry/index.md)
+- [Topic 7.5 — Predictive Analytics and Forecasting](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/predictive-analytics-and-forecasting/index.md)
+- [Topic 7.6 — Process and Value Stream Analytics](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/process-and-value-stream-analytics/index.md)
+- [Topic 7.7 — Experience and Sentiment Analytics](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/experience-and-sentiment-analytics/index.md)
+
+## Part 8 — Governance, people, and adoption
+
+- [Topic 8.1 — Governance, Risk, and Compliance](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/governance-risk-and-compliance/index.md)
+- [Topic 8.2 — Sustainability and Responsible Service Management](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/sustainability-and-responsible-service-management/index.md)
+- [Topic 8.3 — Organizational Change and Adoption](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/organizational-change-and-adoption/index.md)
+- [Topic 8.4 — Team Conversations](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/team-conversations/index.md)
+- [Topic 8.5 — Learning Paths and Certification](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/locales/en-001/topics/learning-paths-and-certification/index.md)
+
+## Reference
+
+- [Glossary](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/glossary/index.md): A–Z definitions of key terms, each pointing to its home topic
+- [Index](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/index/index.md): Concepts and frameworks by topic number
+- [Style guide](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/STYLE_GUIDE.md): The prose and formatting contract
+- [Specification](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/spec/index.md): Governing specification: topic template, manifest, quality gates
+
+## Optional
+
+- [Reading site](https://service-management-guide.github.io): the rendered guide
+- [Skills](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/skills/README.md): AI skills for agile, AI-enabled service management
+- [Machine-readable inventory](https://raw.githubusercontent.com/service-management-guide/service-management-guide/main/llms.json): topics, parts, skills, and per-locale paths as JSON

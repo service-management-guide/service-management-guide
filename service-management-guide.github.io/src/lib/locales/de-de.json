@@ -1,0 +1,127 @@
+{
+  "locale": {
+    "label": "Deutsch (Deutschland)"
+  },
+  "siteTitle": "Service-Management-Leitfaden",
+  "skipToContent": "Zum Inhalt springen",
+  "nav": {
+    "contents": "Inhalt",
+    "glossary": "Glossar",
+    "index": "Stichwortverzeichnis",
+    "skills": "Skills",
+    "source": "Quelltext"
+  },
+  "picker": {
+    "theme": "Design",
+    "locale": "Sprache",
+    "textSize": "Schriftgröße",
+    "share": "Teilen",
+    "search": "Suchen",
+    "searchInput": "Den Leitfaden durchsuchen",
+    "searchSubmit": "Suchen"
+  },
+  "share": {
+    "emailLink": "Link per E-Mail senden",
+    "shareOnLinkedIn": "Auf LinkedIn teilen",
+    "shareOnReddit": "Auf Reddit teilen",
+    "shareOnBluesky": "Auf Bluesky teilen",
+    "shareOnMastodon": "Auf Mastodon teilen",
+    "copyLink": "Link kopieren",
+    "copied": "Kopiert",
+    "copyFailed": "Kopieren fehlgeschlagen"
+  },
+  "links": {
+    "label": "Links",
+    "llms": "llms.txt (für KI-Agenten)",
+    "skills": "KI-Skills auf GitHub",
+    "issues": "Issue-Tracker"
+  },
+  "footer": {
+    "tagline": "Service-Management mit Agilität, KI, Automatisierung und Analytik.",
+    "sourceAndContributions": "Quelltext und Beiträge:",
+    "builtWith": "Erstellt mit",
+    "ledBy": "Erstellt von"
+  },
+  "breadcrumb": {
+    "home": "Startseite",
+    "contents": "Inhalt",
+    "skills": "Skills",
+    "label": "Brotkrumennavigation"
+  },
+  "contents": {
+    "pageTitle": "Inhalt",
+    "lead": "Acht Teile und 65 Themen zum Service-Management im Zeitalter von ITIL 5, betrachtet durch vier Linsen: Agilität, KI, Automatisierung und Analytik, mit Diskussionsfragen, KI-Prompts und KI-Skills.",
+    "readingIn": "Lesen auf {$language}",
+    "part": "Teil {$number}",
+    "reference": "Nachschlagewerk",
+    "comingSoon": "demnächst"
+  },
+  "topic": {
+    "eyebrow": "Thema {$number}",
+    "paginationLabel": "Navigation zwischen Themen",
+    "previous": "Zurück",
+    "next": "Weiter"
+  },
+  "parts": {
+    "1": {
+      "tagline": "Was Service-Management ist und wie ITIL, einschließlich ITIL 5, es systematisiert."
+    },
+    "2": {
+      "tagline": "Agile Werte und Methoden im Betrieb von Services."
+    },
+    "3": {
+      "tagline": "Die ITIL-Praktiken, schlank, automatisiert und datengestützt."
+    },
+    "4": {
+      "tagline": "Wissen, was man hat, was es kostet und wie es zusammenpasst."
+    },
+    "5": {
+      "tagline": "Was KI verändert und wie man sie steuert."
+    },
+    "6": {
+      "tagline": "Routinearbeit zur Routine machen."
+    },
+    "7": {
+      "tagline": "Mit Daten Services betreiben und verbessern."
+    },
+    "8": {
+      "tagline": "Die menschliche Seite des Service-Managements mit KI und Automatisierung."
+    }
+  },
+  "results": {
+    "button": "Suchen",
+    "label": "Suchergebnisse",
+    "heading": "Suchergebnisse für {$query}",
+    "failed": "Der Suchindex konnte nicht geladen werden. Bitte versuchen Sie es später erneut.",
+    "searching": "Suche läuft…",
+    "none": "Keine Treffer für {$query}.",
+    "browse": "Stöbern Sie stattdessen im Inhalt.",
+    "count": ".input {$count :integer}\n.match $count\none {{1 Treffer.}}\n*   {{{$count} Treffer.}}",
+    "limited": "Die besten {$count} Treffer werden angezeigt."
+  },
+  "glossary": {
+    "title": "Glossar",
+    "lead": "Wichtige Begriffe in verständlicher Sprache, jeweils mit Verweis auf das Thema, das sie behandelt."
+  },
+  "indexPage": {
+    "title": "Stichwortverzeichnis",
+    "lead": "Konzepte und Frameworks, mit den Themen, die sie behandeln."
+  },
+  "jumpToLetter": "Zum Buchstaben springen",
+  "skillsPage": {
+    "title": "KI-Skills",
+    "lead": "Skills im Claude-Code-Format, auf die die Themen verweisen. Jeder ist eine SKILL.md-Datei, die Sie in Ihren eigenen Skills-Ordner kopieren können.",
+    "viewSource": "Auf GitHub ansehen",
+    "backToList": "Alle Skills"
+  },
+  "error": {
+    "label": "Fehler {$status}",
+    "notFound": "Diese Seite gibt es nicht",
+    "generic": "Etwas ist schiefgegangen",
+    "unknown": "Unbekannter Fehler",
+    "try": "Probieren Sie den Inhalt, das Glossar oder das Stichwortverzeichnis."
+  },
+  "home": {
+    "continue": "Weiter zum Service-Management-Leitfaden"
+  }
+}
