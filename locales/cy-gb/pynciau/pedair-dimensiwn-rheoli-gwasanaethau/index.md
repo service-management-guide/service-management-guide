@@ -14,7 +14,7 @@ Mae'r pwnc hwn yn esbonio'r pedair dimensiwn fel y mae ITIL 4 yn eu disgrifio, y
 
 **Sefydliadau a phobl.** Mae'r dimensiwn hwn yn cwmpasu'r strwythur sefydliadol, rolau a chyfrifoldebau, diwylliant, a sgiliau a chymwyseddau staff. Mae'n cynnwys arweinyddiaeth, sut y gwneir penderfyniadau, a sut mae timau'n cyfathrebu. Mae cyfraith Conway, yr arsylwad bod systemau'n tueddu i adlewyrchu strwythurau cyfathrebu'r sefydliadau sy'n eu hadeiladu, yn atgof bod strwythur yn llunio gwasanaethau. Mae Pwnc 8.3 — Newid Sefydliadol a Mabwysiadu yn trafod ochr ddynol newid yn fanwl.
 
-**Gwybodaeth a thechnoleg.** Mae hyn yn cwmpasu'r wybodaeth a'r gwybodaeth y mae ei hangen ar y gwasanaeth, a'r technolegau sy'n ei gefnogi: llwyfannau, offer, data a phensaernïaeth. Mae'n cynnwys y wybodaeth y mae'r gwasanaeth yn ei chreu, fel cofnodion ac adroddiadau, a sut y caiff y wybodaeth honno ei rheoli a'i diogelu. Mewn ymarfer cyfredol mae'n cynnwys systemau AI, sy'n ychwanegu ansawdd data, ymddygiad modelau a goruchwyliaeth at y cwestiynau. Mae Pwnc 7.2 — Sylfeini a Llywodraethu Data a Phwnc 4.4 — Rheoli Cyfluniad yn berthnasol iddo.
+**Gwybodaeth a thechnoleg.** Mae hyn yn cwmpasu'r wybodaeth a'r wybodaeth arbenigol (knowledge) y mae eu hangen ar y gwasanaeth, a'r technolegau sy'n ei gefnogi: llwyfannau, offer, data a phensaernïaeth. Mae'n cynnwys y wybodaeth y mae'r gwasanaeth yn ei chreu, fel cofnodion ac adroddiadau, a sut y caiff y wybodaeth honno ei rheoli a'i diogelu. Mewn ymarfer cyfredol mae'n cynnwys systemau AI, sy'n ychwanegu ansawdd data, ymddygiad modelau a goruchwyliaeth at y cwestiynau. Mae Pwnc 7.2 — Sylfeini a Llywodraethu Data a Phwnc 4.4 — Rheoli Cyfluniad yn berthnasol iddo.
 
 **Partneriaid a chyflenwyr.** Ychydig o wasanaethau sy'n cael eu darparu'n llwyr gan un sefydliad. Mae'r dimensiwn hwn yn cwmpasu'r perthnasoedd â sefydliadau eraill sy'n ymwneud â dylunio, datblygu, darparu, cefnogi neu wella: gwerthwyr, darparwyr cwmwl, contractwyr a phartneriaid. Mae'n cynnwys telerau'r contract, yr integreiddio rhwng y partïon, a'r risg o ddibyniaeth. Gweler Pwnc 3.14 — Rheoli Cyflenwyr, a'r syniad o allanoli a chlowt gwerthwr (vendor lock-in).
 
@@ -33,7 +33,7 @@ Mae'r pwnc hwn yn esbonio'r pedair dimensiwn fel y mae ITIL 4 yn eu disgrifio, y
 1. **Gofynnwch y pedwar cwestiwn ar bob newid sylweddol.** Cyn cymeradwyo newid neu wasanaeth newydd, gofynnwch beth sydd ei angen arno gan bob dimensiwn. Mae tabl un dudalen â phedair rhes yn ddigon i ddatgelu bylchau.
 2. **Enwch y dimensiwn gwannaf.** Ar gyfer gwasanaeth sy'n bodoli, gofynnwch pa ddimensiwn sydd wannaf heddiw, a gadewch i hynny arwain ble mae ymdrech gwella yn mynd. Peidiwch â chymryd y dimensiwn y mae eich tîm yn ei ystyried yn fwyaf diddorol fel y rhagosodiad.
 3. **Ysgrifennwch rolau.** Ar gyfer y dimensiwn pobl, nodwch pwy sy'n berchen ar y gwasanaeth, pwy sy'n ei gefnogi, a phwy sy'n penderfynu. Gwiriwch fod gan y bobl y sgiliau, neu fod ganddynt gynllun i'w datblygu.
-4. **Trinwch wybodaeth fel rhan o wybodaeth.** Rhestrwch beth sydd angen i bobl ei wybod i redeg y gwasanaeth, ble mae'r wybodaeth honno'n byw, a phwy sy'n ei chadw'n gyfredol. Mae llawlyfr gweithredu (runbook) nad oes neb yn ei ddiweddaru yn risg.
+4. **Trinwch wybodaeth arbenigol (knowledge) fel rhan o wybodaeth.** Rhestrwch beth sydd angen i bobl ei wybod i redeg y gwasanaeth, ble mae'r wybodaeth honno'n byw, a phwy sy'n ei chadw'n gyfredol. Mae llawlyfr gweithredu (runbook) nad oes neb yn ei ddiweddaru yn risg.
 5. **Gwybod cyfraniad eich cyflenwyr.** Ar gyfer pob cyflenwr, cofnodwch beth maent yn ei ddarparu, y cytundeb, pwy sy'n rheoli'r berthynas, a beth sy'n digwydd os byddant yn methu. Profwch y trefniant mewn ymarfer, nid ar bapur yn unig.
 6. **Mapiwch y llif, nid y camau yn unig.** Ar gyfer y dimensiwn proses, olrheiniwch ddarn go iawn o waith a chofnodwch yr arosiadau. Mae disgrifiad proses sy'n rhestru camau ond nid ciwiau yn colli'r rhan fwyaf o'r oedi.
 7. **Edrychwch ar y rhyngwynebau.** Mae'r rhan fwyaf o broblemau'n digwydd lle mae un dimensiwn yn cwrdd ag un arall, fel trosglwyddiad rhwng cyflenwr a thîm mewnol, neu rhwng offeryn a'r llif gwaith y mae'n ei gefnogi. Adolygwch y rhyngwynebau hynny'n benodol.
@@ -128,7 +128,7 @@ Dewiswch un neu ddau ddangosydd ar gyfer pob dimensiwn, er enghraifft cyfran y g
 - [ ] Mae gan bob newid sylweddol adolygiad pedair dimensiwn.
 - [ ] Mae gan bob gwasanaeth pwysig berchennog a enwir a rhestr o'r sgiliau gofynnol.
 - [ ] Mae cyfraniad, cytundeb a chynllun methiant pob cyflenwr wedi'u cofnodi.
-- [ ] Rydym yn gwybod ble mae ein gwybodaeth a'n gwybodaeth ar gyfer pob gwasanaeth yn byw.
+- [ ] Rydym yn gwybod ble mae ein gwybodaeth a'n gwybodaeth arbenigol ar gyfer pob gwasanaeth yn byw.
 - [ ] Rydym wedi olrhain o leiaf un ffrwd werth go iawn gydag arosiadau.
 - [ ] Mae adolygiadau ôl-ddigwyddiad yn gofyn pa ddimensiwn a gyfrannodd.
 - [ ] Rydym yn cadw rhestr fer o ffactorau allanol ac yn ei hadolygu.
