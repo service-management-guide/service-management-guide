@@ -170,7 +170,7 @@ Rhestrwch y pethau rydych yn ansicr ohonynt.
 **Drafftio rheolau polisi o ofynion.**
 
 ```text
-Ein gofynion: [rhestrwch, fel dim storfa gyhoeddus, tagiau gofynnol, amgryptio wrth orffwys]. Ein offeryn: [enw, neu "heb benderfynu"].
+Ein gofynion: [rhestrwch, fel dim storfa gyhoeddus, tagiau gofynnol, amgryptio wrth orffwys]. Ein hofferyn: [enw, neu "heb benderfynu"].
 Ysgrifennwch bob gofyniad fel rheol mewn iaith blaen gydag un enghraifft o doriad, a disgrifiwch sut i brofi'r rheol. Peidiwch ag ysgrifennu cod oni fyddaf yn enwi'r offeryn.
 Rhestrwch y pethau rydych yn ansicr ohonynt.
 ```
