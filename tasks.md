@@ -128,7 +128,7 @@ Translate serially, one topic per commit, following `locales/cy-gb/terminoleg/in
 - [x] Scaffold `locales/cy-gb/` (peer ids, symlinks, titled stubs, `locale.json`, terminology)
 - [x] cy-gb site integration (`cy-gb.json`, `locales.ts`, `hero.ts`)
 - [x] Translate the 65 topics
-- [ ] cy-gb glossary and index translations
+- [x] cy-gb glossary and index translations
 - [ ] cy-gb review by a fluent Welsh speaker
 
 ## Phase 10 — German (de-de)

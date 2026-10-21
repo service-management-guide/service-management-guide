@@ -1,0 +1,122 @@
+#!/usr/bin/env python3
+# Builds locales/cy-gb/geirfa/index.md and locales/cy-gb/mynegai/index.md from the en-001 glossary and index.
+# Welsh terms and definitions are the hand translations in CY below; titles come from locales/cy-gb/terminoleg/index.md.
+import os, re, sys
+root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+terms = open(f"{root}/locales/cy-gb/terminoleg/index.md").read()
+title = dict(re.findall(r"^\| (\d+\.\d+) \| (.+?) \|$", terms, re.M))
+CY = {
+"Agile Manifesto": ("Maniffesto Ystwyth", "Datganiad 2001 o bedwar gwerth a deuddeg egwyddor ar gyfer datblygu meddalwedd, a ddarllenir yma fel galwad am gyfranogiad parhaus gan randdeiliaid, gwelliant a chyflawni."),
+"AI agent": ("asiant AI", "System AI sy'n gweithredu drwy offer yn hytrach na dim ond ateb cwestiynau, ac sydd felly angen cwmpas, breintiau lleiaf, pyrth cymeradwyo, llwybr archwilio a switsh atal brys."),
+"AI governance": ("llywodraethu AI", "Y perchnogion, y rheolau, yr asesiadau risg, y profion a'r cofnodion sy'n gwneud defnydd o AI yn atebol."),
+"AIOps": ("AIOps", "Defnyddio dysgu peirianyddol ar ddata gweithredol i leihau sŵn rhybuddion, canfod anghysondebau ac awgrymu achosion."),
+"Alarm fatigue": ("blinder rhybuddion", "Mynd yn ddideimlad i rybuddion sy'n rhy niferus neu'n rhy aml yn anghywir, fel bod rhybuddion go iawn yn cael eu methu."),
+"Alert": ("rhybudd", "Hysbysiad bod hysbysiad (event) angen sylw dynol nawr."),
+"Asset": ("ased", "Rhywbeth o werth y mae sefydliad yn ei berchen neu'n ei reoli, gan gynnwys caledwedd, meddalwedd, gwasanaethau cwmwl a data."),
+"Audit trail": ("llwybr archwilio", "Cofnod o'r hyn a ddigwyddodd, gan bwy a phryd, wedi'i gadw lle na all y rhai dan sylw ei newid."),
+"Automation": ("awtomeiddio", "Defnyddio technoleg i gyflawni tasgau gyda llai o ymyrraeth ddynol."),
+"Availability": ("argaeledd", "Gallu gwasanaeth i gyflawni ei swyddogaeth gytunedig pan fo'i angen."),
+"Backlog": ("ôl-groniad", "Rhestr drefnedig o waith neu syniadau gwella, pob un â pherchennog a statws."),
+"Business continuity": ("parhad busnes", "Cadw swyddogaethau hanfodol i redeg, neu eu hadfer yn gyflym, yn ystod ac ar ôl tarfu difrifol."),
+"Business impact analysis": ("dadansoddi effaith busnes", "Astudio'r hyn sy'n digwydd i'r sefydliad os yw gwasanaeth ar gael am gyfnod penodol."),
+"Capacity": ("capasiti", "Y trwygyrch mwyaf y gall gwasanaeth ei ddarparu."),
+"Change enablement": ("galluogi newid", "Ymarfer ITIL 4 ar gyfer gwneud newidiadau i wasanaethau'n ddiogel ac yn gyflym drwy asesu risg a phennu awdurdod yn ôl y risg."),
+"Change failure rate": ("cyfradd methu newid", "Cyfran y newidiadau sy'n arwain at ddigwyddiad neu sydd angen eu hatgyweirio, un o bedwar mesur cyflawni DORA."),
+"Chaos engineering": ("peirianneg anhrefn", "Cyflwyno methiannau'n fwriadol ac mewn modd rheoledig i ddarganfod gwendidau cyn i ddigwyddiad go iawn wneud hynny."),
+"CMDB": ("CMDB", "Cronfa ddata rheoli cyfluniad: storfa o eitemau cyfluniad, eu priodoleddau a'u perthnasoedd."),
+"Configuration item": ("eitem gyfluniad", "Unrhyw gydran y mae angen ei rheoli er mwyn darparu gwasanaeth."),
+"Continual improvement": ("gwelliant parhaus", "Cylchred ailadroddus o ddewis newid bach, ei dreialu, gwirio'r canlyniad, a'i gadw neu ei ddadwneud."),
+"Continuous delivery": ("cyflawni parhaus", "Cadw meddalwedd bob amser yn barod i'w ryddhau drwy adeiladu, profi a defnyddio awtomataidd, a chyflwyno newidiadau bach i wasanaethau byw yn aml."),
+"Data governance": ("llywodraethu data", "Rheoli data fel ased, gyda pherchnogion, diffiniadau, gwiriadau ansawdd a rheolau ar gyfer mynediad a chadw."),
+"Data lineage": ("llinach data", "Cofnod o ble y daw data a'r hyn a ddigwyddodd iddo ar ei ffordd i adroddiad neu fodel."),
+"DevOps": ("DevOps", "Set o arferion diwylliannol, ymarferion ac offer sy'n dod â datblygu a gweithrediadau ynghyd i newid gwasanaethau byw yn gyflym a'u rhedeg yn ddibynadwy."),
+"DORA metrics": ("mesurau DORA", "Pedwar mesur cyflawni o raglen ymchwil DORA: amlder defnyddio, amser arweiniol newidiadau, cyfradd methu newid ac amser i adfer gwasanaeth. Defnyddiwch hwy fel cwestiynau, nid sgorau."),
+"Enterprise service management": ("rheoli gwasanaethau menter", "Cymhwyso ymarferion ac offer rheoli gwasanaethau i swyddogaethau y tu hwnt i TG, megis adnoddau dynol, cyfleusterau a'r gyfraith."),
+"Error budget": ("cyllideb gwallau", "Faint o annibynadwyedd a ganiateir gan nod lefel gwasanaeth, i'w wario ar newid a risg."),
+"Event": ("hysbysiad (event)", "Newid cyflwr sydd â phwysigrwydd i reoli gwasanaethau."),
+"Experience level agreement (XLA)": ("cytundeb lefel profiad (XLA)", "Cytundeb sy'n gosod targedau ar gyfer sut mae defnyddwyr yn profi gwasanaeth, yn ychwanegol at dargedau technegol."),
+"Feature flag": ("baner nodwedd", "Switsh sy'n troi nodwedd ymlaen neu i ffwrdd wrth redeg heb ddefnyddio newydd, a elwir hefyd yn doglen nodwedd."),
+"FinOps": ("FinOps", "Ymarfer sy'n dod ag atebolrwydd ariannol i wariant cwmwl drwy ddod â pherchnogion peirianneg, cyllid a chynnyrch i'r un sgwrs."),
+"Flow": ("llif", "Pa mor llyfn y mae gwaith yn symud o gais i gwblhau."),
+"Four dimensions": ("pedwar dimensiwn", "Safbwynt ITIL 4 fod angen ar bob gwasanaeth sefydliadau a phobl, gwybodaeth a thechnoleg, partneriaid a chyflenwyr, a ffrydiau gwerth a phrosesau."),
+"Generative AI": ("AI cynhyrchiol", "Systemau AI sy'n cynhyrchu cynnwys newydd, megis testun a chod, o anogwr."),
+"GitOps": ("GitOps", "Dull sy'n defnyddio storfa god fel yr unig ffynhonnell gwirionedd ar gyfer y cyflwr dymunol, gydag asiant awtomataidd yn cadw'r system fyw yn gyson ag ef."),
+"Goodhart's law": ("cyfraith Goodhart", "Pan fydd mesur yn dod yn darged, mae'n peidio â bod yn fesur da."),
+"Guardrail": ("canllaw diogelu", "Ffin sydd wedi'i hadeiladu i mewn i offeryn sy'n cadw gwaith yn ddiogel heb ei atal, yn wahanol i borth sy'n aros am gymeradwyaeth."),
+"Hallucination": ("rhithweledigaeth", "Allbwn AI sy'n rhugl ond heb sail neu'n anghywir."),
+"Human in the loop": ("person yn y ddolen", "Adolygiad neu gymeradwyaeth gan berson cyn i allbwn neu weithred AI ddod i rym."),
+"Incident": ("digwyddiad", "Tarfu na chynlluniwyd arno ar wasanaeth, neu ostyngiad yn ei ansawdd."),
+"Infrastructure as code": ("seilwaith fel cod", "Diffinio seilwaith mewn ffeiliau testun a adolygwyd, a'u cymhwyso gan offer."),
+"ISO/IEC 20000": ("ISO/IEC 20000", "Y safon ryngwladol ar gyfer systemau rheoli gwasanaethau, y gall sefydliad gael ei archwilio a'i ardystio yn ei herbyn."),
+"ITIL": ("ITIL", "Canllawiau ar gyfer rheoli gwasanaethau TG, sy'n eiddo i PeopleCert, gydag ymarferion, model gwerth a chynllun ardystio ar gyfer unigolion."),
+"ITIL 5": ("ITIL 5", "Pumed argraffiad ITIL, a lansiwyd gan PeopleCert yn 2026 ac a ddisgrifir gan ei berchennog fel rheoli cynnyrch a gwasanaethau digidol, gan gynnwys effaith AI a thechnolegau newydd."),
+"Kaizen": ("Kaizen", "Newid er gwell: gwelliant parhaus drwy newidiadau bach gan y bobl sy'n gwneud y gwaith."),
+"Kanban": ("Kanban", "Dull o ddelweddu gwaith, cyfyngu gwaith ar y gweill a rheoli llif."),
+"Knowledge-Centered Service (KCS)": ("Gwasanaeth sy'n Canolbwyntio ar Wybodaeth Arbenigol (KCS)", "Dull o ddal a gwella gwybodaeth arbenigol fel sgil-gynnyrch datrys problemau."),
+"Known error": ("gwall hysbys", "Problem sydd wedi'i dadansoddi ond heb ei datrys, fel arfer gydag ateb dros dro wedi'i ddogfennu."),
+"Lead time": ("amser arweiniol", "Yr amser sy'n mynd heibio rhwng cais a chyflawni, fel y mae'r cwsmer yn ei brofi."),
+"Lean": ("Lean", "Ffordd o feddwl am waith sy'n dileu gwastraff ac yn canolbwyntio ar y gwerth y mae'r cwsmer yn ei gael."),
+"Maturity model": ("model aeddfedrwydd", "Tabl o gamau, yma Cychwyn, Datblygu, Safoni, Rheoli a Chydlynu, a ddefnyddir fel cymorth hunanasesu."),
+"Observability": ("arsylwadwyedd", "Y gallu i ofyn cwestiynau newydd am system sy'n rhedeg a chael atebion o'r data y mae'n ei allyrru."),
+"Operational level agreement (OLA)": ("cytundeb lefel gweithredol (OLA)", "Cytundeb rhwng timau mewnol sy'n cefnogi cytundeb lefel gwasanaeth."),
+"Orchestration": ("cydlynu", "Cydlynu llawer o dasgau awtomataidd ar draws offer fel un broses."),
+"Peer review": ("adolygiad gan gymheiriaid", "Adolygiad o newid gan berson cymwys arall cyn iddo gael ei weithredu."),
+"Postmortem": ("ôl-drafodaeth", "Adolygiad ysgrifenedig ar ôl digwyddiad sylweddol sy'n canolbwyntio ar y system ac yn olrhain camau gweithredu."),
+"Practice": ("ymarfer", "Set o adnoddau sefydliadol a gynlluniwyd i gyflawni gwaith neu gyrraedd amcan, sef y ffordd y mae ITIL 4 yn defnyddio'r gair."),
+"Problem": ("problem", "Achos, neu achos posibl, un digwyddiad neu fwy."),
+"Product owner": ("perchennog cynnyrch", "Y person sy'n gyfrifol am wneud y mwyaf o werth cynnyrch a rheoli ei ôl-groniad."),
+"Prompt": ("anogwr", "Y testun a'r deunydd a roddir i fodel AI i gael ymateb."),
+"Prompt injection": ("chwistrellu anogwr", "Cyfarwyddiadau maleisus sydd wedi'u cuddio mewn cynnwys y mae model AI yn ei ddarllen, mewn ymgais i newid ei ymddygiad."),
+"Recovery point objective (RPO)": ("amcan pwynt adfer (RPO)", "Y golled data fwyaf a dderbynnir, wedi'i mesur mewn amser."),
+"Recovery time objective (RTO)": ("amcan amser adfer (RTO)", "Yr amser targed mwyaf i adfer gwasanaeth ar ôl tarfu."),
+"Release": ("rhyddhad", "Gwneud gwasanaeth, nodwedd neu fersiwn ar gael i'w ddefnyddio, y gellir ei wneud ar wahân i'w ddefnyddio."),
+"Retrospective": ("ôl-drafodaeth tîm (retrospective)", "Cyfarfod rheolaidd lle mae tîm yn myfyrio ar sut mae'n gweithio ac yn dewis beth i'w newid."),
+"Risk register": ("cofrestr risg", "Cofrestr o risgiau gyda'u perchnogion, asesiadau, triniaethau a statws."),
+"Root cause analysis": ("dadansoddi gwraidd y broblem", "Set o ddulliau i ganfod gwir achos problem."),
+"Runbook": ("llawlyfr gweithredu", "Camau wedi'u dogfennu ar gyfer tasg neu sefyllfa weithredol benodol sy'n codi dro ar ôl tro."),
+"Service": ("gwasanaeth", "Ffordd o alluogi cyd-greu gwerth drwy hwyluso'r canlyniadau y mae cwsmeriaid am eu cyflawni, heb i'r cwsmer orfod rheoli costau a risgiau penodol."),
+"Service catalog": ("catalog gwasanaethau", "Disgrifiad a gynhelir ac sy'n wynebu'r defnyddiwr o'r hyn y mae darparwr yn ei gynnig (service catalogue yn ITIL), gyda golwg dechnegol y tu ôl iddo."),
+"Service desk": ("desg gwasanaeth", "Y pwynt cyswllt unigol rhwng darparwr gwasanaeth a'i ddefnyddwyr."),
+"Service level agreement (SLA)": ("cytundeb lefel gwasanaeth (SLA)", "Cytundeb ysgrifenedig rhwng darparwr a chwsmer am wasanaeth a'r lefel ddisgwyliedig o wasanaeth."),
+"Service level indicator (SLI)": ("dangosydd lefel gwasanaeth (SLI)", "Mesur o un agwedd ar wasanaeth, wedi'i gyfrifo fel y mae defnyddwyr yn ei brofi."),
+"Service level objective (SLO)": ("nod lefel gwasanaeth (SLO)", "Targed ar gyfer dangosydd lefel gwasanaeth dros gyfnod o amser."),
+"Service request": ("cais am wasanaeth", "Cais i gychwyn gweithred wasanaeth a gytunwyd fel rhan arferol o ddarparu'r gwasanaeth."),
+"Service value chain": ("cadwyn gwerth gwasanaeth", "Model gweithredu ITIL 4 o chwe gweithgaredd y mae pob ffrwd werth yn mynd drwyddynt yn ei threfn ei hun."),
+"Service value system (SVS)": ("system gwerth gwasanaeth (SVS)", "Model ITIL 4 sy'n dangos sut mae cyfleoedd a galw yn troi'n werth drwy lywodraethu, y gadwyn werth, ymarferion, egwyddorion arweiniol a gwelliant parhaus."),
+"Shadow IT": ("TG cysgodol", "Technoleg a brynir ac a ddefnyddir heb i'r swyddogaeth TG wybod."),
+"Shift left": ("symud i'r chwith", "Symud gwiriadau a datrysiadau yn gynharach, yn nes at y defnyddiwr neu at ddechrau'r cylch oes."),
+"Site reliability engineering (SRE)": ("peirianneg dibynadwyedd safleoedd (SRE)", "Disgyblaeth beirianyddol sy'n trin gweithrediadau fel problem meddalwedd, gyda SLOau, cyllidebau gwallau a therfynau ar lafur diflas."),
+"Software bill of materials (SBOM)": ("bil deunyddiau meddalwedd (SBOM)", "Rhestr o gydrannau meddalwedd, gyda'u fersiynau a'u trwyddedau."),
+"Telemetry": ("telemetreg", "Data a allyrrir gan y system ei hun, yn bennaf mesurau, logiau ac olrhain."),
+"Toil": ("llafur diflas (toil)", "Gwaith â llaw, ailadroddus y gellir ei awtomeiddio, sy'n tyfu gyda'r gwasanaeth heb gynnig gwerth parhaol."),
+"Value stream": ("ffrwd werth", "Y gyfres o gamau y mae sefydliad yn eu cymryd i greu a chyflwyno cynnyrch neu wasanaeth i ddefnyddwyr."),
+"Work in progress (WIP)": ("gwaith ar y gweill (WIP)", "Nifer yr eitemau a ddechreuwyd ond sydd heb eu gorffen."),
+}
+src = open(f"{root}/glossary/index.md").read()
+ents = re.findall(r"^\*\*(.+?)\*\* — (.+?) — See Topic (\d+\.\d+) — (.+?)\.$", src, re.M)
+missing = [e[0] for e in ents if e[0] not in CY]
+if missing or len(ents) != len(CY): sys.exit(f"mismatch {missing} {len(ents)} {len(CY)}")
+o = ["# Geirfa", "",
+     "Diffiniadau A–Z o dermau allweddol (wedi'u trefnu yn ôl y term Saesneg), pob un yn cyfeirio at ei brif bwnc. Fformat: **Term Saesneg (Cymraeg)** — diffiniad. — Gweler Pwnc N.N — Teitl. Mae enwau priod a byrfoddau Saesneg yn aros fel y'u hysgrifennwyd. Gweler `locales/cy-gb/terminoleg/index.md` am y dewisiadau geiriau. Drafft yw'r cyfieithiad hwn, sy'n aros am adolygiad gan siaradwr Cymraeg rhugl.", ""]
+cur = None
+for en, _, n, _ in ents:
+    L = en[0].upper()
+    if L != cur: o += [f"## {L}", ""]; cur = L
+    ct, cd = CY[en]
+    head = f"**{en}**" if ct == en else f"**{en} ({ct})**"
+    o += [f"{head} — {cd} — Gweler Pwnc {n} — {title[n]}.", ""]
+os.makedirs(f"{root}/locales/cy-gb/geirfa", exist_ok=True); open(f"{root}/locales/cy-gb/geirfa/index.md", "w").write("\n".join(o))
+isrc = open(f"{root}/index/index.md").read()
+ients = re.findall(r"^\*\*(.+?)\*\* — (.+)$", isrc, re.M)
+o = ["# Mynegai", "",
+     "Cysyniadau a fframweithiau yn ôl rhif y pwnc. Fformat: **Term Saesneg (Cymraeg)** — N.N, N.N, … Mae'r rhifau mewn trefn esgynnol a heb ddyblygu: y prif bwnc, ynghyd â phob pwnc sy'n trafod y cysyniad yn sylweddol. Mae'r teitlau yn y tabl cynnwys yn y README. Drafft yw'r cyfieithiad hwn, sy'n aros am adolygiad gan siaradwr Cymraeg rhugl.", ""]
+cur = None; bad = []
+for en, ns in ients:
+    if en not in CY: bad.append(en); continue
+    L = en[0].upper()
+    if L != cur: o += [f"## {L}", ""]; cur = L
+    ct = CY[en][0]
+    head = f"**{en}**" if ct == en else f"**{en} ({ct})**"
+    o += [f"{head} — {ns}", ""]
+os.makedirs(f"{root}/locales/cy-gb/mynegai", exist_ok=True); open(f"{root}/locales/cy-gb/mynegai/index.md", "w").write("\n".join(o))
+print("glossary", len(ents), "index", len(ients), "unmapped", bad)
