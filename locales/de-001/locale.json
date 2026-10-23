@@ -1,0 +1,53 @@
+{
+  "name": "Deutsch (Welt)",
+  "topic_word": "Thema",
+  "topics_word": "Themen",
+  "h2": {
+    "Why this matters": "Warum das wichtig ist",
+    "Core concepts": "Kernkonzepte",
+    "Best practices": "Bewährte Praktiken",
+    "Questions to discuss with your team": "Fragen für die Diskussion im Team",
+    "In practice: a service management example": "In der Praxis: ein Beispiel aus dem Service-Management",
+    "Four perspectives": "Vier Perspektiven",
+    "Agile, AI, automation, and analytics": "Agilität, KI, Automatisierung und Analytik",
+    "Common failure modes": "Häufige Fehlermuster",
+    "Maturity model": "Reifegradmodell",
+    "Checklist": "Checkliste",
+    "AI prompts": "KI-Prompts",
+    "AI skills": "KI-Skills",
+    "Key sources": "Wichtige Quellen",
+    "References": "Literaturverzeichnis"
+  },
+  "h3": {
+    "Product and delivery teams": "Produkt- und Delivery-Teams",
+    "Service and operations teams": "Service- und Betriebsteams",
+    "Leadership and governance": "Führung und Governance",
+    "Customers and users": "Kunden und Nutzer",
+    "Agile": "Agilität",
+    "AI": "KI",
+    "Automation": "Automatisierung",
+    "Analytics": "Analytik"
+  },
+  "maturity": {
+    "Initiate": "Initiieren",
+    "Develop": "Entwickeln",
+    "Standardize": "Standardisieren",
+    "Manage": "Steuern",
+    "Orchestrate": "Orchestrieren"
+  },
+  "dirs": {
+    "topics": "themen",
+    "glossary": "glossar",
+    "index": "stichwortverzeichnis",
+    "terminology": "terminologie",
+    "contents": "inhalt"
+  },
+  "strings": {
+    "title": "Service-Management-Leitfaden",
+    "tagline": "Service-Management mit Agilität, KI, Automatisierung und Analytik.",
+    "intro": "Service-Management ist die Art, wie Organisationen gemeinsam mit Kunden Wert schaffen. ITIL 5 stellt es um digitale Produkte, KI und messbaren Nutzen herum auf. Dieser Leitfaden zeigt, wie Sie es durch vier Linsen betreiben: Agilität, KI, Automatisierung und Analytik, mit Forschung, Praktiken, Beispielen, Ideen für Teamgespräche, KI-Skills und KI-Prompts.",
+    "contents": "Inhalt",
+    "read": "Im Web lesen",
+    "part_fmt": "Teil {n}"
+  }
+}
