@@ -1,0 +1,23 @@
+{
+  "name": "Dansk (verden)",
+  "topic_word": "emne",
+  "topics_word": "emner",
+  "h2": {},
+  "h3": {},
+  "maturity": {},
+  "dirs": {
+    "topics": "emner",
+    "contents": "indhold",
+    "terminology": "terminologi",
+    "glossary": "ordliste",
+    "index": "indeks"
+  },
+  "strings": {
+    "title": "Guide til servicestyring",
+    "tagline": "Servicestyring med agilitet, AI, automatisering og analyse.",
+    "intro": "Servicestyring er den måde, organisationer skaber værdi sammen med kunderne på. ITIL 5 rammer det ind omkring digitale produkter, AI og målbar værdi. Denne guide viser, hvordan man driver det gennem fire linser: agilitet, AI, automatisering og analyse, med forskning, praksis, eksempler, idéer til samtaler i teams, AI-færdigheder og AI-prompts.",
+    "contents": "Indhold",
+    "read": "Læs på nettet",
+    "part_fmt": "Del {n}"
+  }
+}
