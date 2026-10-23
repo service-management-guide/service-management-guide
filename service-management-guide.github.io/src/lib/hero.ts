@@ -105,6 +105,11 @@ export const HERO: Record<string, Record<string, string>> = {
   "intro": "Servicemanagement is de manier waarop organisaties samen met klanten waarde creëren. ITIL 5 zet het op rond digitale producten, AI en meetbare waarde. Deze gids laat zien hoe je het uitvoert door vier lenzen: agile, AI, automatisering en analytics, met onderzoek, werkwijzen, voorbeelden, ideeën om met teams te bespreken, AI-vaardigheden en AI-prompts.",
   "translations": "Vertalingen: "
  },
+ "pt-001": {
+  "tagline": "Um manual prático de gestão de serviços na era do ITIL 5: ágil, IA, automação e análise.",
+  "intro": "A gestão de serviços é a forma como as organizações cocriam valor com os clientes. O ITIL 5 a estrutura em torno de produtos digitais, IA e valor mensurável. Este guia mostra como conduzi-la por quatro lentes: ágil, IA, automação e análise, com pesquisa, práticas, exemplos, ideias para conversar com as equipes, habilidades de IA e prompts de IA.",
+  "translations": "Traduções: "
+ },
  "ru-001": {
   "tagline": "Практическое руководство по управлению услугами в эпоху ITIL 5: гибкость, ИИ, автоматизация и аналитика.",
   "intro": "Управление услугами — это способ, которым организации совместно с клиентами создают ценность. ITIL 5 строит его вокруг цифровых продуктов, ИИ и измеримой ценности. Это руководство показывает, как управлять услугами через четыре линзы: гибкость, ИИ, автоматизацию и аналитику, с исследованиями, практиками, примерами, идеями для обсуждения в командах, ИИ-навыками и запросами к ИИ.",
