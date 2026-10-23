@@ -1,0 +1,127 @@
+{
+  "locale": {
+    "label": "Kiswahili (Tanzania)"
+  },
+  "siteTitle": "Mwongozo wa Usimamizi wa Huduma",
+  "skipToContent": "Ruka hadi maudhui",
+  "nav": {
+    "contents": "Yaliyomo",
+    "glossary": "Faharasa",
+    "index": "Kielezo",
+    "skills": "Ujuzi",
+    "source": "Chanzo"
+  },
+  "picker": {
+    "theme": "Mandhari",
+    "locale": "Lugha",
+    "textSize": "Ukubwa wa maandishi",
+    "share": "Shiriki",
+    "search": "Tafuta",
+    "searchInput": "Tafuta kwenye mwongozo",
+    "searchSubmit": "Tafuta"
+  },
+  "share": {
+    "emailLink": "Tuma kiungo kwa barua pepe",
+    "shareOnLinkedIn": "Shiriki kwenye LinkedIn",
+    "shareOnReddit": "Shiriki kwenye Reddit",
+    "shareOnBluesky": "Shiriki kwenye Bluesky",
+    "shareOnMastodon": "Shiriki kwenye Mastodon",
+    "copyLink": "Nakili kiungo",
+    "copied": "Kimenakiliwa",
+    "copyFailed": "Haikuweza kunakili"
+  },
+  "links": {
+    "label": "Viungo",
+    "llms": "llms.txt (kwa mawakala wa AI)",
+    "skills": "Ujuzi wa AI kwenye GitHub",
+    "issues": "Kifuatiliaji cha masuala"
+  },
+  "footer": {
+    "tagline": "Usimamizi wa huduma kwa uchapuchapu, AI, uendeshaji otomatiki na uchanganuzi.",
+    "sourceAndContributions": "Chanzo na michango:",
+    "builtWith": "Imejengwa kwa",
+    "ledBy": "Imeundwa na"
+  },
+  "breadcrumb": {
+    "home": "Mwanzo",
+    "contents": "Yaliyomo",
+    "skills": "Ujuzi",
+    "label": "Njia ya kurasa"
+  },
+  "contents": {
+    "pageTitle": "Yaliyomo",
+    "lead": "Sehemu nane na mada 65 kuhusu usimamizi wa huduma katika enzi ya ITIL 5, kupitia lenzi nne: uchapuchapu, AI, uendeshaji otomatiki na uchanganuzi, pamoja na maswali ya majadiliano, maelekezo ya AI na ujuzi wa AI.",
+    "readingIn": "Kusoma kwa {$language}",
+    "part": "Sehemu ya {$number}",
+    "reference": "Rejeo",
+    "comingSoon": "inakuja hivi karibuni"
+  },
+  "topic": {
+    "eyebrow": "Mada ya {$number}",
+    "paginationLabel": "Urambazaji wa mada",
+    "previous": "Iliyotangulia",
+    "next": "Inayofuata"
+  },
+  "parts": {
+    "1": {
+      "tagline": "Usimamizi wa huduma ni nini na jinsi ITIL, ikiwemo ITIL 5, unavyouweka katika mfumo."
+    },
+    "2": {
+      "tagline": "Maadili na mbinu za uchapuchapu zinazotumika katika kuendesha huduma."
+    },
+    "3": {
+      "tagline": "Mazoea ya ITIL, yaliyorahisishwa, ya kiotomatiki na yanayoongozwa na data."
+    },
+    "4": {
+      "tagline": "Kujua ulicho nacho, kinachogharimu na jinsi kila kitu kinavyoungana."
+    },
+    "5": {
+      "tagline": "AI inabadilisha nini, na jinsi ya kuiongoza."
+    },
+    "6": {
+      "tagline": "Kufanya kazi za kawaida ziwe za kawaida kweli."
+    },
+    "7": {
+      "tagline": "Kutumia data kuendesha huduma na kuziboresha."
+    },
+    "8": {
+      "tagline": "Upande wa kibinadamu wa usimamizi wa huduma na AI na uendeshaji otomatiki."
+    }
+  },
+  "results": {
+    "button": "Tafuta",
+    "label": "Matokeo ya utafutaji",
+    "heading": "Matokeo ya utafutaji wa {$query}",
+    "failed": "Faharasa ya utafutaji haikuweza kupakiwa. Jaribu tena baadaye.",
+    "searching": "Inatafuta…",
+    "none": "Hakuna kilicholingana na {$query}.",
+    "browse": "Vinjari yaliyomo badala yake.",
+    "count": "Matokeo {$count}.",
+    "limited": "Inaonyesha matokeo bora {$count}."
+  },
+  "glossary": {
+    "title": "Faharasa",
+    "lead": "Istilahi muhimu zilizofafanuliwa kwa lugha rahisi, kila moja ikielekeza kwenye mada inayoimiliki."
+  },
+  "indexPage": {
+    "title": "Kielezo",
+    "lead": "Dhana na mifumo, pamoja na mada zinazoshughulikia."
+  },
+  "jumpToLetter": "Ruka hadi herufi",
+  "skillsPage": {
+    "title": "Ujuzi wa AI",
+    "lead": "Ujuzi katika muundo wa Claude Code ambao mada zinaunganisha nao. Kila mmoja ni faili la SKILL.md unaloweza kunakili kwenye folda yako ya ujuzi.",
+    "viewSource": "Tazama kwenye GitHub",
+    "backToList": "Ujuzi wote"
+  },
+  "error": {
+    "label": "Hitilafu {$status}",
+    "notFound": "Ukurasa huo haupo hapa",
+    "generic": "Kuna kitu kimekwenda vibaya",
+    "unknown": "Hitilafu isiyojulikana",
+    "try": "Jaribu yaliyomo, faharasa au kielezo."
+  },
+  "home": {
+    "continue": "Endelea kwenye Mwongozo wa Usimamizi wa Huduma"
+  }
+}

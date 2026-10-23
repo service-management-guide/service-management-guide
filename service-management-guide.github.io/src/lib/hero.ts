@@ -100,6 +100,16 @@ export const HERO: Record<string, Record<string, string>> = {
   "intro": "Управление услугами — это способ, которым организации совместно с клиентами создают ценность. ITIL 5 строит его вокруг цифровых продуктов, ИИ и измеримой ценности. Это руководство показывает, как управлять услугами через четыре линзы: гибкость, ИИ, автоматизацию и аналитику, с исследованиями, практиками, примерами, идеями для обсуждения в командах, ИИ-навыками и запросами к ИИ.",
   "translations": "Переводы: "
  },
+ "sw-001": {
+  "tagline": "Mwongozo wa vitendo wa usimamizi wa huduma katika enzi ya ITIL 5: uchapuchapu, AI, uendeshaji otomatiki na uchanganuzi.",
+  "intro": "Usimamizi wa huduma ni jinsi mashirika yanavyounda thamani pamoja na wateja. ITIL 5 unauweka kuzunguka bidhaa za kidijitali, AI na thamani inayopimika. Mwongozo huu unaonyesha jinsi ya kuuendesha kupitia lenzi nne: uchapuchapu, AI, uendeshaji otomatiki na uchanganuzi, pamoja na utafiti, mazoea, mifano, mawazo ya kujadiliana na timu, ujuzi wa AI na maelekezo ya AI.",
+  "translations": "Tafsiri: "
+ },
+ "sw-tz": {
+  "tagline": "Mwongozo wa vitendo wa usimamizi wa huduma katika enzi ya ITIL 5: uchapuchapu, AI, uendeshaji otomatiki na uchanganuzi.",
+  "intro": "Usimamizi wa huduma ni jinsi mashirika yanavyounda thamani pamoja na wateja. ITIL 5 unauweka kuzunguka bidhaa za kidijitali, AI na thamani inayopimika. Mwongozo huu unaonyesha jinsi ya kuuendesha kupitia lenzi nne: uchapuchapu, AI, uendeshaji otomatiki na uchanganuzi, pamoja na utafiti, mazoea, mifano, mawazo ya kujadiliana na timu, ujuzi wa AI na maelekezo ya AI.",
+  "translations": "Tafsiri: "
+ },
  "zh-001": {
   "tagline": "一本在 ITIL 5 时代做服务管理的实用手册：敏捷、AI、自动化与分析。",
   "intro": "服务管理是组织与客户共同创造价值的方式。ITIL 5 围绕数字产品、AI 和可度量的价值来构建它。本指南通过敏捷、AI、自动化与分析四个视角说明如何运行服务管理，并结合研究、实践、案例、可与团队讨论的想法、AI技能和AI提示词。",
