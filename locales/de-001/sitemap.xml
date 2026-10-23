@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://service-management-guide.github.io/de-001/</loc></url>
   <url><loc>https://service-management-guide.github.io/de-001/inhalt/</loc></url>
+  <url><loc>https://service-management-guide.github.io/de-001/glossar/</loc></url>
+  <url><loc>https://service-management-guide.github.io/de-001/stichwortverzeichnis/</loc></url>
   <url><loc>https://service-management-guide.github.io/de-001/themen/service-management/</loc></url>
   <url><loc>https://service-management-guide.github.io/de-001/themen/itil/</loc></url>
   <url><loc>https://service-management-guide.github.io/de-001/themen/itil-5/</loc></url>
