@@ -1,0 +1,127 @@
+{
+  "locale": {
+    "label": "Nederlands (wereld)"
+  },
+  "siteTitle": "Gids voor servicemanagement",
+  "skipToContent": "Ga naar de inhoud",
+  "nav": {
+    "contents": "Inhoud",
+    "glossary": "Woordenlijst",
+    "index": "Index",
+    "skills": "Vaardigheden",
+    "source": "Bron"
+  },
+  "picker": {
+    "theme": "Thema",
+    "locale": "Taal",
+    "textSize": "Tekstgrootte",
+    "share": "Delen",
+    "search": "Zoeken",
+    "searchInput": "Zoek in de gids",
+    "searchSubmit": "Zoeken"
+  },
+  "share": {
+    "emailLink": "Link mailen",
+    "shareOnLinkedIn": "Delen op LinkedIn",
+    "shareOnReddit": "Delen op Reddit",
+    "shareOnBluesky": "Delen op Bluesky",
+    "shareOnMastodon": "Delen op Mastodon",
+    "copyLink": "Link kopiëren",
+    "copied": "Gekopieerd",
+    "copyFailed": "Kopiëren mislukt"
+  },
+  "links": {
+    "label": "Links",
+    "llms": "llms.txt (voor AI-agents)",
+    "skills": "AI-vaardigheden op GitHub",
+    "issues": "Issuetracker"
+  },
+  "footer": {
+    "tagline": "Servicemanagement met agile, AI, automatisering en analytics.",
+    "sourceAndContributions": "Bron en bijdragen:",
+    "builtWith": "Gebouwd met",
+    "ledBy": "Gemaakt door"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "contents": "Inhoud",
+    "skills": "Vaardigheden",
+    "label": "Kruimelpad"
+  },
+  "contents": {
+    "pageTitle": "Inhoud",
+    "lead": "Acht delen en 65 onderwerpen over servicemanagement in het tijdperk van ITIL 5, door vier lenzen: agile, AI, automatisering en analytics, met discussievragen, AI-prompts en AI-vaardigheden.",
+    "readingIn": "Lezen in het {$language}",
+    "part": "Deel {$number}",
+    "reference": "Naslag",
+    "comingSoon": "binnenkort"
+  },
+  "topic": {
+    "eyebrow": "Onderwerp {$number}",
+    "paginationLabel": "Onderwerpnavigatie",
+    "previous": "Vorige",
+    "next": "Volgende"
+  },
+  "parts": {
+    "1": {
+      "tagline": "Wat servicemanagement is en hoe ITIL, inclusief ITIL 5, het vastlegt."
+    },
+    "2": {
+      "tagline": "Agile waarden en methoden toegepast op het runnen van services."
+    },
+    "3": {
+      "tagline": "De ITIL-practices, slank, geautomatiseerd en datagedreven."
+    },
+    "4": {
+      "tagline": "Weten wat je hebt, wat het kost en hoe alles in elkaar past."
+    },
+    "5": {
+      "tagline": "Wat AI verandert en hoe je het bestuurt."
+    },
+    "6": {
+      "tagline": "Routinewerk echt routine maken."
+    },
+    "7": {
+      "tagline": "Data gebruiken om services te runnen en te verbeteren."
+    },
+    "8": {
+      "tagline": "De menselijke kant van servicemanagement met AI en automatisering."
+    }
+  },
+  "results": {
+    "button": "Zoeken",
+    "label": "Zoekresultaten",
+    "heading": "Zoekresultaten voor {$query}",
+    "failed": "De zoekindex kon niet worden geladen. Probeer het later opnieuw.",
+    "searching": "Zoeken…",
+    "none": "Niets gevonden voor {$query}.",
+    "browse": "Blader in plaats daarvan door de inhoud.",
+    "count": "{$count} resultaten.",
+    "limited": "De beste {$count} resultaten worden getoond."
+  },
+  "glossary": {
+    "title": "Woordenlijst",
+    "lead": "Kernbegrippen in gewone taal uitgelegd, elk met een verwijzing naar het onderwerp dat erover gaat."
+  },
+  "indexPage": {
+    "title": "Index",
+    "lead": "Concepten en raamwerken, met de onderwerpen die ze behandelen."
+  },
+  "jumpToLetter": "Ga naar letter",
+  "skillsPage": {
+    "title": "AI-vaardigheden",
+    "lead": "Vaardigheden in Claude Code-formaat waar de onderwerpen naar verwijzen. Elke vaardigheid is een SKILL.md-bestand dat je naar je eigen vaardighedenmap kunt kopiëren.",
+    "viewSource": "Bekijk op GitHub",
+    "backToList": "Alle vaardigheden"
+  },
+  "error": {
+    "label": "Fout {$status}",
+    "notFound": "Die pagina is hier niet",
+    "generic": "Er ging iets mis",
+    "unknown": "Onbekende fout",
+    "try": "Probeer de inhoud, de woordenlijst of de index."
+  },
+  "home": {
+    "continue": "Verder naar de Gids voor servicemanagement"
+  }
+}
