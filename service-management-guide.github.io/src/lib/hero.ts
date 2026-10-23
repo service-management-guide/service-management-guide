@@ -50,6 +50,11 @@ export const HERO: Record<string, Record<string, string>> = {
   "intro": "La gestión de servicios es la forma en que las organizaciones cocrean valor con sus clientes. ITIL 5 la plantea en torno a los productos digitales, la IA y el valor medible. Esta guía muestra cómo ejecutarla a través de cuatro lentes: ágil, IA, automatización y analítica, con investigación, prácticas, ejemplos, ideas para conversar con los equipos, habilidades de IA y prompts de IA.",
   "translations": "Traducciones: "
  },
+ "fr-001": {
+  "tagline": "Un manuel pratique de gestion des services à l'ère d'ITIL 5 : agilité, IA, automatisation et analytique.",
+  "intro": "La gestion des services est la façon dont les organisations cocréent de la valeur avec leurs clients. ITIL 5 la structure autour des produits numériques, de l'IA et d'une valeur mesurable. Ce guide montre comment la pratiquer à travers quatre angles : agilité, IA, automatisation et analytique, avec des recherches, des pratiques, des exemples, des idées de discussion en équipe, des compétences d'IA et des invites d'IA.",
+  "translations": "Traductions : "
+ },
  "hi-001": {
   "tagline": "ITIL 5 के युग में सेवा प्रबंधन की एक व्यावहारिक पुस्तिका: एजाइल, AI, स्वचालन और विश्लेषण।",
   "intro": "सेवा प्रबंधन वह तरीक़ा है जिससे संगठन ग्राहकों के साथ मिलकर मूल्य रचते हैं। ITIL 5 इसे डिजिटल उत्पादों, AI और मापने योग्य मूल्य के इर्द-गिर्द ढालता है। यह मार्गदर्शिका बताती है कि इसे चार दृष्टिकोणों से कैसे चलाएँ: एजाइल, AI, स्वचालन और विश्लेषण, शोध, अभ्यास, उदाहरण, टीम-चर्चा के विचार, AI कौशल और AI प्रॉम्प्ट के साथ।",
