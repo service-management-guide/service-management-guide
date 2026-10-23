@@ -1,0 +1,23 @@
+{
+  "name": "Nederlands (wereld)",
+  "topic_word": "onderwerp",
+  "topics_word": "onderwerpen",
+  "h2": {},
+  "h3": {},
+  "maturity": {},
+  "dirs": {
+    "topics": "onderwerpen",
+    "contents": "inhoud",
+    "terminology": "terminologie",
+    "glossary": "woordenlijst",
+    "index": "index"
+  },
+  "strings": {
+    "title": "Gids voor servicemanagement",
+    "tagline": "Servicemanagement met agile, AI, automatisering en analytics.",
+    "intro": "Servicemanagement is de manier waarop organisaties samen met klanten waarde creëren. ITIL 5 zet het op rond digitale producten, AI en meetbare waarde. Deze gids laat zien hoe je het uitvoert door vier lenzen: agile, AI, automatisering en analytics, met onderzoek, werkwijzen, voorbeelden, ideeën om met teams te bespreken, AI-vaardigheden en AI-prompts.",
+    "contents": "Inhoud",
+    "read": "Lees op het web",
+    "part_fmt": "Deel {n}"
+  }
+}
