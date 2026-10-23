@@ -1,5 +1,10 @@
 // Hand-authored hero strings (subheadline, intro, and the Translations label) and locale endonyms.
 export const HERO: Record<string, Record<string, string>> = {
+ "bn-001": {
+  "tagline": "ITIL 5-এর যুগে সেবা ব্যবস্থাপনার একটি ব্যবহারিক নির্দেশিকা: এজাইল, এআই, অটোমেশন ও বিশ্লেষণ।",
+  "intro": "সেবা ব্যবস্থাপনা হলো যেভাবে প্রতিষ্ঠানগুলো গ্রাহকদের সঙ্গে মিলে মূল্য সৃষ্টি করে। ITIL 5 একে ডিজিটাল পণ্য, এআই ও পরিমাপযোগ্য মূল্যকে ঘিরে সাজায়। এই নির্দেশিকা দেখায় কীভাবে চারটি দৃষ্টিকোণ দিয়ে তা পরিচালনা করা যায়: এজাইল, এআই, অটোমেশন ও বিশ্লেষণ, সঙ্গে গবেষণা, অনুশীলন, উদাহরণ, দলের সঙ্গে আলোচনার ভাবনা, এআই দক্ষতা ও এআই প্রম্পট।",
+  "translations": "অনুবাদ: "
+ },
  "cy-001": {
   "tagline": "Llawlyfr ymarferol ar gyfer rheoli gwasanaethau yn oes ITIL 5: ystwyth, AI, awtomeiddio a dadansoddeg.",
   "intro": "Rheoli gwasanaethau yw'r ffordd y mae sefydliadau'n cyd-greu gwerth gyda chwsmeriaid. Mae ITIL 5 yn ei fframio o amgylch cynhyrchion digidol, AI a gwerth mesuradwy. Mae'r canllaw hwn yn dangos sut i'w redeg drwy bedwar lens: ystwyth, AI, awtomeiddio a dadansoddeg, gydag ymchwil, arferion, enghreifftiau, syniadau i'w trafod gyda thimau, sgiliau AI ac anogwyr AI.",
