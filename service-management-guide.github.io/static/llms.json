@@ -3,11 +3,38 @@
   "description": "A practical handbook for service management in the age of ITIL 5: agile, AI, automation, and analytics, with research, practices, examples, team conversations, AI skills, and AI prompts.",
   "canonical_locale": "en-001",
   "locales": [
+    "ar-001",
+    "bn-001",
+    "cy-001",
     "cy-gb",
+    "da-001",
+    "de-001",
     "de-de",
     "en-001",
+    "en-gb",
+    "en-gb-oxendict",
+    "en-us",
+    "es-001",
+    "fr-001",
     "hi-001",
     "hi-in",
+    "id-001",
+    "ja-001",
+    "ja-jp",
+    "ko-001",
+    "ko-kr",
+    "nl-001",
+    "nl-nl",
+    "pt-001",
+    "ru-001",
+    "sv-001",
+    "sv-se",
+    "sw-001",
+    "sw-tz",
+    "ur-001",
+    "vi-001",
+    "vi-vn",
+    "zh-001",
     "zh-cn"
   ],
   "site": "https://service-management-guide.github.io",
@@ -22,7 +49,10 @@
           "slug": "service-management",
           "path": "locales/en-001/topics/service-management/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/service-management/index.md"
+            "en-001": "locales/en-001/topics/service-management/index.md",
+            "en-gb": "locales/en-gb/topics/service-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/service-management/index.md",
+            "en-us": "locales/en-us/topics/service-management/index.md"
           }
         },
         {
@@ -31,7 +61,10 @@
           "slug": "itil",
           "path": "locales/en-001/topics/itil/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/itil/index.md"
+            "en-001": "locales/en-001/topics/itil/index.md",
+            "en-gb": "locales/en-gb/topics/itil/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/itil/index.md",
+            "en-us": "locales/en-us/topics/itil/index.md"
           }
         },
         {
@@ -40,7 +73,10 @@
           "slug": "itil-five",
           "path": "locales/en-001/topics/itil-five/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/itil-five/index.md"
+            "en-001": "locales/en-001/topics/itil-five/index.md",
+            "en-gb": "locales/en-gb/topics/itil-five/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/itil-five/index.md",
+            "en-us": "locales/en-us/topics/itil-five/index.md"
           }
         },
         {
@@ -49,7 +85,10 @@
           "slug": "service-value-system",
           "path": "locales/en-001/topics/service-value-system/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/service-value-system/index.md"
+            "en-001": "locales/en-001/topics/service-value-system/index.md",
+            "en-gb": "locales/en-gb/topics/service-value-system/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/service-value-system/index.md",
+            "en-us": "locales/en-us/topics/service-value-system/index.md"
           }
         },
         {
@@ -58,7 +97,10 @@
           "slug": "itil-guiding-principles",
           "path": "locales/en-001/topics/itil-guiding-principles/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/itil-guiding-principles/index.md"
+            "en-001": "locales/en-001/topics/itil-guiding-principles/index.md",
+            "en-gb": "locales/en-gb/topics/itil-guiding-principles/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/itil-guiding-principles/index.md",
+            "en-us": "locales/en-us/topics/itil-guiding-principles/index.md"
           }
         },
         {
@@ -67,7 +109,10 @@
           "slug": "four-dimensions-of-service-management",
           "path": "locales/en-001/topics/four-dimensions-of-service-management/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/four-dimensions-of-service-management/index.md"
+            "en-001": "locales/en-001/topics/four-dimensions-of-service-management/index.md",
+            "en-gb": "locales/en-gb/topics/four-dimensions-of-service-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/four-dimensions-of-service-management/index.md",
+            "en-us": "locales/en-us/topics/four-dimensions-of-service-management/index.md"
           }
         },
         {
@@ -76,7 +121,10 @@
           "slug": "service-value-chain",
           "path": "locales/en-001/topics/service-value-chain/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/service-value-chain/index.md"
+            "en-001": "locales/en-001/topics/service-value-chain/index.md",
+            "en-gb": "locales/en-gb/topics/service-value-chain/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/service-value-chain/index.md",
+            "en-us": "locales/en-us/topics/service-value-chain/index.md"
           }
         },
         {
@@ -85,7 +133,10 @@
           "slug": "service-management-frameworks-and-standards",
           "path": "locales/en-001/topics/service-management-frameworks-and-standards/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/service-management-frameworks-and-standards/index.md"
+            "en-001": "locales/en-001/topics/service-management-frameworks-and-standards/index.md",
+            "en-gb": "locales/en-gb/topics/service-management-frameworks-and-standards/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/service-management-frameworks-and-standards/index.md",
+            "en-us": "locales/en-us/topics/service-management-frameworks-and-standards/index.md"
           }
         },
         {
@@ -94,7 +145,10 @@
           "slug": "enterprise-service-management",
           "path": "locales/en-001/topics/enterprise-service-management/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/enterprise-service-management/index.md"
+            "en-001": "locales/en-001/topics/enterprise-service-management/index.md",
+            "en-gb": "locales/en-gb/topics/enterprise-service-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/enterprise-service-management/index.md",
+            "en-us": "locales/en-us/topics/enterprise-service-management/index.md"
           }
         }
       ]
@@ -108,7 +162,10 @@
           "slug": "agile-manifesto-and-principles",
           "path": "locales/en-001/topics/agile-manifesto-and-principles/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/agile-manifesto-and-principles/index.md"
+            "en-001": "locales/en-001/topics/agile-manifesto-and-principles/index.md",
+            "en-gb": "locales/en-gb/topics/agile-manifesto-and-principles/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/agile-manifesto-and-principles/index.md",
+            "en-us": "locales/en-us/topics/agile-manifesto-and-principles/index.md"
           }
         },
         {
@@ -117,7 +174,10 @@
           "slug": "continuous-delivery",
           "path": "locales/en-001/topics/continuous-delivery/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/continuous-delivery/index.md"
+            "en-001": "locales/en-001/topics/continuous-delivery/index.md",
+            "en-gb": "locales/en-gb/topics/continuous-delivery/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/continuous-delivery/index.md",
+            "en-us": "locales/en-us/topics/continuous-delivery/index.md"
           }
         },
         {
@@ -126,7 +186,10 @@
           "slug": "flow-and-kanban",
           "path": "locales/en-001/topics/flow-and-kanban/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/flow-and-kanban/index.md"
+            "en-001": "locales/en-001/topics/flow-and-kanban/index.md",
+            "en-gb": "locales/en-gb/topics/flow-and-kanban/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/flow-and-kanban/index.md",
+            "en-us": "locales/en-us/topics/flow-and-kanban/index.md"
           }
         },
         {
@@ -135,7 +198,10 @@
           "slug": "lean-and-kaizen",
           "path": "locales/en-001/topics/lean-and-kaizen/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/lean-and-kaizen/index.md"
+            "en-001": "locales/en-001/topics/lean-and-kaizen/index.md",
+            "en-gb": "locales/en-gb/topics/lean-and-kaizen/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/lean-and-kaizen/index.md",
+            "en-us": "locales/en-us/topics/lean-and-kaizen/index.md"
           }
         },
         {
@@ -144,7 +210,10 @@
           "slug": "devops",
           "path": "locales/en-001/topics/devops/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/devops/index.md"
+            "en-001": "locales/en-001/topics/devops/index.md",
+            "en-gb": "locales/en-gb/topics/devops/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/devops/index.md",
+            "en-us": "locales/en-us/topics/devops/index.md"
           }
         },
         {
@@ -153,7 +222,10 @@
           "slug": "site-reliability-engineering",
           "path": "locales/en-001/topics/site-reliability-engineering/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/site-reliability-engineering/index.md"
+            "en-001": "locales/en-001/topics/site-reliability-engineering/index.md",
+            "en-gb": "locales/en-gb/topics/site-reliability-engineering/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/site-reliability-engineering/index.md",
+            "en-us": "locales/en-us/topics/site-reliability-engineering/index.md"
           }
         },
         {
@@ -162,7 +234,10 @@
           "slug": "scaling-agile",
           "path": "locales/en-001/topics/scaling-agile/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/scaling-agile/index.md"
+            "en-001": "locales/en-001/topics/scaling-agile/index.md",
+            "en-gb": "locales/en-gb/topics/scaling-agile/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/scaling-agile/index.md",
+            "en-us": "locales/en-us/topics/scaling-agile/index.md"
           }
         },
         {
@@ -171,7 +246,10 @@
           "slug": "product-and-service-ownership",
           "path": "locales/en-001/topics/product-and-service-ownership/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/product-and-service-ownership/index.md"
+            "en-001": "locales/en-001/topics/product-and-service-ownership/index.md",
+            "en-gb": "locales/en-gb/topics/product-and-service-ownership/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/product-and-service-ownership/index.md",
+            "en-us": "locales/en-us/topics/product-and-service-ownership/index.md"
           }
         },
         {
@@ -180,7 +258,10 @@
           "slug": "agile-service-management",
           "path": "locales/en-001/topics/agile-service-management/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/agile-service-management/index.md"
+            "en-001": "locales/en-001/topics/agile-service-management/index.md",
+            "en-gb": "locales/en-gb/topics/agile-service-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/agile-service-management/index.md",
+            "en-us": "locales/en-us/topics/agile-service-management/index.md"
           }
         },
         {
@@ -189,7 +270,10 @@
           "slug": "agile-management-and-learning",
           "path": "locales/en-001/topics/agile-management-and-learning/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/agile-management-and-learning/index.md"
+            "en-001": "locales/en-001/topics/agile-management-and-learning/index.md",
+            "en-gb": "locales/en-gb/topics/agile-management-and-learning/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/agile-management-and-learning/index.md",
+            "en-us": "locales/en-us/topics/agile-management-and-learning/index.md"
           }
         }
       ]
@@ -203,7 +287,10 @@
           "slug": "service-desk",
           "path": "locales/en-001/topics/service-desk/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/service-desk/index.md"
+            "en-001": "locales/en-001/topics/service-desk/index.md",
+            "en-gb": "locales/en-gb/topics/service-desk/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/service-desk/index.md",
+            "en-us": "locales/en-us/topics/service-desk/index.md"
           }
         },
         {
@@ -212,7 +299,10 @@
           "slug": "incident-management",
           "path": "locales/en-001/topics/incident-management/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/incident-management/index.md"
+            "en-001": "locales/en-001/topics/incident-management/index.md",
+            "en-gb": "locales/en-gb/topics/incident-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/incident-management/index.md",
+            "en-us": "locales/en-us/topics/incident-management/index.md"
           }
         },
         {
@@ -221,7 +311,10 @@
           "slug": "problem-management",
           "path": "locales/en-001/topics/problem-management/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/problem-management/index.md"
+            "en-001": "locales/en-001/topics/problem-management/index.md",
+            "en-gb": "locales/en-gb/topics/problem-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/problem-management/index.md",
+            "en-us": "locales/en-us/topics/problem-management/index.md"
           }
         },
         {
@@ -230,7 +323,10 @@
           "slug": "change-enablement",
           "path": "locales/en-001/topics/change-enablement/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/change-enablement/index.md"
+            "en-001": "locales/en-001/topics/change-enablement/index.md",
+            "en-gb": "locales/en-gb/topics/change-enablement/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/change-enablement/index.md",
+            "en-us": "locales/en-us/topics/change-enablement/index.md"
           }
         },
         {
@@ -239,7 +335,10 @@
           "slug": "release-and-deployment-management",
           "path": "locales/en-001/topics/release-and-deployment-management/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/release-and-deployment-management/index.md"
+            "en-001": "locales/en-001/topics/release-and-deployment-management/index.md",
+            "en-gb": "locales/en-gb/topics/release-and-deployment-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/release-and-deployment-management/index.md",
+            "en-us": "locales/en-us/topics/release-and-deployment-management/index.md"
           }
         },
         {
@@ -248,7 +347,10 @@
           "slug": "service-request-management",
           "path": "locales/en-001/topics/service-request-management/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/service-request-management/index.md"
+            "en-001": "locales/en-001/topics/service-request-management/index.md",
+            "en-gb": "locales/en-gb/topics/service-request-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/service-request-management/index.md",
+            "en-us": "locales/en-us/topics/service-request-management/index.md"
           }
         },
         {
@@ -257,7 +359,10 @@
           "slug": "service-level-management",
           "path": "locales/en-001/topics/service-level-management/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/service-level-management/index.md"
+            "en-001": "locales/en-001/topics/service-level-management/index.md",
+            "en-gb": "locales/en-gb/topics/service-level-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/service-level-management/index.md",
+            "en-us": "locales/en-us/topics/service-level-management/index.md"
           }
         },
         {
@@ -266,7 +371,10 @@
           "slug": "service-catalog-management",
           "path": "locales/en-001/topics/service-catalog-management/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/service-catalog-management/index.md"
+            "en-001": "locales/en-001/topics/service-catalog-management/index.md",
+            "en-gb": "locales/en-gb/topics/service-catalog-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/service-catalog-management/index.md",
+            "en-us": "locales/en-us/topics/service-catalog-management/index.md"
           }
         },
         {
@@ -275,7 +383,10 @@
           "slug": "knowledge-management",
           "path": "locales/en-001/topics/knowledge-management/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/knowledge-management/index.md"
+            "en-001": "locales/en-001/topics/knowledge-management/index.md",
+            "en-gb": "locales/en-gb/topics/knowledge-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/knowledge-management/index.md",
+            "en-us": "locales/en-us/topics/knowledge-management/index.md"
           }
         },
         {
@@ -284,7 +395,10 @@
           "slug": "monitoring-and-event-management",
           "path": "locales/en-001/topics/monitoring-and-event-management/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/monitoring-and-event-management/index.md"
+            "en-001": "locales/en-001/topics/monitoring-and-event-management/index.md",
+            "en-gb": "locales/en-gb/topics/monitoring-and-event-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/monitoring-and-event-management/index.md",
+            "en-us": "locales/en-us/topics/monitoring-and-event-management/index.md"
           }
         },
         {
@@ -293,7 +407,10 @@
           "slug": "availability-capacity-and-performance",
           "path": "locales/en-001/topics/availability-capacity-and-performance/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/availability-capacity-and-performance/index.md"
+            "en-001": "locales/en-001/topics/availability-capacity-and-performance/index.md",
+            "en-gb": "locales/en-gb/topics/availability-capacity-and-performance/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/availability-capacity-and-performance/index.md",
+            "en-us": "locales/en-us/topics/availability-capacity-and-performance/index.md"
           }
         },
         {
@@ -302,7 +419,10 @@
           "slug": "service-continuity-management",
           "path": "locales/en-001/topics/service-continuity-management/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/service-continuity-management/index.md"
+            "en-001": "locales/en-001/topics/service-continuity-management/index.md",
+            "en-gb": "locales/en-gb/topics/service-continuity-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/service-continuity-management/index.md",
+            "en-us": "locales/en-us/topics/service-continuity-management/index.md"
           }
         },
         {
@@ -311,7 +431,10 @@
           "slug": "information-security-management",
           "path": "locales/en-001/topics/information-security-management/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/information-security-management/index.md"
+            "en-001": "locales/en-001/topics/information-security-management/index.md",
+            "en-gb": "locales/en-gb/topics/information-security-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/information-security-management/index.md",
+            "en-us": "locales/en-us/topics/information-security-management/index.md"
           }
         },
         {
@@ -320,7 +443,10 @@
           "slug": "supplier-management",
           "path": "locales/en-001/topics/supplier-management/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/supplier-management/index.md"
+            "en-001": "locales/en-001/topics/supplier-management/index.md",
+            "en-gb": "locales/en-gb/topics/supplier-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/supplier-management/index.md",
+            "en-us": "locales/en-us/topics/supplier-management/index.md"
           }
         },
         {
@@ -329,7 +455,10 @@
           "slug": "continual-improvement",
           "path": "locales/en-001/topics/continual-improvement/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/continual-improvement/index.md"
+            "en-001": "locales/en-001/topics/continual-improvement/index.md",
+            "en-gb": "locales/en-gb/topics/continual-improvement/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/continual-improvement/index.md",
+            "en-us": "locales/en-us/topics/continual-improvement/index.md"
           }
         }
       ]
@@ -343,7 +472,10 @@
           "slug": "asset-management",
           "path": "locales/en-001/topics/asset-management/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/asset-management/index.md"
+            "en-001": "locales/en-001/topics/asset-management/index.md",
+            "en-gb": "locales/en-gb/topics/asset-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/asset-management/index.md",
+            "en-us": "locales/en-us/topics/asset-management/index.md"
           }
         },
         {
@@ -352,7 +484,10 @@
           "slug": "software-asset-management",
           "path": "locales/en-001/topics/software-asset-management/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/software-asset-management/index.md"
+            "en-001": "locales/en-001/topics/software-asset-management/index.md",
+            "en-gb": "locales/en-gb/topics/software-asset-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/software-asset-management/index.md",
+            "en-us": "locales/en-us/topics/software-asset-management/index.md"
           }
         },
         {
@@ -361,7 +496,10 @@
           "slug": "hardware-asset-management",
           "path": "locales/en-001/topics/hardware-asset-management/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/hardware-asset-management/index.md"
+            "en-001": "locales/en-001/topics/hardware-asset-management/index.md",
+            "en-gb": "locales/en-gb/topics/hardware-asset-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/hardware-asset-management/index.md",
+            "en-us": "locales/en-us/topics/hardware-asset-management/index.md"
           }
         },
         {
@@ -370,7 +508,10 @@
           "slug": "configuration-management",
           "path": "locales/en-001/topics/configuration-management/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/configuration-management/index.md"
+            "en-001": "locales/en-001/topics/configuration-management/index.md",
+            "en-gb": "locales/en-gb/topics/configuration-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/configuration-management/index.md",
+            "en-us": "locales/en-us/topics/configuration-management/index.md"
           }
         },
         {
@@ -379,7 +520,10 @@
           "slug": "financial-management-and-finops",
           "path": "locales/en-001/topics/financial-management-and-finops/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/financial-management-and-finops/index.md"
+            "en-001": "locales/en-001/topics/financial-management-and-finops/index.md",
+            "en-gb": "locales/en-gb/topics/financial-management-and-finops/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/financial-management-and-finops/index.md",
+            "en-us": "locales/en-us/topics/financial-management-and-finops/index.md"
           }
         }
       ]
@@ -393,7 +537,10 @@
           "slug": "ai-in-service-management",
           "path": "locales/en-001/topics/ai-in-service-management/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/ai-in-service-management/index.md"
+            "en-001": "locales/en-001/topics/ai-in-service-management/index.md",
+            "en-gb": "locales/en-gb/topics/ai-in-service-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/ai-in-service-management/index.md",
+            "en-us": "locales/en-us/topics/ai-in-service-management/index.md"
           }
         },
         {
@@ -402,7 +549,10 @@
           "slug": "aiops",
           "path": "locales/en-001/topics/aiops/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/aiops/index.md"
+            "en-001": "locales/en-001/topics/aiops/index.md",
+            "en-gb": "locales/en-gb/topics/aiops/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/aiops/index.md",
+            "en-us": "locales/en-us/topics/aiops/index.md"
           }
         },
         {
@@ -411,7 +561,10 @@
           "slug": "ai-service-desk-and-virtual-agents",
           "path": "locales/en-001/topics/ai-service-desk-and-virtual-agents/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/ai-service-desk-and-virtual-agents/index.md"
+            "en-001": "locales/en-001/topics/ai-service-desk-and-virtual-agents/index.md",
+            "en-gb": "locales/en-gb/topics/ai-service-desk-and-virtual-agents/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/ai-service-desk-and-virtual-agents/index.md",
+            "en-us": "locales/en-us/topics/ai-service-desk-and-virtual-agents/index.md"
           }
         },
         {
@@ -420,7 +573,10 @@
           "slug": "generative-ai-for-incidents-knowledge-and-changes",
           "path": "locales/en-001/topics/generative-ai-for-incidents-knowledge-and-changes/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/generative-ai-for-incidents-knowledge-and-changes/index.md"
+            "en-001": "locales/en-001/topics/generative-ai-for-incidents-knowledge-and-changes/index.md",
+            "en-gb": "locales/en-gb/topics/generative-ai-for-incidents-knowledge-and-changes/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/generative-ai-for-incidents-knowledge-and-changes/index.md",
+            "en-us": "locales/en-us/topics/generative-ai-for-incidents-knowledge-and-changes/index.md"
           }
         },
         {
@@ -429,7 +585,10 @@
           "slug": "agentic-ai-and-human-oversight",
           "path": "locales/en-001/topics/agentic-ai-and-human-oversight/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/agentic-ai-and-human-oversight/index.md"
+            "en-001": "locales/en-001/topics/agentic-ai-and-human-oversight/index.md",
+            "en-gb": "locales/en-gb/topics/agentic-ai-and-human-oversight/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/agentic-ai-and-human-oversight/index.md",
+            "en-us": "locales/en-us/topics/agentic-ai-and-human-oversight/index.md"
           }
         },
         {
@@ -438,7 +597,10 @@
           "slug": "ai-governance-risk-and-compliance",
           "path": "locales/en-001/topics/ai-governance-risk-and-compliance/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/ai-governance-risk-and-compliance/index.md"
+            "en-001": "locales/en-001/topics/ai-governance-risk-and-compliance/index.md",
+            "en-gb": "locales/en-gb/topics/ai-governance-risk-and-compliance/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/ai-governance-risk-and-compliance/index.md",
+            "en-us": "locales/en-us/topics/ai-governance-risk-and-compliance/index.md"
           }
         },
         {
@@ -447,7 +609,10 @@
           "slug": "ai-skills-and-prompts",
           "path": "locales/en-001/topics/ai-skills-and-prompts/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/ai-skills-and-prompts/index.md"
+            "en-001": "locales/en-001/topics/ai-skills-and-prompts/index.md",
+            "en-gb": "locales/en-gb/topics/ai-skills-and-prompts/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/ai-skills-and-prompts/index.md",
+            "en-us": "locales/en-us/topics/ai-skills-and-prompts/index.md"
           }
         },
         {
@@ -456,7 +621,10 @@
           "slug": "ai-operating-model-and-skills",
           "path": "locales/en-001/topics/ai-operating-model-and-skills/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/ai-operating-model-and-skills/index.md"
+            "en-001": "locales/en-001/topics/ai-operating-model-and-skills/index.md",
+            "en-gb": "locales/en-gb/topics/ai-operating-model-and-skills/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/ai-operating-model-and-skills/index.md",
+            "en-us": "locales/en-us/topics/ai-operating-model-and-skills/index.md"
           }
         }
       ]
@@ -470,7 +638,10 @@
           "slug": "automation-strategy",
           "path": "locales/en-001/topics/automation-strategy/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/automation-strategy/index.md"
+            "en-001": "locales/en-001/topics/automation-strategy/index.md",
+            "en-gb": "locales/en-gb/topics/automation-strategy/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/automation-strategy/index.md",
+            "en-us": "locales/en-us/topics/automation-strategy/index.md"
           }
         },
         {
@@ -479,7 +650,10 @@
           "slug": "workflow-automation-and-orchestration",
           "path": "locales/en-001/topics/workflow-automation-and-orchestration/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/workflow-automation-and-orchestration/index.md"
+            "en-001": "locales/en-001/topics/workflow-automation-and-orchestration/index.md",
+            "en-gb": "locales/en-gb/topics/workflow-automation-and-orchestration/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/workflow-automation-and-orchestration/index.md",
+            "en-us": "locales/en-us/topics/workflow-automation-and-orchestration/index.md"
           }
         },
         {
@@ -488,7 +662,10 @@
           "slug": "infrastructure-as-code-and-gitops",
           "path": "locales/en-001/topics/infrastructure-as-code-and-gitops/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/infrastructure-as-code-and-gitops/index.md"
+            "en-001": "locales/en-001/topics/infrastructure-as-code-and-gitops/index.md",
+            "en-gb": "locales/en-gb/topics/infrastructure-as-code-and-gitops/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/infrastructure-as-code-and-gitops/index.md",
+            "en-us": "locales/en-us/topics/infrastructure-as-code-and-gitops/index.md"
           }
         },
         {
@@ -497,7 +674,10 @@
           "slug": "pipelines-and-automated-change",
           "path": "locales/en-001/topics/pipelines-and-automated-change/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/pipelines-and-automated-change/index.md"
+            "en-001": "locales/en-001/topics/pipelines-and-automated-change/index.md",
+            "en-gb": "locales/en-gb/topics/pipelines-and-automated-change/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/pipelines-and-automated-change/index.md",
+            "en-us": "locales/en-us/topics/pipelines-and-automated-change/index.md"
           }
         },
         {
@@ -506,7 +686,10 @@
           "slug": "self-service-and-automated-fulfilment",
           "path": "locales/en-001/topics/self-service-and-automated-fulfilment/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/self-service-and-automated-fulfilment/index.md"
+            "en-001": "locales/en-001/topics/self-service-and-automated-fulfilment/index.md",
+            "en-gb": "locales/en-gb/topics/self-service-and-automated-fulfilment/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/self-service-and-automated-fulfilment/index.md",
+            "en-us": "locales/en-us/topics/self-service-and-automated-fulfilment/index.md"
           }
         },
         {
@@ -515,7 +698,10 @@
           "slug": "runbook-automation-and-auto-remediation",
           "path": "locales/en-001/topics/runbook-automation-and-auto-remediation/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/runbook-automation-and-auto-remediation/index.md"
+            "en-001": "locales/en-001/topics/runbook-automation-and-auto-remediation/index.md",
+            "en-gb": "locales/en-gb/topics/runbook-automation-and-auto-remediation/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/runbook-automation-and-auto-remediation/index.md",
+            "en-us": "locales/en-us/topics/runbook-automation-and-auto-remediation/index.md"
           }
         }
       ]
@@ -529,7 +715,10 @@
           "slug": "analytics-for-service-management",
           "path": "locales/en-001/topics/analytics-for-service-management/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/analytics-for-service-management/index.md"
+            "en-001": "locales/en-001/topics/analytics-for-service-management/index.md",
+            "en-gb": "locales/en-gb/topics/analytics-for-service-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/analytics-for-service-management/index.md",
+            "en-us": "locales/en-us/topics/analytics-for-service-management/index.md"
           }
         },
         {
@@ -538,7 +727,10 @@
           "slug": "data-foundations-and-governance",
           "path": "locales/en-001/topics/data-foundations-and-governance/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/data-foundations-and-governance/index.md"
+            "en-001": "locales/en-001/topics/data-foundations-and-governance/index.md",
+            "en-gb": "locales/en-gb/topics/data-foundations-and-governance/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/data-foundations-and-governance/index.md",
+            "en-us": "locales/en-us/topics/data-foundations-and-governance/index.md"
           }
         },
         {
@@ -547,7 +739,10 @@
           "slug": "measurement-and-reporting",
           "path": "locales/en-001/topics/measurement-and-reporting/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/measurement-and-reporting/index.md"
+            "en-001": "locales/en-001/topics/measurement-and-reporting/index.md",
+            "en-gb": "locales/en-gb/topics/measurement-and-reporting/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/measurement-and-reporting/index.md",
+            "en-us": "locales/en-us/topics/measurement-and-reporting/index.md"
           }
         },
         {
@@ -556,7 +751,10 @@
           "slug": "observability-and-telemetry",
           "path": "locales/en-001/topics/observability-and-telemetry/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/observability-and-telemetry/index.md"
+            "en-001": "locales/en-001/topics/observability-and-telemetry/index.md",
+            "en-gb": "locales/en-gb/topics/observability-and-telemetry/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/observability-and-telemetry/index.md",
+            "en-us": "locales/en-us/topics/observability-and-telemetry/index.md"
           }
         },
         {
@@ -565,7 +763,10 @@
           "slug": "predictive-analytics-and-forecasting",
           "path": "locales/en-001/topics/predictive-analytics-and-forecasting/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/predictive-analytics-and-forecasting/index.md"
+            "en-001": "locales/en-001/topics/predictive-analytics-and-forecasting/index.md",
+            "en-gb": "locales/en-gb/topics/predictive-analytics-and-forecasting/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/predictive-analytics-and-forecasting/index.md",
+            "en-us": "locales/en-us/topics/predictive-analytics-and-forecasting/index.md"
           }
         },
         {
@@ -574,7 +775,10 @@
           "slug": "process-and-value-stream-analytics",
           "path": "locales/en-001/topics/process-and-value-stream-analytics/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/process-and-value-stream-analytics/index.md"
+            "en-001": "locales/en-001/topics/process-and-value-stream-analytics/index.md",
+            "en-gb": "locales/en-gb/topics/process-and-value-stream-analytics/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/process-and-value-stream-analytics/index.md",
+            "en-us": "locales/en-us/topics/process-and-value-stream-analytics/index.md"
           }
         },
         {
@@ -583,7 +787,10 @@
           "slug": "experience-and-sentiment-analytics",
           "path": "locales/en-001/topics/experience-and-sentiment-analytics/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/experience-and-sentiment-analytics/index.md"
+            "en-001": "locales/en-001/topics/experience-and-sentiment-analytics/index.md",
+            "en-gb": "locales/en-gb/topics/experience-and-sentiment-analytics/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/experience-and-sentiment-analytics/index.md",
+            "en-us": "locales/en-us/topics/experience-and-sentiment-analytics/index.md"
           }
         }
       ]
@@ -597,7 +804,10 @@
           "slug": "governance-risk-and-compliance",
           "path": "locales/en-001/topics/governance-risk-and-compliance/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/governance-risk-and-compliance/index.md"
+            "en-001": "locales/en-001/topics/governance-risk-and-compliance/index.md",
+            "en-gb": "locales/en-gb/topics/governance-risk-and-compliance/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/governance-risk-and-compliance/index.md",
+            "en-us": "locales/en-us/topics/governance-risk-and-compliance/index.md"
           }
         },
         {
@@ -606,7 +816,10 @@
           "slug": "sustainability-and-responsible-service-management",
           "path": "locales/en-001/topics/sustainability-and-responsible-service-management/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/sustainability-and-responsible-service-management/index.md"
+            "en-001": "locales/en-001/topics/sustainability-and-responsible-service-management/index.md",
+            "en-gb": "locales/en-gb/topics/sustainability-and-responsible-service-management/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/sustainability-and-responsible-service-management/index.md",
+            "en-us": "locales/en-us/topics/sustainability-and-responsible-service-management/index.md"
           }
         },
         {
@@ -615,7 +828,10 @@
           "slug": "organizational-change-and-adoption",
           "path": "locales/en-001/topics/organizational-change-and-adoption/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/organizational-change-and-adoption/index.md"
+            "en-001": "locales/en-001/topics/organizational-change-and-adoption/index.md",
+            "en-gb": "locales/en-gb/topics/organizational-change-and-adoption/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/organizational-change-and-adoption/index.md",
+            "en-us": "locales/en-us/topics/organizational-change-and-adoption/index.md"
           }
         },
         {
@@ -624,7 +840,10 @@
           "slug": "team-conversations",
           "path": "locales/en-001/topics/team-conversations/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/team-conversations/index.md"
+            "en-001": "locales/en-001/topics/team-conversations/index.md",
+            "en-gb": "locales/en-gb/topics/team-conversations/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/team-conversations/index.md",
+            "en-us": "locales/en-us/topics/team-conversations/index.md"
           }
         },
         {
@@ -633,7 +852,10 @@
           "slug": "learning-paths-and-certification",
           "path": "locales/en-001/topics/learning-paths-and-certification/index.md",
           "locales": {
-            "en-001": "locales/en-001/topics/learning-paths-and-certification/index.md"
+            "en-001": "locales/en-001/topics/learning-paths-and-certification/index.md",
+            "en-gb": "locales/en-gb/topics/learning-paths-and-certification/index.md",
+            "en-gb-oxendict": "locales/en-gb-oxendict/topics/learning-paths-and-certification/index.md",
+            "en-us": "locales/en-us/topics/learning-paths-and-certification/index.md"
           }
         }
       ]
