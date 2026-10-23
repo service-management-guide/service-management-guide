@@ -70,6 +70,11 @@ export const HERO: Record<string, Record<string, string>> = {
   "intro": "सेवा प्रबंधन वह तरीक़ा है जिससे संगठन ग्राहकों के साथ मिलकर मूल्य रचते हैं। ITIL 5 इसे डिजिटल उत्पादों, AI और मापने योग्य मूल्य के इर्द-गिर्द ढालता है। यह मार्गदर्शिका बताती है कि इसे चार दृष्टिकोणों से कैसे चलाएँ: एजाइल, AI, स्वचालन और विश्लेषण, शोध, अभ्यास, उदाहरण, टीम-चर्चा के विचार, AI कौशल और AI प्रॉम्प्ट के साथ।",
   "translations": "अनुवाद: "
  },
+ "id-001": {
+  "tagline": "Buku panduan praktis manajemen layanan di era ITIL 5: agile, AI, otomatisasi, dan analitik.",
+  "intro": "Manajemen layanan adalah cara organisasi menciptakan nilai bersama pelanggan. ITIL 5 membingkainya di sekitar produk digital, AI, dan nilai yang terukur. Panduan ini menunjukkan cara menjalankannya melalui empat lensa: agile, AI, otomatisasi, dan analitik, lengkap dengan riset, praktik, contoh, gagasan untuk dibahas bersama tim, skill AI, dan prompt AI.",
+  "translations": "Terjemahan: "
+ },
  "ru-001": {
   "tagline": "Практическое руководство по управлению услугами в эпоху ITIL 5: гибкость, ИИ, автоматизация и аналитика.",
   "intro": "Управление услугами — это способ, которым организации совместно с клиентами создают ценность. ITIL 5 строит его вокруг цифровых продуктов, ИИ и измеримой ценности. Это руководство показывает, как управлять услугами через четыре линзы: гибкость, ИИ, автоматизацию и аналитику, с исследованиями, практиками, примерами, идеями для обсуждения в командах, ИИ-навыками и запросами к ИИ.",
