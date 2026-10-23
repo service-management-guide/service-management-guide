@@ -1,0 +1,127 @@
+{
+  "locale": {
+    "label": "Tiếng Việt (thế giới)"
+  },
+  "siteTitle": "Hướng dẫn quản lý dịch vụ",
+  "skipToContent": "Chuyển đến nội dung",
+  "nav": {
+    "contents": "Mục lục",
+    "glossary": "Bảng thuật ngữ",
+    "index": "Chỉ mục",
+    "skills": "Kỹ năng",
+    "source": "Nguồn"
+  },
+  "picker": {
+    "theme": "Giao diện",
+    "locale": "Ngôn ngữ",
+    "textSize": "Cỡ chữ",
+    "share": "Chia sẻ",
+    "search": "Tìm kiếm",
+    "searchInput": "Tìm trong hướng dẫn",
+    "searchSubmit": "Tìm"
+  },
+  "share": {
+    "emailLink": "Gửi liên kết qua email",
+    "shareOnLinkedIn": "Chia sẻ lên LinkedIn",
+    "shareOnReddit": "Chia sẻ lên Reddit",
+    "shareOnBluesky": "Chia sẻ lên Bluesky",
+    "shareOnMastodon": "Chia sẻ lên Mastodon",
+    "copyLink": "Sao chép liên kết",
+    "copied": "Đã sao chép",
+    "copyFailed": "Không thể sao chép"
+  },
+  "links": {
+    "label": "Liên kết",
+    "llms": "llms.txt (cho tác tử AI)",
+    "skills": "Kỹ năng AI trên GitHub",
+    "issues": "Theo dõi vấn đề"
+  },
+  "footer": {
+    "tagline": "Quản lý dịch vụ với sự linh hoạt, AI, tự động hóa và phân tích.",
+    "sourceAndContributions": "Nguồn và đóng góp:",
+    "builtWith": "Xây dựng bằng",
+    "ledBy": "Tạo bởi"
+  },
+  "breadcrumb": {
+    "home": "Trang chủ",
+    "contents": "Mục lục",
+    "skills": "Kỹ năng",
+    "label": "Đường dẫn"
+  },
+  "contents": {
+    "pageTitle": "Mục lục",
+    "lead": "Tám phần và 65 chủ đề về quản lý dịch vụ trong kỷ nguyên ITIL 5, qua bốn lăng kính: linh hoạt, AI, tự động hóa và phân tích, kèm câu hỏi thảo luận, lời nhắc AI và kỹ năng AI.",
+    "readingIn": "Đang đọc bằng {$language}",
+    "part": "Phần {$number}",
+    "reference": "Tham chiếu",
+    "comingSoon": "sắp ra mắt"
+  },
+  "topic": {
+    "eyebrow": "Chủ đề {$number}",
+    "paginationLabel": "Điều hướng chủ đề",
+    "previous": "Trước",
+    "next": "Tiếp"
+  },
+  "parts": {
+    "1": {
+      "tagline": "Quản lý dịch vụ là gì và ITIL, gồm cả ITIL 5, hệ thống hóa nó ra sao."
+    },
+    "2": {
+      "tagline": "Giá trị và phương pháp linh hoạt áp dụng vào vận hành dịch vụ."
+    },
+    "3": {
+      "tagline": "Các thực hành ITIL, tinh gọn, tự động hóa và dựa trên dữ liệu."
+    },
+    "4": {
+      "tagline": "Biết mình có gì, tốn bao nhiêu và mọi thứ ăn khớp thế nào."
+    },
+    "5": {
+      "tagline": "AI thay đổi điều gì và quản trị nó ra sao."
+    },
+    "6": {
+      "tagline": "Biến công việc thường nhật thành thực sự thường nhật."
+    },
+    "7": {
+      "tagline": "Dùng dữ liệu để vận hành và cải tiến dịch vụ."
+    },
+    "8": {
+      "tagline": "Khía cạnh con người của quản lý dịch vụ với AI và tự động hóa."
+    }
+  },
+  "results": {
+    "button": "Tìm",
+    "label": "Kết quả tìm kiếm",
+    "heading": "Kết quả tìm kiếm cho {$query}",
+    "failed": "Không thể tải chỉ mục tìm kiếm. Vui lòng thử lại sau.",
+    "searching": "Đang tìm…",
+    "none": "Không có kết quả nào khớp với {$query}.",
+    "browse": "Hãy xem mục lục thay thế.",
+    "count": "{$count} kết quả.",
+    "limited": "Hiển thị {$count} kết quả tốt nhất."
+  },
+  "glossary": {
+    "title": "Bảng thuật ngữ",
+    "lead": "Các thuật ngữ chính được định nghĩa bằng ngôn ngữ dễ hiểu, mỗi mục dẫn tới chủ đề phụ trách nó."
+  },
+  "indexPage": {
+    "title": "Chỉ mục",
+    "lead": "Khái niệm và khung tham chiếu, cùng các chủ đề đề cập đến chúng."
+  },
+  "jumpToLetter": "Nhảy tới chữ cái",
+  "skillsPage": {
+    "title": "Kỹ năng AI",
+    "lead": "Các kỹ năng theo định dạng Claude Code mà các chủ đề liên kết tới. Mỗi kỹ năng là một tệp SKILL.md mà bạn có thể sao chép vào thư mục kỹ năng của mình.",
+    "viewSource": "Xem trên GitHub",
+    "backToList": "Tất cả kỹ năng"
+  },
+  "error": {
+    "label": "Lỗi {$status}",
+    "notFound": "Trang đó không có ở đây",
+    "generic": "Đã xảy ra lỗi",
+    "unknown": "Lỗi không xác định",
+    "try": "Hãy thử mục lục, bảng thuật ngữ hoặc chỉ mục."
+  },
+  "home": {
+    "continue": "Tiếp tục đến Hướng dẫn quản lý dịch vụ"
+  }
+}

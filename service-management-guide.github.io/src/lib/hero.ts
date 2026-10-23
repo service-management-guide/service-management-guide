@@ -130,6 +130,16 @@ export const HERO: Record<string, Record<string, string>> = {
   "intro": "Usimamizi wa huduma ni jinsi mashirika yanavyounda thamani pamoja na wateja. ITIL 5 unauweka kuzunguka bidhaa za kidijitali, AI na thamani inayopimika. Mwongozo huu unaonyesha jinsi ya kuuendesha kupitia lenzi nne: uchapuchapu, AI, uendeshaji otomatiki na uchanganuzi, pamoja na utafiti, mazoea, mifano, mawazo ya kujadiliana na timu, ujuzi wa AI na maelekezo ya AI.",
   "translations": "Tafsiri: "
  },
+ "vi-001": {
+  "tagline": "Cẩm nang thực hành về quản lý dịch vụ trong kỷ nguyên ITIL 5: linh hoạt, AI, tự động hóa và phân tích.",
+  "intro": "Quản lý dịch vụ là cách các tổ chức cùng khách hàng tạo ra giá trị. ITIL 5 đặt nó quanh sản phẩm số, AI và giá trị đo lường được. Hướng dẫn này chỉ ra cách vận hành qua bốn lăng kính: linh hoạt, AI, tự động hóa và phân tích, kèm nghiên cứu, thực hành, ví dụ, ý tưởng để trao đổi với đội nhóm, kỹ năng AI và lời nhắc AI.",
+  "translations": "Bản dịch: "
+ },
+ "vi-vn": {
+  "tagline": "Cẩm nang thực hành về quản lý dịch vụ trong kỷ nguyên ITIL 5: linh hoạt, AI, tự động hóa và phân tích.",
+  "intro": "Quản lý dịch vụ là cách các tổ chức cùng khách hàng tạo ra giá trị. ITIL 5 đặt nó quanh sản phẩm số, AI và giá trị đo lường được. Hướng dẫn này chỉ ra cách vận hành qua bốn lăng kính: linh hoạt, AI, tự động hóa và phân tích, kèm nghiên cứu, thực hành, ví dụ, ý tưởng để trao đổi với đội nhóm, kỹ năng AI và lời nhắc AI.",
+  "translations": "Bản dịch: "
+ },
  "zh-001": {
   "tagline": "一本在 ITIL 5 时代做服务管理的实用手册：敏捷、AI、自动化与分析。",
   "intro": "服务管理是组织与客户共同创造价值的方式。ITIL 5 围绕数字产品、AI 和可度量的价值来构建它。本指南通过敏捷、AI、自动化与分析四个视角说明如何运行服务管理，并结合研究、实践、案例、可与团队讨论的想法、AI技能和AI提示词。",
