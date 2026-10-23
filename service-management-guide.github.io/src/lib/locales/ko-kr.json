@@ -1,0 +1,127 @@
+{
+  "locale": {
+    "label": "한국어(대한민국)"
+  },
+  "siteTitle": "서비스 관리 가이드",
+  "skipToContent": "본문으로 건너뛰기",
+  "nav": {
+    "contents": "목차",
+    "glossary": "용어집",
+    "index": "색인",
+    "skills": "스킬",
+    "source": "소스"
+  },
+  "picker": {
+    "theme": "테마",
+    "locale": "언어",
+    "textSize": "글자 크기",
+    "share": "공유",
+    "search": "검색",
+    "searchInput": "가이드에서 검색",
+    "searchSubmit": "검색"
+  },
+  "share": {
+    "emailLink": "링크를 이메일로 보내기",
+    "shareOnLinkedIn": "LinkedIn에 공유",
+    "shareOnReddit": "Reddit에 공유",
+    "shareOnBluesky": "Bluesky에 공유",
+    "shareOnMastodon": "Mastodon에 공유",
+    "copyLink": "링크 복사",
+    "copied": "복사됨",
+    "copyFailed": "복사할 수 없습니다"
+  },
+  "links": {
+    "label": "링크",
+    "llms": "llms.txt (AI 에이전트용)",
+    "skills": "GitHub의 AI 스킬",
+    "issues": "이슈 트래커"
+  },
+  "footer": {
+    "tagline": "애자일, AI, 자동화, 분석을 아우르는 서비스 관리.",
+    "sourceAndContributions": "소스와 기여:",
+    "builtWith": "사용 기술",
+    "ledBy": "제작"
+  },
+  "breadcrumb": {
+    "home": "홈",
+    "contents": "목차",
+    "skills": "스킬",
+    "label": "탐색 경로"
+  },
+  "contents": {
+    "pageTitle": "목차",
+    "lead": "ITIL 5 시대의 서비스 관리를 애자일, AI, 자동화, 분석이라는 네 가지 렌즈로 다룬 8개 부, 65개 주제. 토론 질문, AI 프롬프트, AI 스킬이 함께 있습니다.",
+    "readingIn": "읽는 언어: {$language}",
+    "part": "제{$number}부",
+    "reference": "참조",
+    "comingSoon": "곧 공개"
+  },
+  "topic": {
+    "eyebrow": "주제 {$number}",
+    "paginationLabel": "주제 탐색",
+    "previous": "이전",
+    "next": "다음"
+  },
+  "parts": {
+    "1": {
+      "tagline": "서비스 관리란 무엇이며 ITIL 5를 포함한 ITIL이 이를 어떻게 체계화하는가."
+    },
+    "2": {
+      "tagline": "서비스 운영에 적용한 애자일 가치와 방법."
+    },
+    "3": {
+      "tagline": "간결하고 자동화되며 데이터에 기반한 ITIL 프랙티스."
+    },
+    "4": {
+      "tagline": "무엇이 있고, 비용은 얼마이며, 서로 어떻게 맞물리는지 아는 것."
+    },
+    "5": {
+      "tagline": "AI가 무엇을 바꾸는지, 그리고 어떻게 거버넌스를 세울지."
+    },
+    "6": {
+      "tagline": "일상 업무를 정말로 일상적이게 만들기."
+    },
+    "7": {
+      "tagline": "데이터로 서비스를 운영하고 개선하기."
+    },
+    "8": {
+      "tagline": "AI와 자동화 시대 서비스 관리의 사람 쪽 이야기."
+    }
+  },
+  "results": {
+    "button": "검색",
+    "label": "검색 결과",
+    "heading": "{$query} 검색 결과",
+    "failed": "검색 색인을 불러오지 못했습니다. 나중에 다시 시도하세요.",
+    "searching": "검색 중…",
+    "none": "{$query}에 일치하는 항목이 없습니다.",
+    "browse": "대신 목차를 둘러보세요.",
+    "count": "결과 {$count}건.",
+    "limited": "상위 {$count}건을 표시합니다."
+  },
+  "glossary": {
+    "title": "용어집",
+    "lead": "핵심 용어를 쉬운 말로 정의하고, 각각 해당 용어를 다루는 주제로 연결합니다."
+  },
+  "indexPage": {
+    "title": "색인",
+    "lead": "개념과 프레임워크, 그리고 이를 다루는 주제."
+  },
+  "jumpToLetter": "글자로 이동",
+  "skillsPage": {
+    "title": "AI 스킬",
+    "lead": "각 주제가 링크하는 Claude Code 형식의 스킬입니다. 각각 자신의 스킬 폴더에 복사해 쓸 수 있는 SKILL.md 파일입니다.",
+    "viewSource": "GitHub에서 보기",
+    "backToList": "모든 스킬"
+  },
+  "error": {
+    "label": "오류 {$status}",
+    "notFound": "이 페이지는 여기에 없습니다",
+    "generic": "문제가 발생했습니다",
+    "unknown": "알 수 없는 오류",
+    "try": "목차, 용어집, 색인을 살펴보세요."
+  },
+  "home": {
+    "continue": "서비스 관리 가이드로 계속"
+  }
+}
