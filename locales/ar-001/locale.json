@@ -1,10 +1,40 @@
 {
   "name": "العربية (العالم)",
   "topic_word": "الموضوع",
-  "topics_word": "الموضوع",
-  "h2": {},
-  "h3": {},
-  "maturity": {},
+  "topics_word": "المواضيع",
+  "h2": {
+    "Why this matters": "لماذا يهم هذا",
+    "Core concepts": "المفاهيم الأساسية",
+    "Best practices": "أفضل الممارسات",
+    "Questions to discuss with your team": "أسئلة للنقاش مع فريقك",
+    "In practice: a service management example": "في الممارسة: مثال على إدارة الخدمات",
+    "Four perspectives": "أربع زوايا نظر",
+    "Agile, AI, automation, and analytics": "الرشاقة والذكاء الاصطناعي والأتمتة والتحليلات",
+    "Common failure modes": "أنماط الإخفاق الشائعة",
+    "Maturity model": "نموذج النضج",
+    "Checklist": "قائمة التحقق",
+    "AI prompts": "موجّهات الذكاء الاصطناعي",
+    "AI skills": "مهارات الذكاء الاصطناعي",
+    "Key sources": "المصادر الرئيسة",
+    "References": "المراجع"
+  },
+  "h3": {
+    "Product and delivery teams": "فرق المنتج والتسليم",
+    "Service and operations teams": "فرق الخدمة والعمليات",
+    "Leadership and governance": "القيادة والحوكمة",
+    "Customers and users": "العملاء والمستخدمون",
+    "Agile": "الرشاقة",
+    "AI": "الذكاء الاصطناعي",
+    "Automation": "الأتمتة",
+    "Analytics": "التحليلات"
+  },
+  "maturity": {
+    "Initiate": "البدء",
+    "Develop": "التطوير",
+    "Standardize": "التوحيد",
+    "Manage": "الإدارة",
+    "Orchestrate": "التنسيق"
+  },
   "dirs": {
     "topics": "المواضيع",
     "contents": "المحتويات",
