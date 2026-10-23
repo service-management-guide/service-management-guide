@@ -1,0 +1,23 @@
+{
+  "name": "Bahasa Indonesia (dunia)",
+  "topic_word": "topik",
+  "topics_word": "topik",
+  "h2": {},
+  "h3": {},
+  "maturity": {},
+  "dirs": {
+    "topics": "topik",
+    "contents": "konten",
+    "terminology": "terminologi",
+    "glossary": "glosarium",
+    "index": "indeks"
+  },
+  "strings": {
+    "title": "Panduan Manajemen Layanan",
+    "tagline": "Manajemen layanan dengan agile, AI, otomatisasi, dan analitik.",
+    "intro": "Manajemen layanan adalah cara organisasi menciptakan nilai bersama pelanggan. ITIL 5 membingkainya di sekitar produk digital, AI, dan nilai yang terukur. Panduan ini menunjukkan cara menjalankannya melalui empat lensa: agile, AI, otomatisasi, dan analitik, lengkap dengan riset, praktik, contoh, gagasan untuk dibahas bersama tim, skill AI, dan prompt AI.",
+    "contents": "Konten",
+    "read": "Baca di web",
+    "part_fmt": "Bagian {n}"
+  }
+}
