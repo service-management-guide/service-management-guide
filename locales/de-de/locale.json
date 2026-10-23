@@ -41,5 +41,13 @@
     "index": "stichwortverzeichnis",
     "terminology": "terminologie",
     "contents": "inhalt"
+  },
+  "strings": {
+    "title": "Service-Management-Leitfaden",
+    "tagline": "Service-Management mit Agilität, KI, Automatisierung und Analytik.",
+    "intro": "Service-Management ist die Art, wie Organisationen gemeinsam mit Kunden Wert schaffen. ITIL 5 stellt es um digitale Produkte, KI und messbaren Nutzen herum auf. Dieser Leitfaden zeigt, wie Sie es durch vier Linsen betreiben: Agilität, KI, Automatisierung und Analytik, mit Forschung, Praktiken, Beispielen, Ideen für Teamgespräche, KI-Skills und KI-Prompts.",
+    "contents": "Inhalt",
+    "read": "Im Web lesen",
+    "part_fmt": "Teil {n}"
   }
 }

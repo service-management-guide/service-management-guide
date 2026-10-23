@@ -41,5 +41,13 @@
     "index": "mynegai",
     "terminology": "terminoleg",
     "contents": "cynnwys"
+  },
+  "strings": {
+    "title": "Canllaw Rheoli Gwasanaethau",
+    "tagline": "Rheoli gwasanaethau gydag ystwyth, AI, awtomeiddio a dadansoddeg.",
+    "intro": "Rheoli gwasanaethau yw'r ffordd y mae sefydliadau'n cyd-greu gwerth gyda chwsmeriaid. Mae ITIL 5 yn ei fframio o amgylch cynhyrchion digidol, AI a gwerth mesuradwy. Mae'r canllaw hwn yn dangos sut i'w redeg drwy bedwar lens: ystwyth, AI, awtomeiddio a dadansoddeg, gydag ymchwil, arferion, enghreifftiau, syniadau i'w trafod gyda thimau, sgiliau AI ac anogwyr AI.",
+    "contents": "Cynnwys",
+    "read": "Darllen ar y we",
+    "part_fmt": "Rhan {n}"
   }
 }
