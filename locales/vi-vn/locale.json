@@ -1,0 +1,23 @@
+{
+  "name": "Tiếng Việt (Việt Nam)",
+  "topic_word": "chủ đề",
+  "topics_word": "chủ đề",
+  "h2": {},
+  "h3": {},
+  "maturity": {},
+  "dirs": {
+    "topics": "chủ-đề",
+    "contents": "mục-lục",
+    "terminology": "thuật-ngữ",
+    "glossary": "bảng-thuật-ngữ",
+    "index": "chỉ-mục"
+  },
+  "strings": {
+    "title": "Hướng dẫn quản lý dịch vụ",
+    "tagline": "Quản lý dịch vụ với sự linh hoạt, AI, tự động hóa và phân tích.",
+    "intro": "Quản lý dịch vụ là cách các tổ chức cùng khách hàng tạo ra giá trị. ITIL 5 đặt nó quanh sản phẩm số, AI và giá trị đo lường được. Hướng dẫn này chỉ ra cách vận hành qua bốn lăng kính: linh hoạt, AI, tự động hóa và phân tích, kèm nghiên cứu, thực hành, ví dụ, ý tưởng để trao đổi với đội nhóm, kỹ năng AI và lời nhắc AI.",
+    "contents": "Mục lục",
+    "read": "Đọc trên web",
+    "part_fmt": "Phần {n}"
+  }
+}
