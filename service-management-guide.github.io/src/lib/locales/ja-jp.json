@@ -1,0 +1,127 @@
+{
+  "locale": {
+    "label": "日本語（日本）"
+  },
+  "siteTitle": "サービスマネジメントガイド",
+  "skipToContent": "本文へ移動",
+  "nav": {
+    "contents": "目次",
+    "glossary": "用語集",
+    "index": "索引",
+    "skills": "スキル",
+    "source": "ソース"
+  },
+  "picker": {
+    "theme": "テーマ",
+    "locale": "言語",
+    "textSize": "文字サイズ",
+    "share": "共有",
+    "search": "検索",
+    "searchInput": "ガイド内を検索",
+    "searchSubmit": "検索"
+  },
+  "share": {
+    "emailLink": "リンクをメールで送る",
+    "shareOnLinkedIn": "LinkedInで共有",
+    "shareOnReddit": "Redditで共有",
+    "shareOnBluesky": "Blueskyで共有",
+    "shareOnMastodon": "Mastodonで共有",
+    "copyLink": "リンクをコピー",
+    "copied": "コピーしました",
+    "copyFailed": "コピーできませんでした"
+  },
+  "links": {
+    "label": "リンク",
+    "llms": "llms.txt（AIエージェント向け）",
+    "skills": "GitHubのAIスキル",
+    "issues": "課題トラッカー"
+  },
+  "footer": {
+    "tagline": "アジャイル、AI、自動化、アナリティクスで行うサービスマネジメント。",
+    "sourceAndContributions": "ソースと貢献：",
+    "builtWith": "使用技術",
+    "ledBy": "作成者"
+  },
+  "breadcrumb": {
+    "home": "ホーム",
+    "contents": "目次",
+    "skills": "スキル",
+    "label": "パンくずリスト"
+  },
+  "contents": {
+    "pageTitle": "目次",
+    "lead": "ITIL 5時代のサービスマネジメントを、アジャイル、AI、自動化、アナリティクスの四つのレンズで捉えた全8部・65トピック。議論のための問い、AIプロンプト、AIスキル付き。",
+    "readingIn": "閲覧言語：{$language}",
+    "part": "第{$number}部",
+    "reference": "リファレンス",
+    "comingSoon": "近日公開"
+  },
+  "topic": {
+    "eyebrow": "トピック{$number}",
+    "paginationLabel": "トピックのナビゲーション",
+    "previous": "前へ",
+    "next": "次へ"
+  },
+  "parts": {
+    "1": {
+      "tagline": "サービスマネジメントとは何か、ITIL 5を含むITILがそれをどう体系化しているか。"
+    },
+    "2": {
+      "tagline": "サービス運用に適用するアジャイルの価値観と手法。"
+    },
+    "3": {
+      "tagline": "無駄がなく、自動化され、データに基づくITILのプラクティス。"
+    },
+    "4": {
+      "tagline": "何を持ち、いくらかかり、どうつながっているかを把握する。"
+    },
+    "5": {
+      "tagline": "AIが何を変え、どう統治するか。"
+    },
+    "6": {
+      "tagline": "日常業務を本当に日常にする。"
+    },
+    "7": {
+      "tagline": "データを使ってサービスを運用し、改善する。"
+    },
+    "8": {
+      "tagline": "AIと自動化を伴うサービスマネジメントの人間的な側面。"
+    }
+  },
+  "results": {
+    "button": "検索",
+    "label": "検索結果",
+    "heading": "「{$query}」の検索結果",
+    "failed": "検索インデックスを読み込めませんでした。しばらくしてからもう一度お試しください。",
+    "searching": "検索中…",
+    "none": "「{$query}」に一致するものはありません。",
+    "browse": "代わりに目次をご覧ください。",
+    "count": "{$count}件の結果。",
+    "limited": "上位{$count}件を表示しています。"
+  },
+  "glossary": {
+    "title": "用語集",
+    "lead": "主要な用語を平易な言葉で定義し、それぞれを扱うトピックへ案内します。"
+  },
+  "indexPage": {
+    "title": "索引",
+    "lead": "概念とフレームワーク、それらを扱うトピック。"
+  },
+  "jumpToLetter": "文字へジャンプ",
+  "skillsPage": {
+    "title": "AIスキル",
+    "lead": "トピックからリンクしている、Claude Code形式のスキル。それぞれ、ご自身のスキルフォルダにコピーできるSKILL.mdファイルです。",
+    "viewSource": "GitHubで見る",
+    "backToList": "すべてのスキル"
+  },
+  "error": {
+    "label": "エラー{$status}",
+    "notFound": "このページは見つかりません",
+    "generic": "問題が発生しました",
+    "unknown": "不明なエラー",
+    "try": "目次、用語集、索引をお試しください。"
+  },
+  "home": {
+    "continue": "サービスマネジメントガイドへ進む"
+  }
+}

@@ -75,6 +75,16 @@ export const HERO: Record<string, Record<string, string>> = {
   "intro": "Manajemen layanan adalah cara organisasi menciptakan nilai bersama pelanggan. ITIL 5 membingkainya di sekitar produk digital, AI, dan nilai yang terukur. Panduan ini menunjukkan cara menjalankannya melalui empat lensa: agile, AI, otomatisasi, dan analitik, lengkap dengan riset, praktik, contoh, gagasan untuk dibahas bersama tim, skill AI, dan prompt AI.",
   "translations": "Terjemahan: "
  },
+ "ja-001": {
+  "tagline": "ITIL 5時代のサービスマネジメントのための実践ハンドブック：アジャイル、AI、自動化、アナリティクス。",
+  "intro": "サービスマネジメントとは、組織が顧客と共に価値を創造する方法です。ITIL 5はそれをデジタルプロダクト、AI、測定可能な価値を軸に捉え直します。このガイドは、アジャイル、AI、自動化、アナリティクスという四つのレンズを通して運用する方法を、調査、プラクティス、事例、チームで話し合うためのアイデア、AIスキル、AIプロンプトとともに示します。",
+  "translations": "翻訳： "
+ },
+ "ja-jp": {
+  "tagline": "ITIL 5時代のサービスマネジメントのための実践ハンドブック：アジャイル、AI、自動化、アナリティクス。",
+  "intro": "サービスマネジメントとは、組織が顧客と共に価値を創造する方法です。ITIL 5はそれをデジタルプロダクト、AI、測定可能な価値を軸に捉え直します。このガイドは、アジャイル、AI、自動化、アナリティクスという四つのレンズを通して運用する方法を、調査、プラクティス、事例、チームで話し合うためのアイデア、AIスキル、AIプロンプトとともに示します。",
+  "translations": "翻訳： "
+ },
  "ru-001": {
   "tagline": "Практическое руководство по управлению услугами в эпоху ITIL 5: гибкость, ИИ, автоматизация и аналитика.",
   "intro": "Управление услугами — это способ, которым организации совместно с клиентами создают ценность. ITIL 5 строит его вокруг цифровых продуктов, ИИ и измеримой ценности. Это руководство показывает, как управлять услугами через четыре линзы: гибкость, ИИ, автоматизацию и аналитику, с исследованиями, практиками, примерами, идеями для обсуждения в командах, ИИ-навыками и запросами к ИИ.",
