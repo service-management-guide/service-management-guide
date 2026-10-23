@@ -1,0 +1,23 @@
+{
+  "name": "Kiswahili (dunia)",
+  "topic_word": "mada",
+  "topics_word": "somo",
+  "h2": {},
+  "h3": {},
+  "maturity": {},
+  "dirs": {
+    "topics": "mada",
+    "contents": "yaliyomo",
+    "terminology": "istilahi",
+    "glossary": "faharasa",
+    "index": "kielezo"
+  },
+  "strings": {
+    "title": "Mwongozo wa Usimamizi wa Huduma",
+    "tagline": "Usimamizi wa huduma kwa uchapuchapu, AI, uendeshaji otomatiki na uchanganuzi.",
+    "intro": "Usimamizi wa huduma ni jinsi mashirika yanavyounda thamani pamoja na wateja. ITIL 5 unauweka kuzunguka bidhaa za kidijitali, AI na thamani inayopimika. Mwongozo huu unaonyesha jinsi ya kuuendesha kupitia lenzi nne: uchapuchapu, AI, uendeshaji otomatiki na uchanganuzi, pamoja na utafiti, mazoea, mifano, mawazo ya kujadiliana na timu, ujuzi wa AI na maelekezo ya AI.",
+    "contents": "Yaliyomo",
+    "read": "Soma mtandaoni",
+    "part_fmt": "Sehemu ya {n}"
+  }
+}
