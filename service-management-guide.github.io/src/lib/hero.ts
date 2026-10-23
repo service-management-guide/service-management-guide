@@ -135,6 +135,11 @@ export const HERO: Record<string, Record<string, string>> = {
   "intro": "Usimamizi wa huduma ni jinsi mashirika yanavyounda thamani pamoja na wateja. ITIL 5 unauweka kuzunguka bidhaa za kidijitali, AI na thamani inayopimika. Mwongozo huu unaonyesha jinsi ya kuuendesha kupitia lenzi nne: uchapuchapu, AI, uendeshaji otomatiki na uchanganuzi, pamoja na utafiti, mazoea, mifano, mawazo ya kujadiliana na timu, ujuzi wa AI na maelekezo ya AI.",
   "translations": "Tafsiri: "
  },
+ "ur-001": {
+  "tagline": "آئی ٹی آئی ایل 5 کے دور میں خدمات کے انتظام کے لیے ایک عملی رہنما: ایجائل، مصنوعی ذہانت، خودکاری اور تجزیات۔",
+  "intro": "خدمات کا انتظام وہ طریقہ ہے جس سے ادارے صارفین کے ساتھ مل کر قدر پیدا کرتے ہیں۔ آئی ٹی آئی ایل 5 اسے ڈیجیٹل مصنوعات، مصنوعی ذہانت اور ناپی جا سکنے والی قدر کے گرد ترتیب دیتا ہے۔ یہ رہنما بتاتا ہے کہ اسے چار زاویوں سے کیسے چلایا جائے: ایجائل، مصنوعی ذہانت، خودکاری اور تجزیات، تحقیق، طریقوں، مثالوں، ٹیموں کے ساتھ بات چیت کے خیالات، اے آئی مہارتوں اور اے آئی پرامپٹس کے ساتھ۔",
+  "translations": "تراجم: "
+ },
  "vi-001": {
   "tagline": "Cẩm nang thực hành về quản lý dịch vụ trong kỷ nguyên ITIL 5: linh hoạt, AI, tự động hóa và phân tích.",
   "intro": "Quản lý dịch vụ là cách các tổ chức cùng khách hàng tạo ra giá trị. ITIL 5 đặt nó quanh sản phẩm số, AI và giá trị đo lường được. Hướng dẫn này chỉ ra cách vận hành qua bốn lăng kính: linh hoạt, AI, tự động hóa và phân tích, kèm nghiên cứu, thực hành, ví dụ, ý tưởng để trao đổi với đội nhóm, kỹ năng AI và lời nhắc AI.",
