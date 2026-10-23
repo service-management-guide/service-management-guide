@@ -1,0 +1,23 @@
+{
+  "name": "Svenska (världen)",
+  "topic_word": "ämne",
+  "topics_word": "ämnen",
+  "h2": {},
+  "h3": {},
+  "maturity": {},
+  "dirs": {
+    "topics": "ämnen",
+    "contents": "innehåll",
+    "terminology": "terminologi",
+    "glossary": "ordlista",
+    "index": "register"
+  },
+  "strings": {
+    "title": "Guide till tjänstehantering",
+    "tagline": "Tjänstehantering med agilitet, AI, automatisering och analys.",
+    "intro": "Tjänstehantering är sättet organisationer skapar värde tillsammans med kunder. ITIL 5 ramar in det kring digitala produkter, AI och mätbart värde. Den här guiden visar hur man driver det genom fyra linser: agilitet, AI, automatisering och analys, med forskning, arbetssätt, exempel, idéer att samtala om i team, AI-färdigheter och AI-prompter.",
+    "contents": "Innehåll",
+    "read": "Läs på webben",
+    "part_fmt": "Del {n}"
+  }
+}
