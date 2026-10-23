@@ -1,0 +1,127 @@
+{
+  "locale": {
+    "label": "English (United States)"
+  },
+  "siteTitle": "Service Management Guide",
+  "skipToContent": "Skip to content",
+  "nav": {
+    "contents": "Contents",
+    "glossary": "Glossary",
+    "index": "Index",
+    "skills": "Skills",
+    "source": "Source"
+  },
+  "picker": {
+    "theme": "Theme",
+    "locale": "Language",
+    "textSize": "Text size",
+    "share": "Share",
+    "search": "Search",
+    "searchInput": "Search the guide",
+    "searchSubmit": "Search"
+  },
+  "share": {
+    "emailLink": "Email link",
+    "shareOnLinkedIn": "Share on LinkedIn",
+    "shareOnReddit": "Share on Reddit",
+    "shareOnBluesky": "Share on Bluesky",
+    "shareOnMastodon": "Share on Mastodon",
+    "copyLink": "Copy link",
+    "copied": "Copied",
+    "copyFailed": "Could not copy"
+  },
+  "links": {
+    "label": "Links",
+    "llms": "llms.txt (for AI agents)",
+    "skills": "AI skills on GitHub",
+    "issues": "Issue tracker"
+  },
+  "footer": {
+    "tagline": "Service management with agile, AI, automation, and analytics.",
+    "sourceAndContributions": "Source and contributions:",
+    "builtWith": "Built with",
+    "ledBy": "Created by"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "contents": "Contents",
+    "skills": "Skills",
+    "label": "Breadcrumb"
+  },
+  "contents": {
+    "pageTitle": "Contents",
+    "lead": "Eight parts and 65 topics on service management in the age of ITIL 5, through four lenses: agile, AI, automation, and analytics, with discussion questions, AI prompts, and AI skills.",
+    "readingIn": "Reading in {$language}",
+    "part": "Part {$number}",
+    "reference": "Reference",
+    "comingSoon": "coming soon"
+  },
+  "topic": {
+    "eyebrow": "Topic {$number}",
+    "paginationLabel": "Topic navigation",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "parts": {
+    "1": {
+      "tagline": "What service management is and how ITIL, including ITIL 5, codifies it."
+    },
+    "2": {
+      "tagline": "Agile values and methods applied to running services."
+    },
+    "3": {
+      "tagline": "The ITIL practices, made lean, automated, and data-informed."
+    },
+    "4": {
+      "tagline": "Knowing what you have, what it costs, and how it fits together."
+    },
+    "5": {
+      "tagline": "What AI changes, and how to govern it."
+    },
+    "6": {
+      "tagline": "Making routine work routine."
+    },
+    "7": {
+      "tagline": "Using data to run services and improve them."
+    },
+    "8": {
+      "tagline": "The human side of service management with AI and automation."
+    }
+  },
+  "results": {
+    "button": "Search",
+    "label": "Search results",
+    "heading": "Search results for {$query}",
+    "failed": "The search index could not be loaded. Try again later.",
+    "searching": "Searching…",
+    "none": "Nothing matched {$query}.",
+    "browse": "Browse the contents instead.",
+    "count": ".input {$count :integer}\n.match $count\none {{1 result.}}\n*   {{{$count} results.}}",
+    "limited": "Showing the best {$count} results."
+  },
+  "glossary": {
+    "title": "Glossary",
+    "lead": "Key terms defined in plain English, each pointing at the topic that owns it."
+  },
+  "indexPage": {
+    "title": "Index",
+    "lead": "Concepts and frameworks, with the topics that cover them."
+  },
+  "jumpToLetter": "Jump to letter",
+  "skillsPage": {
+    "title": "AI skills",
+    "lead": "Skills in Claude Code format that the topics link to. Each is a SKILL.md file you can copy into your own skills folder.",
+    "viewSource": "View on GitHub",
+    "backToList": "All skills"
+  },
+  "error": {
+    "label": "Error {$status}",
+    "notFound": "That page is not here",
+    "generic": "Something went wrong",
+    "unknown": "Unknown error",
+    "try": "Try the contents, the glossary, or the index."
+  },
+  "home": {
+    "continue": "Continue to the Service Management Guide"
+  }
+}

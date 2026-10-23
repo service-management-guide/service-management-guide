@@ -1,0 +1,127 @@
+{
+  "locale": {
+    "label": "Cymraeg (Byd)"
+  },
+  "siteTitle": "Canllaw Rheoli Gwasanaethau",
+  "skipToContent": "Neidio i'r cynnwys",
+  "nav": {
+    "contents": "Cynnwys",
+    "glossary": "Geirfa",
+    "index": "Mynegai",
+    "skills": "Sgiliau",
+    "source": "Ffynhonnell"
+  },
+  "picker": {
+    "theme": "Thema",
+    "locale": "Iaith",
+    "textSize": "Maint y testun",
+    "share": "Rhannu",
+    "search": "Chwilio",
+    "searchInput": "Chwilio'r canllaw",
+    "searchSubmit": "Chwilio"
+  },
+  "share": {
+    "emailLink": "Anfon y ddolen mewn e-bost",
+    "shareOnLinkedIn": "Rhannu ar LinkedIn",
+    "shareOnReddit": "Rhannu ar Reddit",
+    "shareOnBluesky": "Rhannu ar Bluesky",
+    "shareOnMastodon": "Rhannu ar Mastodon",
+    "copyLink": "Copïo'r ddolen",
+    "copied": "Wedi copïo",
+    "copyFailed": "Methwyd copïo"
+  },
+  "links": {
+    "label": "Dolenni",
+    "llms": "llms.txt (ar gyfer asiantau AI)",
+    "skills": "Sgiliau AI ar GitHub",
+    "issues": "Olrhain materion"
+  },
+  "footer": {
+    "tagline": "Rheoli gwasanaethau gydag ystwyth, AI, awtomeiddio a dadansoddeg.",
+    "sourceAndContributions": "Ffynhonnell a chyfraniadau:",
+    "builtWith": "Wedi'i adeiladu gyda",
+    "ledBy": "Crëwyd gan"
+  },
+  "breadcrumb": {
+    "home": "Hafan",
+    "contents": "Cynnwys",
+    "skills": "Sgiliau",
+    "label": "Llwybr briwsion"
+  },
+  "contents": {
+    "pageTitle": "Cynnwys",
+    "lead": "Wyth rhan a 65 pwnc ar reoli gwasanaethau yn oes ITIL 5, drwy bedwar lens: ystwyth, AI, awtomeiddio a dadansoddeg, gyda chwestiynau trafod, anogwyr AI a sgiliau AI.",
+    "readingIn": "Yn darllen yn {$language}",
+    "part": "Rhan {$number}",
+    "reference": "Cyfeirnod",
+    "comingSoon": "yn dod yn fuan"
+  },
+  "topic": {
+    "eyebrow": "Pwnc {$number}",
+    "paginationLabel": "Llywio rhwng pynciau",
+    "previous": "Blaenorol",
+    "next": "Nesaf"
+  },
+  "parts": {
+    "1": {
+      "tagline": "Beth yw rheoli gwasanaethau a sut mae ITIL, gan gynnwys ITIL 5, yn ei godeiddio."
+    },
+    "2": {
+      "tagline": "Gwerthoedd a dulliau ystwyth wedi'u cymhwyso at redeg gwasanaethau."
+    },
+    "3": {
+      "tagline": "Arferion ITIL wedi'u gwneud yn fain, yn awtomataidd ac wedi'u llywio gan ddata."
+    },
+    "4": {
+      "tagline": "Gwybod beth sydd gennych, beth mae'n ei gostio a sut mae'n cydweddu."
+    },
+    "5": {
+      "tagline": "Beth mae AI yn ei newid, a sut i'w lywodraethu."
+    },
+    "6": {
+      "tagline": "Gwneud gwaith arferol yn arferol."
+    },
+    "7": {
+      "tagline": "Defnyddio data i redeg gwasanaethau a'u gwella."
+    },
+    "8": {
+      "tagline": "Ochr ddynol rheoli gwasanaethau gydag AI ac awtomeiddio."
+    }
+  },
+  "results": {
+    "button": "Chwilio",
+    "label": "Canlyniadau chwilio",
+    "heading": "Canlyniadau chwilio am {$query}",
+    "failed": "Methwyd llwytho'r mynegai chwilio. Rhowch gynnig arall arni yn nes ymlaen.",
+    "searching": "Wrthi'n chwilio…",
+    "none": "Dim byd yn cyfateb i {$query}.",
+    "browse": "Porwch y cynnwys yn lle hynny.",
+    "count": "{$count} canlyniad.",
+    "limited": "Yn dangos y {$count} canlyniad gorau."
+  },
+  "glossary": {
+    "title": "Geirfa",
+    "lead": "Termau allweddol wedi'u diffinio mewn iaith blaen, pob un yn pwyntio at y pwnc sy'n berchen arno."
+  },
+  "indexPage": {
+    "title": "Mynegai",
+    "lead": "Cysyniadau a fframweithiau, gyda'r pynciau sy'n eu cwmpasu."
+  },
+  "jumpToLetter": "Neidio i lythyren",
+  "skillsPage": {
+    "title": "Sgiliau AI",
+    "lead": "Sgiliau ar fformat Claude Code y mae'r pynciau'n cysylltu â nhw. Mae pob un yn ffeil SKILL.md y gallwch ei chopïo i'ch ffolder sgiliau eich hun.",
+    "viewSource": "Gweld ar GitHub",
+    "backToList": "Pob sgil"
+  },
+  "error": {
+    "label": "Gwall {$status}",
+    "notFound": "Nid yw'r dudalen honno yma",
+    "generic": "Aeth rhywbeth o'i le",
+    "unknown": "Gwall anhysbys",
+    "try": "Rhowch gynnig ar y cynnwys, yr eirfa neu'r mynegai."
+  },
+  "home": {
+    "continue": "Parhau i'r Canllaw Rheoli Gwasanaethau"
+  }
+}
