@@ -1,0 +1,23 @@
+{
+  "name": "Español (mundo)",
+  "topic_word": "tema",
+  "topics_word": "temas",
+  "h2": {},
+  "h3": {},
+  "maturity": {},
+  "dirs": {
+    "topics": "temas",
+    "contents": "contenidos",
+    "terminology": "terminología",
+    "glossary": "glosario",
+    "index": "índice"
+  },
+  "strings": {
+    "title": "Guía de gestión de servicios",
+    "tagline": "Gestión de servicios con agilidad, IA, automatización y analítica.",
+    "intro": "La gestión de servicios es la forma en que las organizaciones cocrean valor con sus clientes. ITIL 5 la plantea en torno a los productos digitales, la IA y el valor medible. Esta guía muestra cómo ejecutarla a través de cuatro lentes: ágil, IA, automatización y analítica, con investigación, prácticas, ejemplos, ideas para conversar con los equipos, habilidades de IA y prompts de IA.",
+    "contents": "Contenidos",
+    "read": "Leer en la web",
+    "part_fmt": "Parte {n}"
+  }
+}
