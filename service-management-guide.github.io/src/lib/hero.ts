@@ -100,6 +100,16 @@ export const HERO: Record<string, Record<string, string>> = {
   "intro": "Управление услугами — это способ, которым организации совместно с клиентами создают ценность. ITIL 5 строит его вокруг цифровых продуктов, ИИ и измеримой ценности. Это руководство показывает, как управлять услугами через четыре линзы: гибкость, ИИ, автоматизацию и аналитику, с исследованиями, практиками, примерами, идеями для обсуждения в командах, ИИ-навыками и запросами к ИИ.",
   "translations": "Переводы: "
  },
+ "sv-001": {
+  "tagline": "En praktisk handbok i tjänstehantering i ITIL 5:s tid: agilitet, AI, automatisering och analys.",
+  "intro": "Tjänstehantering är sättet organisationer skapar värde tillsammans med kunder. ITIL 5 ramar in det kring digitala produkter, AI och mätbart värde. Den här guiden visar hur man driver det genom fyra linser: agilitet, AI, automatisering och analys, med forskning, arbetssätt, exempel, idéer att samtala om i team, AI-färdigheter och AI-prompter.",
+  "translations": "Översättningar: "
+ },
+ "sv-se": {
+  "tagline": "En praktisk handbok i tjänstehantering i ITIL 5:s tid: agilitet, AI, automatisering och analys.",
+  "intro": "Tjänstehantering är sättet organisationer skapar värde tillsammans med kunder. ITIL 5 ramar in det kring digitala produkter, AI och mätbart värde. Den här guiden visar hur man driver det genom fyra linser: agilitet, AI, automatisering och analys, med forskning, arbetssätt, exempel, idéer att samtala om i team, AI-färdigheter och AI-prompter.",
+  "translations": "Översättningar: "
+ },
  "sw-001": {
   "tagline": "Mwongozo wa vitendo wa usimamizi wa huduma katika enzi ya ITIL 5: uchapuchapu, AI, uendeshaji otomatiki na uchanganuzi.",
   "intro": "Usimamizi wa huduma ni jinsi mashirika yanavyounda thamani pamoja na wateja. ITIL 5 unauweka kuzunguka bidhaa za kidijitali, AI na thamani inayopimika. Mwongozo huu unaonyesha jinsi ya kuuendesha kupitia lenzi nne: uchapuchapu, AI, uendeshaji otomatiki na uchanganuzi, pamoja na utafiti, mazoea, mifano, mawazo ya kujadiliana na timu, ujuzi wa AI na maelekezo ya AI.",

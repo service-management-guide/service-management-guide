@@ -1,0 +1,127 @@
+{
+  "locale": {
+    "label": "Svenska (världen)"
+  },
+  "siteTitle": "Guide till tjänstehantering",
+  "skipToContent": "Hoppa till innehållet",
+  "nav": {
+    "contents": "Innehåll",
+    "glossary": "Ordlista",
+    "index": "Register",
+    "skills": "Färdigheter",
+    "source": "Källa"
+  },
+  "picker": {
+    "theme": "Tema",
+    "locale": "Språk",
+    "textSize": "Textstorlek",
+    "share": "Dela",
+    "search": "Sök",
+    "searchInput": "Sök i guiden",
+    "searchSubmit": "Sök"
+  },
+  "share": {
+    "emailLink": "Skicka länk med e-post",
+    "shareOnLinkedIn": "Dela på LinkedIn",
+    "shareOnReddit": "Dela på Reddit",
+    "shareOnBluesky": "Dela på Bluesky",
+    "shareOnMastodon": "Dela på Mastodon",
+    "copyLink": "Kopiera länk",
+    "copied": "Kopierad",
+    "copyFailed": "Kunde inte kopiera"
+  },
+  "links": {
+    "label": "Länkar",
+    "llms": "llms.txt (för AI-agenter)",
+    "skills": "AI-färdigheter på GitHub",
+    "issues": "Ärendehantering"
+  },
+  "footer": {
+    "tagline": "Tjänstehantering med agilitet, AI, automatisering och analys.",
+    "sourceAndContributions": "Källa och bidrag:",
+    "builtWith": "Byggd med",
+    "ledBy": "Skapad av"
+  },
+  "breadcrumb": {
+    "home": "Startsida",
+    "contents": "Innehåll",
+    "skills": "Färdigheter",
+    "label": "Sökväg"
+  },
+  "contents": {
+    "pageTitle": "Innehåll",
+    "lead": "Åtta delar och 65 ämnen om tjänstehantering i ITIL 5:s tid, genom fyra linser: agilitet, AI, automatisering och analys, med diskussionsfrågor, AI-prompter och AI-färdigheter.",
+    "readingIn": "Läser på {$language}",
+    "part": "Del {$number}",
+    "reference": "Referens",
+    "comingSoon": "kommer snart"
+  },
+  "topic": {
+    "eyebrow": "Ämne {$number}",
+    "paginationLabel": "Ämnesnavigering",
+    "previous": "Föregående",
+    "next": "Nästa"
+  },
+  "parts": {
+    "1": {
+      "tagline": "Vad tjänstehantering är och hur ITIL, inklusive ITIL 5, kodifierar det."
+    },
+    "2": {
+      "tagline": "Agila värderingar och metoder tillämpade på drift av tjänster."
+    },
+    "3": {
+      "tagline": "ITIL-arbetssätten, slimmade, automatiserade och datadrivna."
+    },
+    "4": {
+      "tagline": "Att veta vad man har, vad det kostar och hur det hänger ihop."
+    },
+    "5": {
+      "tagline": "Vad AI förändrar och hur det styrs."
+    },
+    "6": {
+      "tagline": "Att göra rutinarbete till verklig rutin."
+    },
+    "7": {
+      "tagline": "Att använda data för att driva tjänster och förbättra dem."
+    },
+    "8": {
+      "tagline": "Den mänskliga sidan av tjänstehantering med AI och automatisering."
+    }
+  },
+  "results": {
+    "button": "Sök",
+    "label": "Sökresultat",
+    "heading": "Sökresultat för {$query}",
+    "failed": "Sökindexet kunde inte läsas in. Försök igen senare.",
+    "searching": "Söker…",
+    "none": "Inget matchade {$query}.",
+    "browse": "Bläddra bland innehållet i stället.",
+    "count": "{$count} resultat.",
+    "limited": "Visar de {$count} bästa resultaten."
+  },
+  "glossary": {
+    "title": "Ordlista",
+    "lead": "Nyckelbegrepp definierade på enkel svenska, vart och ett med en hänvisning till det ämne som äger det."
+  },
+  "indexPage": {
+    "title": "Register",
+    "lead": "Begrepp och ramverk, med de ämnen som behandlar dem."
+  },
+  "jumpToLetter": "Hoppa till bokstav",
+  "skillsPage": {
+    "title": "AI-färdigheter",
+    "lead": "Färdigheter i Claude Code-format som ämnena länkar till. Var och en är en SKILL.md-fil som du kan kopiera till din egen färdighetsmapp.",
+    "viewSource": "Visa på GitHub",
+    "backToList": "Alla färdigheter"
+  },
+  "error": {
+    "label": "Fel {$status}",
+    "notFound": "Den sidan finns inte här",
+    "generic": "Något gick fel",
+    "unknown": "Okänt fel",
+    "try": "Prova innehållet, ordlistan eller registret."
+  },
+  "home": {
+    "continue": "Fortsätt till Guide till tjänstehantering"
+  }
+}
