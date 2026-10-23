@@ -72,11 +72,11 @@ for locale_path in "$source_repo"/locales/*/; do
         python3 -c 'import json,sys; d=json.load(open(sys.argv[1],encoding="utf-8")).get("dirs",{}); json.dump(d,open(sys.argv[2],"w",encoding="utf-8"),ensure_ascii=False)' "${locale_path}locale.json" "$destination/locales/$locale/dirs.json"
         eval "$(python3 -c 'import json,sys; d=json.load(open(sys.argv[1],encoding="utf-8")).get("dirs",{}); print("topics_dir=%s glossary_dir=%s index_dir=%s" % tuple(repr(d.get(k,k)) for k in ("topics","glossary","index")))' "${locale_path}locale.json")"
     fi
-    if [ -f "${locale_path}${glossary_dir}/index.md" ]; then
+    if [ -f "${locale_path}${glossary_dir}/index.md" ] && ! grep -q "$STUB" "${locale_path}${glossary_dir}/index.md"; then
         mkdir -p "$destination/locales/$locale/glossary"
         cp "${locale_path}${glossary_dir}/index.md" "$destination/locales/$locale/glossary/index.md"
     fi
-    if [ -f "${locale_path}${index_dir}/index.md" ]; then
+    if [ -f "${locale_path}${index_dir}/index.md" ] && ! grep -q "$STUB" "${locale_path}${index_dir}/index.md"; then
         mkdir -p "$destination/locales/$locale/index"
         cp "${locale_path}${index_dir}/index.md" "$destination/locales/$locale/index/index.md"
     fi
