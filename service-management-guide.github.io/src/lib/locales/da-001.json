@@ -1,0 +1,127 @@
+{
+  "locale": {
+    "label": "Dansk (verden)"
+  },
+  "siteTitle": "Guide til servicestyring",
+  "skipToContent": "Gå til indholdet",
+  "nav": {
+    "contents": "Indhold",
+    "glossary": "Ordliste",
+    "index": "Indeks",
+    "skills": "Færdigheder",
+    "source": "Kilde"
+  },
+  "picker": {
+    "theme": "Tema",
+    "locale": "Sprog",
+    "textSize": "Tekststørrelse",
+    "share": "Del",
+    "search": "Søg",
+    "searchInput": "Søg i guiden",
+    "searchSubmit": "Søg"
+  },
+  "share": {
+    "emailLink": "Send link på mail",
+    "shareOnLinkedIn": "Del på LinkedIn",
+    "shareOnReddit": "Del på Reddit",
+    "shareOnBluesky": "Del på Bluesky",
+    "shareOnMastodon": "Del på Mastodon",
+    "copyLink": "Kopiér link",
+    "copied": "Kopieret",
+    "copyFailed": "Kunne ikke kopiere"
+  },
+  "links": {
+    "label": "Links",
+    "llms": "llms.txt (til AI-agenter)",
+    "skills": "AI-færdigheder på GitHub",
+    "issues": "Fejlsporing"
+  },
+  "footer": {
+    "tagline": "Servicestyring med agilitet, AI, automatisering og analyse.",
+    "sourceAndContributions": "Kilde og bidrag:",
+    "builtWith": "Bygget med",
+    "ledBy": "Skabt af"
+  },
+  "breadcrumb": {
+    "home": "Forside",
+    "contents": "Indhold",
+    "skills": "Færdigheder",
+    "label": "Brødkrummesti"
+  },
+  "contents": {
+    "pageTitle": "Indhold",
+    "lead": "Otte dele og 65 emner om servicestyring i ITIL 5's tidsalder, gennem fire linser: agilitet, AI, automatisering og analyse, med diskussionsspørgsmål, AI-prompts og AI-færdigheder.",
+    "readingIn": "Læser på {$language}",
+    "part": "Del {$number}",
+    "reference": "Opslag",
+    "comingSoon": "kommer snart"
+  },
+  "topic": {
+    "eyebrow": "Emne {$number}",
+    "paginationLabel": "Emnenavigation",
+    "previous": "Forrige",
+    "next": "Næste"
+  },
+  "parts": {
+    "1": {
+      "tagline": "Hvad servicestyring er, og hvordan ITIL, herunder ITIL 5, kodificerer det."
+    },
+    "2": {
+      "tagline": "Agile værdier og metoder anvendt på drift af services."
+    },
+    "3": {
+      "tagline": "ITIL-praksis, gjort slank, automatiseret og datadrevet."
+    },
+    "4": {
+      "tagline": "At vide, hvad man har, hvad det koster, og hvordan det hænger sammen."
+    },
+    "5": {
+      "tagline": "Hvad AI ændrer, og hvordan det styres."
+    },
+    "6": {
+      "tagline": "At gøre rutinearbejde til virkelig rutine."
+    },
+    "7": {
+      "tagline": "At bruge data til at drive services og forbedre dem."
+    },
+    "8": {
+      "tagline": "Den menneskelige side af servicestyring med AI og automatisering."
+    }
+  },
+  "results": {
+    "button": "Søg",
+    "label": "Søgeresultater",
+    "heading": "Søgeresultater for {$query}",
+    "failed": "Søgeindekset kunne ikke indlæses. Prøv igen senere.",
+    "searching": "Søger…",
+    "none": "Intet matchede {$query}.",
+    "browse": "Gennemse indholdet i stedet.",
+    "count": "{$count} resultater.",
+    "limited": "Viser de bedste {$count} resultater."
+  },
+  "glossary": {
+    "title": "Ordliste",
+    "lead": "Nøglebegreber defineret i klart sprog, hver med en henvisning til det emne, der ejer dem."
+  },
+  "indexPage": {
+    "title": "Indeks",
+    "lead": "Begreber og rammeværk, med de emner, der dækker dem."
+  },
+  "jumpToLetter": "Spring til bogstav",
+  "skillsPage": {
+    "title": "AI-færdigheder",
+    "lead": "Færdigheder i Claude Code-format, som emnerne linker til. Hver er en SKILL.md-fil, som du kan kopiere til din egen færdighedsmappe.",
+    "viewSource": "Se på GitHub",
+    "backToList": "Alle færdigheder"
+  },
+  "error": {
+    "label": "Fejl {$status}",
+    "notFound": "Den side findes ikke her",
+    "generic": "Noget gik galt",
+    "unknown": "Ukendt fejl",
+    "try": "Prøv indholdet, ordlisten eller indekset."
+  },
+  "home": {
+    "continue": "Fortsæt til Guide til servicestyring"
+  }
+}

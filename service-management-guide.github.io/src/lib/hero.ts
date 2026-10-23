@@ -20,6 +20,11 @@ export const HERO: Record<string, Record<string, string>> = {
   "intro": "Rheoli gwasanaethau yw'r ffordd y mae sefydliadau'n cyd-greu gwerth gyda chwsmeriaid. Mae ITIL 5 yn ei fframio o amgylch cynhyrchion digidol, AI a gwerth mesuradwy. Mae'r canllaw hwn yn dangos sut i'w redeg drwy bedwar lens: ystwyth, AI, awtomeiddio a dadansoddeg, gydag ymchwil, arferion, enghreifftiau, syniadau i'w trafod gyda thimau, sgiliau AI ac anogwyr AI.",
   "translations": "Cyfieithiadau: "
  },
+ "da-001": {
+  "tagline": "En praktisk håndbog i servicestyring i ITIL 5's tidsalder: agilitet, AI, automatisering og analyse.",
+  "intro": "Servicestyring er den måde, organisationer skaber værdi sammen med kunderne på. ITIL 5 rammer det ind omkring digitale produkter, AI og målbar værdi. Denne guide viser, hvordan man driver det gennem fire linser: agilitet, AI, automatisering og analyse, med forskning, praksis, eksempler, idéer til samtaler i teams, AI-færdigheder og AI-prompts.",
+  "translations": "Oversættelser: "
+ },
  "de-001": {
   "tagline": "Ein praktisches Handbuch für Service-Management im Zeitalter von ITIL 5: Agilität, KI, Automatisierung und Analytik.",
   "intro": "Service-Management ist die Art, wie Organisationen gemeinsam mit Kunden Wert schaffen. ITIL 5 stellt es um digitale Produkte, KI und messbaren Nutzen herum auf. Dieser Leitfaden zeigt, wie Sie es durch vier Linsen betreiben: Agilität, KI, Automatisierung und Analytik, mit Forschung, Praktiken, Beispielen, Ideen für Teamgespräche, KI-Skills und KI-Prompts.",
