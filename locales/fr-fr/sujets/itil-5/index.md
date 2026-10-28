@@ -95,7 +95,7 @@ Automatisez la cartographie du parc là où vous le pouvez : tirez les listes de
 
 ### Analytique
 
-Suivez une poignée de signaux d'adoption, comme la part des services et des systèmes d'IA ayant un responsable nommé, et le nombre d'affirmations sur ITIL 5 marquées comme vérifiées. Attention : les comptes de « responsables nommés » peuvent être détournés en nommant n'importe qui ; associez-les à une vérification que le responsable le sait. Voir le livre *Service Management Metrics* (sujet 1.8, mesure d'ITIL 5 et résultats de valeur).
+Suivez une poignée de signaux d'adoption, comme la part des services et des systèmes d'IA ayant un responsable nommé, et le nombre d'affirmations sur ITIL 5 marquées comme vérifiées. Attention : les comptes de « responsables nommés » peuvent être détournés en nommant n'importe qui ; associez-les à une vérification que le responsable le sait. Voir le livre *Service Management Metrics* (chapitre 1.8, mesure d'ITIL 5 et résultats de valeur).
 
 ## Modes d'échec courants
 
