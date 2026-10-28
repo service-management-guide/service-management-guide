@@ -80,6 +80,11 @@ export const HERO: Record<string, Record<string, string>> = {
   "intro": "Manajemen layanan adalah cara organisasi menciptakan nilai bersama pelanggan. ITIL 5 membingkainya di sekitar produk digital, AI, dan nilai yang terukur. Panduan ini menunjukkan cara menjalankannya melalui empat lensa: agile, AI, otomatisasi, dan analitik, lengkap dengan riset, praktik, contoh, gagasan untuk dibahas bersama tim, skill AI, dan prompt AI.",
   "translations": "Terjemahan: "
  },
+ "id-id": {
+  "tagline": "Buku panduan praktis manajemen layanan di era ITIL 5: agile, AI, otomatisasi, dan analitik.",
+  "intro": "Manajemen layanan adalah cara organisasi menciptakan nilai bersama pelanggan. ITIL 5 membingkainya di sekitar produk digital, AI, dan nilai yang terukur. Panduan ini menunjukkan cara menjalankannya melalui empat lensa: agile, AI, otomatisasi, dan analitik, lengkap dengan riset, praktik, contoh, gagasan untuk dibahas bersama tim, skill AI, dan prompt AI.",
+  "translations": "Terjemahan: "
+ },
  "ja-001": {
   "tagline": "ITIL 5時代のサービスマネジメントのための実践ハンドブック：アジャイル、AI、自動化、アナリティクス。",
   "intro": "サービスマネジメントとは、組織が顧客と共に価値を創造する方法です。ITIL 5はそれをデジタルプロダクト、AI、測定可能な価値を軸に捉え直します。このガイドは、アジャイル、AI、自動化、アナリティクスという四つのレンズを通して運用する方法を、調査、プラクティス、事例、チームで話し合うためのアイデア、AIスキル、AIプロンプトとともに示します。",
@@ -184,6 +189,7 @@ export const ENDONYMS: Record<string, string> = {
  "hi-001": "हिन्दी",
  "hi-in": "हिन्दी (भारत)",
  "id-001": "Bahasa Indonesia",
+ "id-id": "Bahasa Indonesia (Indonesia)",
  "ja-001": "日本語",
  "ja-jp": "日本語（日本）",
  "ko-001": "한국어",
