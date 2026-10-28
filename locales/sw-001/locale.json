@@ -2,9 +2,39 @@
   "name": "Kiswahili (dunia)",
   "topic_word": "mada",
   "topics_word": "somo",
-  "h2": {},
-  "h3": {},
-  "maturity": {},
+  "h2": {
+    "Why this matters": "Kwa nini hili ni muhimu",
+    "Core concepts": "Dhana kuu",
+    "Best practices": "Mazoea bora",
+    "Questions to discuss with your team": "Maswali ya kujadili na timu yako",
+    "In practice: a service management example": "Kwa vitendo: mfano wa usimamizi wa huduma",
+    "Four perspectives": "Mitazamo minne",
+    "Agile, AI, automation, and analytics": "Uchapuchapu, AI, uendeshaji otomatiki na uchanganuzi",
+    "Common failure modes": "Njia za kawaida za kushindwa",
+    "Maturity model": "Modeli ya ukomavu",
+    "Checklist": "Orodha hakiki",
+    "AI prompts": "Maelekezo ya AI",
+    "AI skills": "Ujuzi wa AI",
+    "Key sources": "Vyanzo vikuu",
+    "References": "Marejeo"
+  },
+  "h3": {
+    "Product and delivery teams": "Timu za bidhaa na utoaji",
+    "Service and operations teams": "Timu za huduma na uendeshaji",
+    "Leadership and governance": "Uongozi na utawala",
+    "Customers and users": "Wateja na watumiaji",
+    "Agile": "Uchapuchapu",
+    "AI": "AI",
+    "Automation": "Uendeshaji otomatiki",
+    "Analytics": "Uchanganuzi"
+  },
+  "maturity": {
+    "Initiate": "Kuanzisha",
+    "Develop": "Kuendeleza",
+    "Standardize": "Kusanifisha",
+    "Manage": "Kusimamia",
+    "Orchestrate": "Kuratibu"
+  },
   "dirs": {
     "topics": "mada",
     "contents": "yaliyomo",
