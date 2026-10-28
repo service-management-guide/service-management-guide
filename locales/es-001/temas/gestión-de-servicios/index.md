@@ -20,7 +20,7 @@ Esta guía trata la gestión de servicios a través de cuatro lentes: ágil, IA,
 
 **Proveedor, consumidor y los roles dentro de «consumidor».** El proveedor diseña y opera el servicio. El consumidor es un grupo más amplio: el cliente define los requisitos y asume la responsabilidad del resultado, el usuario usa el servicio y el patrocinador autoriza el financiamiento. Una persona puede tener varios roles, y un servicio fracasa cuando el proveedor habla solo con uno de ellos.
 
-**Relación de servicio.** Proveedores y consumidores están unidos por una relación hecha de acuerdos, expectativas y un ciclo de retroalimentación. Un acuerdo de nivel de servicio (SLA), tratado en el Tema 3.7 — Gestión de niveles de servicio, es una parte. La conversación que mantiene honesto al SLA es la parte mayor.
+**Relación de servicio.** Proveedores y consumidores están unidos por una relación hecha de acuerdos, expectativas y un ciclo de retroalimentación. Un acuerdo de nivel de servicio (SLA), tratado en el Tema 3.7 — Gestión de Niveles de Servicio, es una parte. La conversación que mantiene honesto al SLA es la parte mayor.
 
 **Prácticas, no solo procesos.** Las descripciones antiguas de la gestión de servicios de TI (ITSM) destacan los procesos: secuencias fijas de pasos, como un proceso de incidentes. La guía actual, incluido ITIL 4, habla de prácticas: conjuntos de recursos organizacionales diseñados para realizar trabajo hacia un objetivo. Una práctica incluye personas, información, herramientas y socios, además de los pasos. El Tema 1.2 — ITIL rastrea cómo llegó el marco a esta formulación, y el Tema 1.4 — El sistema de valor del servicio muestra cómo encajan las prácticas.
 
