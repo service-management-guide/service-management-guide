@@ -1,10 +1,40 @@
 {
   "name": "Bahasa Indonesia (dunia)",
-  "topic_word": "topik",
-  "topics_word": "topik",
-  "h2": {},
-  "h3": {},
-  "maturity": {},
+  "topic_word": "Topik",
+  "topics_word": "Topik",
+  "h2": {
+    "Why this matters": "Mengapa ini penting",
+    "Core concepts": "Konsep inti",
+    "Best practices": "Praktik terbaik",
+    "Questions to discuss with your team": "Pertanyaan untuk dibahas bersama tim Anda",
+    "In practice: a service management example": "Dalam praktik: contoh manajemen layanan",
+    "Four perspectives": "Empat perspektif",
+    "Agile, AI, automation, and analytics": "Agile, AI, otomatisasi, dan analitik",
+    "Common failure modes": "Mode kegagalan umum",
+    "Maturity model": "Model kematangan",
+    "Checklist": "Daftar periksa",
+    "AI prompts": "Prompt AI",
+    "AI skills": "Skill AI",
+    "Key sources": "Sumber utama",
+    "References": "Referensi"
+  },
+  "h3": {
+    "Product and delivery teams": "Tim produk dan pengiriman",
+    "Service and operations teams": "Tim layanan dan operasi",
+    "Leadership and governance": "Kepemimpinan dan tata kelola",
+    "Customers and users": "Pelanggan dan pengguna",
+    "Agile": "Agile",
+    "AI": "AI",
+    "Automation": "Otomatisasi",
+    "Analytics": "Analitik"
+  },
+  "maturity": {
+    "Initiate": "Memulai",
+    "Develop": "Mengembangkan",
+    "Standardize": "Menstandardisasi",
+    "Manage": "Mengelola",
+    "Orchestrate": "Mengorkestrasi"
+  },
   "dirs": {
     "topics": "topik",
     "contents": "konten",
