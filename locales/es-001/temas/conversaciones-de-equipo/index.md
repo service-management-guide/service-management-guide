@@ -59,7 +59,7 @@ Una estructura breve arregla la mayor parte de esto. No necesita formación ni u
 
 **Cadencia.** Un espacio regular, como 45 minutos cada dos semanas, crea el hábito y da continuidad. Elija temas que conecten con el trabajo actual y rote quién facilita.
 
-**Usar la IA como ayudante.** La IA puede ayudar a planificar una sesión, convertir las respuestas en temas y redactar un resumen, bajo el control del facilitador. No pegue conversaciones confidenciales o delicadas en herramientas sin aprobación y mantenga en la sala el juicio humano y las relaciones. Véase el Tema 5.7 — Habilidades y prompts de IA.
+**Usar la IA como ayudante.** La IA puede ayudar a planificar una sesión, convertir las respuestas en temas y redactar un resumen, bajo el control del facilitador. No pegue conversaciones confidenciales o delicadas en herramientas sin aprobación y mantenga en la sala el juicio humano y las relaciones. Véase el Tema 5.7 — Habilidades y Prompts de IA.
 
 **Cómo encajan las lentes.** Las conversaciones son la práctica de la mejora continua a nivel de equipo. La práctica ágil las trata como ciclos de retroalimentación breves. La IA, la automatización y la analítica tienen cada una preguntas en cada tema, y la conversación es donde un equipo decide qué hacer al respecto.
 
@@ -136,7 +136,7 @@ Una conversación es un ciclo de retroalimentación breve: mirar lo que ocurre, 
 
 ### IA
 
-La IA puede sugerir un plan de sesión, agrupar respuestas escritas en temas y redactar un resumen y una lista de acciones para que el facilitador los compruebe. Nombre quién es responsable del resultado. Precaución: no pegue discusiones delicadas o confidenciales en herramientas no aprobadas y no deje que un resumen sustituya lo que la gente dijo realmente. Véase el Tema 5.7 — Habilidades y prompts de IA.
+La IA puede sugerir un plan de sesión, agrupar respuestas escritas en temas y redactar un resumen y una lista de acciones para que el facilitador los compruebe. Nombre quién es responsable del resultado. Precaución: no pegue discusiones delicadas o confidenciales en herramientas no aprobadas y no deje que un resumen sustituya lo que la gente dijo realmente. Véase el Tema 5.7 — Habilidades y Prompts de IA.
 
 ### Automatización
 
