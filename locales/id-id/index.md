@@ -96,4 +96,4 @@ Manajemen layanan adalah cara organisasi menciptakan nilai bersama pelanggan. IT
 - [8.4 Percakapan Tim](topik/percakapan-tim/index.md)
 - [8.5 Jalur Belajar dan Sertifikasi](topik/jalur-belajar-dan-sertifikasi/index.md)
 
-[Baca di web](https://service-management-guide.github.io/id-001/konten/)
+[Baca di web](https://service-management-guide.github.io/id-id/konten/)
