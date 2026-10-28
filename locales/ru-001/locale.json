@@ -2,9 +2,39 @@
   "name": "Русский (мир)",
   "topic_word": "тема",
   "topics_word": "темы",
-  "h2": {},
-  "h3": {},
-  "maturity": {},
+  "h2": {
+    "Why this matters": "Почему это важно",
+    "Core concepts": "Основные понятия",
+    "Best practices": "Лучшие практики",
+    "Questions to discuss with your team": "Вопросы для обсуждения с командой",
+    "In practice: a service management example": "На практике: пример управления услугами",
+    "Four perspectives": "Четыре перспективы",
+    "Agile, AI, automation, and analytics": "Agile, ИИ, автоматизация и аналитика",
+    "Common failure modes": "Типичные виды сбоев",
+    "Maturity model": "Модель зрелости",
+    "Checklist": "Контрольный список",
+    "AI prompts": "Запросы к ИИ",
+    "AI skills": "ИИ-навыки",
+    "Key sources": "Ключевые источники",
+    "References": "Источники"
+  },
+  "h3": {
+    "Product and delivery teams": "Команды продукта и поставки",
+    "Service and operations teams": "Команды услуг и эксплуатации",
+    "Leadership and governance": "Руководство и управление",
+    "Customers and users": "Клиенты и пользователи",
+    "Agile": "Agile",
+    "AI": "ИИ",
+    "Automation": "Автоматизация",
+    "Analytics": "Аналитика"
+  },
+  "maturity": {
+    "Initiate": "Начальный",
+    "Develop": "Развивающийся",
+    "Standardize": "Стандартизированный",
+    "Manage": "Управляемый",
+    "Orchestrate": "Оркестрируемый"
+  },
   "dirs": {
     "topics": "темы",
     "contents": "содержание",
