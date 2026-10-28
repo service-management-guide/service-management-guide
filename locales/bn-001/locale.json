@@ -2,9 +2,39 @@
   "name": "বাংলা (বিশ্ব)",
   "topic_word": "বিষয়",
   "topics_word": "বিষয়",
-  "h2": {},
-  "h3": {},
-  "maturity": {},
+  "h2": {
+    "Why this matters": "কেন এটি গুরুত্বপূর্ণ",
+    "Core concepts": "মূল ধারণা",
+    "Best practices": "সেরা অনুশীলন",
+    "Questions to discuss with your team": "দলের সঙ্গে আলোচনার প্রশ্ন",
+    "In practice: a service management example": "বাস্তবে: সেবা ব্যবস্থাপনার একটি উদাহরণ",
+    "Four perspectives": "চারটি দৃষ্টিকোণ",
+    "Agile, AI, automation, and analytics": "এজাইল, এআই, অটোমেশন ও বিশ্লেষণ",
+    "Common failure modes": "সাধারণ ব্যর্থতার ধরন",
+    "Maturity model": "পরিপক্বতা মডেল",
+    "Checklist": "চেকলিস্ট",
+    "AI prompts": "এআই প্রম্পট",
+    "AI skills": "এআই স্কিল",
+    "Key sources": "মূল সূত্র",
+    "References": "তথ্যসূত্র"
+  },
+  "h3": {
+    "Product and delivery teams": "পণ্য ও ডেলিভারি দল",
+    "Service and operations teams": "সেবা ও অপারেশন দল",
+    "Leadership and governance": "নেতৃত্ব ও শাসন",
+    "Customers and users": "গ্রাহক ও ব্যবহারকারী",
+    "Agile": "এজাইল",
+    "AI": "এআই",
+    "Automation": "অটোমেশন",
+    "Analytics": "বিশ্লেষণ"
+  },
+  "maturity": {
+    "Initiate": "সূচনা",
+    "Develop": "বিকাশ",
+    "Standardize": "মানসম্মতকরণ",
+    "Manage": "ব্যবস্থাপনা",
+    "Orchestrate": "সমন্বয়"
+  },
   "dirs": {
     "topics": "বিষয়",
     "contents": "সূচিপত্র",
