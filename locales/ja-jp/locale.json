@@ -2,9 +2,39 @@
   "name": "日本語（日本）",
   "topic_word": "トピック",
   "topics_word": "項目",
-  "h2": {},
-  "h3": {},
-  "maturity": {},
+  "h2": {
+    "Why this matters": "なぜ重要か",
+    "Core concepts": "中核となる概念",
+    "Best practices": "ベストプラクティス",
+    "Questions to discuss with your team": "チームで話し合うための問い",
+    "In practice: a service management example": "実践：サービスマネジメントの例",
+    "Four perspectives": "四つの視点",
+    "Agile, AI, automation, and analytics": "アジャイル、AI、自動化、アナリティクス",
+    "Common failure modes": "よくある失敗パターン",
+    "Maturity model": "成熟度モデル",
+    "Checklist": "チェックリスト",
+    "AI prompts": "AIプロンプト",
+    "AI skills": "AIスキル",
+    "Key sources": "主要な情報源",
+    "References": "参考文献"
+  },
+  "h3": {
+    "Product and delivery teams": "プロダクトとデリバリーのチーム",
+    "Service and operations teams": "サービスと運用のチーム",
+    "Leadership and governance": "リーダーシップとガバナンス",
+    "Customers and users": "顧客とユーザー",
+    "Agile": "アジャイル",
+    "AI": "AI",
+    "Automation": "自動化",
+    "Analytics": "アナリティクス"
+  },
+  "maturity": {
+    "Initiate": "開始",
+    "Develop": "発展",
+    "Standardize": "標準化",
+    "Manage": "管理",
+    "Orchestrate": "オーケストレーション"
+  },
   "dirs": {
     "topics": "トピック",
     "contents": "目次",
