@@ -1,0 +1,53 @@
+{
+  "name": "Français (France)",
+  "topic_word": "sujet",
+  "topics_word": "sujets",
+  "h2": {
+    "Why this matters": "Pourquoi c'est important",
+    "Core concepts": "Concepts clés",
+    "Best practices": "Bonnes pratiques",
+    "Questions to discuss with your team": "Questions à discuter avec votre équipe",
+    "In practice: a service management example": "En pratique : un exemple de gestion des services",
+    "Four perspectives": "Quatre perspectives",
+    "Agile, AI, automation, and analytics": "Agilité, IA, automatisation et analytique",
+    "Common failure modes": "Modes d'échec courants",
+    "Maturity model": "Modèle de maturité",
+    "Checklist": "Liste de contrôle",
+    "AI prompts": "Invites d'IA",
+    "AI skills": "Compétences d'IA",
+    "Key sources": "Sources principales",
+    "References": "Références"
+  },
+  "h3": {
+    "Product and delivery teams": "Équipes produit et de livraison",
+    "Service and operations teams": "Équipes de service et d'exploitation",
+    "Leadership and governance": "Direction et gouvernance",
+    "Customers and users": "Clients et utilisateurs",
+    "Agile": "Agilité",
+    "AI": "IA",
+    "Automation": "Automatisation",
+    "Analytics": "Analytique"
+  },
+  "maturity": {
+    "Initiate": "Initier",
+    "Develop": "Développer",
+    "Standardize": "Standardiser",
+    "Manage": "Piloter",
+    "Orchestrate": "Orchestrer"
+  },
+  "dirs": {
+    "topics": "sujets",
+    "contents": "contenus",
+    "terminology": "terminologie",
+    "glossary": "glossaire",
+    "index": "index"
+  },
+  "strings": {
+    "title": "Guide de la gestion des services",
+    "tagline": "La gestion des services avec agilité, IA, automatisation et analytique.",
+    "intro": "La gestion des services est la façon dont les organisations cocréent de la valeur avec leurs clients. ITIL 5 la structure autour des produits numériques, de l'IA et d'une valeur mesurable. Ce guide montre comment la pratiquer à travers quatre angles : agilité, IA, automatisation et analytique, avec des recherches, des pratiques, des exemples, des idées de discussion en équipe, des compétences d'IA et des invites d'IA.",
+    "contents": "Contenus",
+    "read": "Lire sur le Web",
+    "part_fmt": "Partie {n}"
+  }
+}
