@@ -13,18 +13,18 @@ La gestion des services est la façon dont les organisations cocréent de la val
 - [1.2 ITIL](sujets/itil/index.md)
 - [1.3 ITIL 5](sujets/itil-5/index.md)
 - [1.4 Le système de valeur des services](sujets/le-système-de-valeur-des-services/index.md)
-- [1.5 Les principes directeurs ITIL](sujets/les-principes-directeurs-itil/index.md)
-- [1.6 Quatre dimensions de la gestion des services](sujets/quatre-dimensions-de-la-gestion-des-services/index.md)
+- [1.5 Les principes directeurs d'ITIL](sujets/les-principes-directeurs-itil/index.md)
+- [1.6 Les quatre dimensions de la gestion des services](sujets/quatre-dimensions-de-la-gestion-des-services/index.md)
 - [1.7 La chaîne de valeur des services](sujets/la-chaîne-de-valeur-des-services/index.md)
 - [1.8 Référentiels et normes de gestion des services](sujets/référentiels-et-normes-de-gestion-des-services/index.md)
 - [1.9 Gestion des services d'entreprise](sujets/gestion-des-services-d-entreprise/index.md)
 
 ### Partie 2
 
-- [2.1 Le Manifeste agile et ses principes](sujets/le-manifeste-agile-et-ses-principes/index.md)
+- [2.1 Le manifeste agile et ses principes](sujets/le-manifeste-agile-et-ses-principes/index.md)
 - [2.2 Livraison continue](sujets/livraison-continue/index.md)
-- [2.3 Flux et kanban](sujets/flux-et-kanban/index.md)
-- [2.4 Lean et kaizen](sujets/lean-et-kaizen/index.md)
+- [2.3 Flux et Kanban](sujets/flux-et-kanban/index.md)
+- [2.4 Lean et Kaizen](sujets/lean-et-kaizen/index.md)
 - [2.5 DevOps](sujets/devops/index.md)
 - [2.6 Ingénierie de la fiabilité des sites](sujets/ingénierie-de-la-fiabilité-des-sites/index.md)
 - [2.7 Agilité à grande échelle](sujets/agilité-à-grande-échelle/index.md)
@@ -46,7 +46,7 @@ La gestion des services est la façon dont les organisations cocréent de la val
 - [3.10 Surveillance et gestion des événements](sujets/surveillance-et-gestion-des-événements/index.md)
 - [3.11 Disponibilité, capacité et performance](sujets/disponibilité-capacité-et-performance/index.md)
 - [3.12 Gestion de la continuité des services](sujets/gestion-de-la-continuité-des-services/index.md)
-- [3.13 Gestion de la sécurité des informations](sujets/gestion-de-la-sécurité-des-informations/index.md)
+- [3.13 Gestion de la sécurité de l'information](sujets/gestion-de-la-sécurité-des-informations/index.md)
 - [3.14 Gestion des fournisseurs](sujets/gestion-des-fournisseurs/index.md)
 - [3.15 Amélioration continue](sujets/amélioration-continue/index.md)
 
@@ -66,14 +66,14 @@ La gestion des services est la façon dont les organisations cocréent de la val
 - [5.4 IA générative pour les incidents, les connaissances et les changements](sujets/ia-générative-pour-les-incidents-les-connaissances-et-les-changements/index.md)
 - [5.5 IA agentique et supervision humaine](sujets/ia-agentique-et-supervision-humaine/index.md)
 - [5.6 Gouvernance, risques et conformité de l'IA](sujets/gouvernance-risques-et-conformité-de-l-ia/index.md)
-- [5.7 Compétences et prompts IA](sujets/compétences-et-prompts-ia/index.md)
+- [5.7 Compétences et invites d'IA](sujets/compétences-et-prompts-ia/index.md)
 - [5.8 Modèle opérationnel et compétences en IA](sujets/modèle-opérationnel-et-compétences-en-ia/index.md)
 
 ### Partie 6
 
 - [6.1 Stratégie d'automatisation](sujets/stratégie-d-automatisation/index.md)
 - [6.2 Automatisation et orchestration des flux de travail](sujets/automatisation-et-orchestration-des-flux-de-travail/index.md)
-- [6.3 Infrastructure as code et GitOps](sujets/infrastructure-as-code-et-gitops/index.md)
+- [6.3 Infrastructure as Code et GitOps](sujets/infrastructure-as-code-et-gitops/index.md)
 - [6.4 Pipelines et changements automatisés](sujets/pipelines-et-changements-automatisés/index.md)
 - [6.5 Libre-service et traitement automatisé](sujets/libre-service-et-traitement-automatisé/index.md)
 - [6.6 Automatisation des runbooks et remédiation automatique](sujets/automatisation-des-runbooks-et-remédiation-automatique/index.md)
