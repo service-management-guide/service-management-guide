@@ -8,7 +8,7 @@ Tim layanan selalu bersiap menghadapi sesuatu. Berapa banyak kontak akan tiba pa
 
 Prediksi membuat keyakinan itu eksplisit dan dapat diuji. Ramalan volume tiket bulan depan, dengan rentang, dapat dibandingkan dengan yang terjadi dan diperbaiki. Model yang menilai risiko suatu perubahan dapat diperiksa terhadap perubahan yang gagal. Jika dilakukan dengan baik, ini menggantikan firasat dengan bukti. Jika dilakukan dengan buruk, ia menggantikan firasat dengan keyakinan palsu: satu angka hingga dua desimal, dihasilkan model yang tidak dapat dijelaskan siapa pun, dipercaya karena tampak ilmiah.
 
-Prediksi salah karena alasan biasa. Masa lalu tidak memuat pola yang penting. Model mencocokkan derau. Peluncuran, perubahan kebijakan, atau gangguan memutus hubungan yang dipelajari model. Peristiwa langka diramalkan dengan alat yang dibuat untuk yang umum. Topik ini menjelaskan jenis utama peramalan dan prediksi dalam manajemen layanan, metodenya dalam kata-kata sederhana, dan kebiasaan yang menjaganya jujur. Ia dibangun di atas analitik (Topik 7.1 — Analitik untuk manajemen layanan) dan perencanaan kapasitas (Topik 3.11 — Ketersediaan, Kapasitas, dan Kinerja), dan berkaitan dengan AIOps (Topik 5.2 — AIOps) dan ekonomi cloud (Topik 4.5 — Manajemen Keuangan dan FinOps).
+Prediksi salah karena alasan biasa. Masa lalu tidak memuat pola yang penting. Model mencocokkan derau. Peluncuran, perubahan kebijakan, atau gangguan memutus hubungan yang dipelajari model. Peristiwa langka diramalkan dengan alat yang dibuat untuk yang umum. Topik ini menjelaskan jenis utama peramalan dan prediksi dalam manajemen layanan, metodenya dalam kata-kata sederhana, dan kebiasaan yang menjaganya jujur. Ia dibangun di atas analitik (Topik 7.1 — Analitik untuk manajemen layanan) dan perencanaan kapasitas (Topik 3.11 — Ketersediaan, Kapasitas, dan Kinerja), dan berkaitan dengan AIOps (Topik 5.2 — AIOps) dan ekonomi cloud (Topik 4.5 — Manajemen keuangan dan FinOps).
 
 ## Konsep inti
 
@@ -40,7 +40,7 @@ Prediksi salah karena alasan biasa. Masa lalu tidak memuat pola yang penting. Mo
 
 **Peristiwa langka dan ekstrem.** Model yang dilatih pada riwayat biasa berkinerja buruk pada peristiwa yang sangat tak biasa. Wikipedia menjelaskan black swan theory, gagasan bahwa peristiwa langka berdampak besar tidak dapat diprediksi dari data biasa. Jangan mengandalkan ramalan untuk risiko ekor; pakai skenario, uji stres, dan latihan. Lihat Topik 3.12 — Manajemen Kontinuitas Layanan.
 
-**Antrean dan kapasitas.** Ramalan permintaan menyuplai keputusan kapasitas. Teori antrean dan hukum Little, yang dijelaskan Wikipedia, mengaitkan permintaan, kapasitas, dan menunggu. Lihat Topik 3.11 — Ketersediaan, Kapasitas, dan Kinerja dan Topik 2.3 — Alur dan Kanban.
+**Antrean dan kapasitas.** Ramalan permintaan menyuplai keputusan kapasitas. Teori antrean dan hukum Little, yang dijelaskan Wikipedia, mengaitkan permintaan, kapasitas, dan menunggu. Lihat Topik 3.11 — Ketersediaan, Kapasitas, dan Kinerja dan Topik 2.3 — Alur dan kanban.
 
 **Keputusan lebih dulu.** Ramalan berguna hanya jika mengubah keputusan. Sebelum membangunnya, tuliskan keputusan yang diinformasikannya, ambang tindakan, dan apa yang akan Anda lakukan pada masing-masing. Jika tidak ada yang akan berubah, jangan meramalkan.
 
