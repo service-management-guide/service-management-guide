@@ -2,9 +2,39 @@
   "name": "Español (mundo)",
   "topic_word": "tema",
   "topics_word": "temas",
-  "h2": {},
-  "h3": {},
-  "maturity": {},
+  "h2": {
+    "Why this matters": "Por qué importa",
+    "Core concepts": "Conceptos clave",
+    "Best practices": "Buenas prácticas",
+    "Questions to discuss with your team": "Preguntas para conversar con su equipo",
+    "In practice: a service management example": "En la práctica: un ejemplo de gestión de servicios",
+    "Four perspectives": "Cuatro perspectivas",
+    "Agile, AI, automation, and analytics": "Ágil, IA, automatización y analítica",
+    "Common failure modes": "Modos de fallo habituales",
+    "Maturity model": "Modelo de madurez",
+    "Checklist": "Lista de verificación",
+    "AI prompts": "Prompts de IA",
+    "AI skills": "Habilidades de IA",
+    "Key sources": "Fuentes principales",
+    "References": "Referencias"
+  },
+  "h3": {
+    "Product and delivery teams": "Equipos de producto y de entrega",
+    "Service and operations teams": "Equipos de servicio y de operaciones",
+    "Leadership and governance": "Liderazgo y gobernanza",
+    "Customers and users": "Clientes y usuarios",
+    "Agile": "Ágil",
+    "AI": "IA",
+    "Automation": "Automatización",
+    "Analytics": "Analítica"
+  },
+  "maturity": {
+    "Initiate": "Iniciar",
+    "Develop": "Desarrollar",
+    "Standardize": "Estandarizar",
+    "Manage": "Gestionar",
+    "Orchestrate": "Orquestar"
+  },
   "dirs": {
     "topics": "temas",
     "contents": "contenidos",
