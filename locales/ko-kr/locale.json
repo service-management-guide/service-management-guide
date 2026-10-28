@@ -2,9 +2,39 @@
   "name": "한국어(대한민국)",
   "topic_word": "주제",
   "topics_word": "토픽",
-  "h2": {},
-  "h3": {},
-  "maturity": {},
+  "h2": {
+    "Why this matters": "왜 중요한가",
+    "Core concepts": "핵심 개념",
+    "Best practices": "모범 사례",
+    "Questions to discuss with your team": "팀과 논의할 질문",
+    "In practice: a service management example": "실제 적용: 서비스 관리 사례",
+    "Four perspectives": "네 가지 관점",
+    "Agile, AI, automation, and analytics": "애자일, AI, 자동화, 분석",
+    "Common failure modes": "흔한 실패 유형",
+    "Maturity model": "성숙도 모델",
+    "Checklist": "체크리스트",
+    "AI prompts": "AI 프롬프트",
+    "AI skills": "AI 스킬",
+    "Key sources": "주요 출처",
+    "References": "참고 문헌"
+  },
+  "h3": {
+    "Product and delivery teams": "제품 및 전달 팀",
+    "Service and operations teams": "서비스 및 운영 팀",
+    "Leadership and governance": "리더십과 거버넌스",
+    "Customers and users": "고객과 사용자",
+    "Agile": "애자일",
+    "AI": "AI",
+    "Automation": "자동화",
+    "Analytics": "분석"
+  },
+  "maturity": {
+    "Initiate": "시작",
+    "Develop": "발전",
+    "Standardize": "표준화",
+    "Manage": "관리",
+    "Orchestrate": "오케스트레이션"
+  },
   "dirs": {
     "topics": "주제",
     "contents": "목차",
