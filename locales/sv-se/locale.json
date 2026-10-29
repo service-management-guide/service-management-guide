@@ -2,9 +2,39 @@
   "name": "Svenska (Sverige)",
   "topic_word": "ämne",
   "topics_word": "ämnen",
-  "h2": {},
-  "h3": {},
-  "maturity": {},
+  "h2": {
+    "Why this matters": "Varför det här är viktigt",
+    "Core concepts": "Grundbegrepp",
+    "Best practices": "Bra arbetssätt",
+    "Questions to discuss with your team": "Frågor att diskutera i teamet",
+    "In practice: a service management example": "I praktiken: ett exempel på tjänstehantering",
+    "Four perspectives": "Fyra perspektiv",
+    "Agile, AI, automation, and analytics": "Agilitet, AI, automatisering och analys",
+    "Common failure modes": "Vanliga felmönster",
+    "Maturity model": "Mognadsmodell",
+    "Checklist": "Checklista",
+    "AI prompts": "AI-prompter",
+    "AI skills": "AI-färdigheter",
+    "Key sources": "Viktiga källor",
+    "References": "Referenser"
+  },
+  "h3": {
+    "Product and delivery teams": "Produkt- och leveransteam",
+    "Service and operations teams": "Tjänste- och driftsteam",
+    "Leadership and governance": "Ledning och styrning",
+    "Customers and users": "Kunder och användare",
+    "Agile": "Agilitet",
+    "AI": "AI",
+    "Automation": "Automatisering",
+    "Analytics": "Analys"
+  },
+  "maturity": {
+    "Initiate": "Initiera",
+    "Develop": "Utveckla",
+    "Standardize": "Standardisera",
+    "Manage": "Styra",
+    "Orchestrate": "Orkestrera"
+  },
   "dirs": {
     "topics": "ämnen",
     "contents": "innehåll",
