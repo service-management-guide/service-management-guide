@@ -1,0 +1,127 @@
+{
+  "locale": {
+    "label": "Español (mundo)"
+  },
+  "siteTitle": "Guía de gestión de servicios",
+  "skipToContent": "Saltar al contenido",
+  "nav": {
+    "contents": "Contenidos",
+    "glossary": "Glosario",
+    "index": "Índice",
+    "skills": "Habilidades",
+    "source": "Fuente"
+  },
+  "picker": {
+    "theme": "Tema",
+    "locale": "Idioma",
+    "textSize": "Tamaño del texto",
+    "share": "Compartir",
+    "search": "Buscar",
+    "searchInput": "Buscar en la guía",
+    "searchSubmit": "Buscar"
+  },
+  "share": {
+    "emailLink": "Enviar el enlace por correo",
+    "shareOnLinkedIn": "Compartir en LinkedIn",
+    "shareOnReddit": "Compartir en Reddit",
+    "shareOnBluesky": "Compartir en Bluesky",
+    "shareOnMastodon": "Compartir en Mastodon",
+    "copyLink": "Copiar el enlace",
+    "copied": "Copiado",
+    "copyFailed": "No se pudo copiar"
+  },
+  "links": {
+    "label": "Enlaces",
+    "llms": "llms.txt (para agentes de IA)",
+    "skills": "Habilidades de IA en GitHub",
+    "issues": "Seguimiento de incidencias"
+  },
+  "footer": {
+    "tagline": "Gestión de servicios con agilidad, IA, automatización y analítica.",
+    "sourceAndContributions": "Fuente y contribuciones:",
+    "builtWith": "Construido con",
+    "ledBy": "Creado por"
+  },
+  "breadcrumb": {
+    "home": "Inicio",
+    "contents": "Contenidos",
+    "skills": "Habilidades",
+    "label": "Ruta de navegación"
+  },
+  "contents": {
+    "pageTitle": "Contenidos",
+    "lead": "Ocho partes y 65 temas sobre gestión de servicios en la era de ITIL 5, a través de cuatro lentes: ágil, IA, automatización y analítica, con preguntas para debatir, prompts de IA y habilidades de IA.",
+    "readingIn": "Leyendo en {$language}",
+    "part": "Parte {$number}",
+    "reference": "Referencia",
+    "comingSoon": "próximamente"
+  },
+  "topic": {
+    "eyebrow": "Tema {$number}",
+    "paginationLabel": "Navegación entre temas",
+    "previous": "Anterior",
+    "next": "Siguiente"
+  },
+  "parts": {
+    "1": {
+      "tagline": "Qué es la gestión de servicios y cómo la codifica ITIL, incluido ITIL 5."
+    },
+    "2": {
+      "tagline": "Valores y métodos ágiles aplicados a la operación de servicios."
+    },
+    "3": {
+      "tagline": "Las prácticas de ITIL, simplificadas, automatizadas y basadas en datos."
+    },
+    "4": {
+      "tagline": "Saber qué tienes, cuánto cuesta y cómo encaja todo."
+    },
+    "5": {
+      "tagline": "Qué cambia la IA y cómo gobernarla."
+    },
+    "6": {
+      "tagline": "Hacer que el trabajo rutinario sea realmente rutinario."
+    },
+    "7": {
+      "tagline": "Usar los datos para operar los servicios y mejorarlos."
+    },
+    "8": {
+      "tagline": "El lado humano de la gestión de servicios con IA y automatización."
+    }
+  },
+  "results": {
+    "button": "Buscar",
+    "label": "Resultados de la búsqueda",
+    "heading": "Resultados de la búsqueda de {$query}",
+    "failed": "No se pudo cargar el índice de búsqueda. Inténtalo de nuevo más tarde.",
+    "searching": "Buscando…",
+    "none": "Nada coincidió con {$query}.",
+    "browse": "Explora los contenidos en su lugar.",
+    "count": ".input {$count :integer}\n.match $count\none {{1 resultado.}}\n*   {{{$count} resultados.}}",
+    "limited": "Mostrando los {$count} mejores resultados."
+  },
+  "glossary": {
+    "title": "Glosario",
+    "lead": "Términos clave definidos en lenguaje sencillo, cada uno con un enlace al tema que lo desarrolla."
+  },
+  "indexPage": {
+    "title": "Índice",
+    "lead": "Conceptos y marcos, con los temas que los tratan."
+  },
+  "jumpToLetter": "Ir a la letra",
+  "skillsPage": {
+    "title": "Habilidades de IA",
+    "lead": "Habilidades en formato Claude Code a las que enlazan los temas. Cada una es un archivo SKILL.md que puedes copiar en tu propia carpeta de habilidades.",
+    "viewSource": "Ver en GitHub",
+    "backToList": "Todas las habilidades"
+  },
+  "error": {
+    "label": "Error {$status}",
+    "notFound": "Esa página no está aquí",
+    "generic": "Algo salió mal",
+    "unknown": "Error desconocido",
+    "try": "Prueba los contenidos, el glosario o el índice."
+  },
+  "home": {
+    "continue": "Continuar a la Guía de gestión de servicios"
+  }
+}

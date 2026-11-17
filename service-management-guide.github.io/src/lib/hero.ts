@@ -5,7 +5,27 @@ export const HERO: Record<string, Record<string, string>> = {
   "intro": "إدارة الخدمات هي الطريقة التي تشارك بها المؤسسات العملاء في صناعة القيمة. يضعها ITIL 5 حول المنتجات الرقمية والذكاء الاصطناعي والقيمة القابلة للقياس. يوضح هذا الدليل كيفية تشغيلها عبر أربع عدسات: الرشاقة والذكاء الاصطناعي والأتمتة والتحليلات، مع البحث والممارسات والأمثلة وأفكار للنقاش مع الفرق ومهارات الذكاء الاصطناعي وموجّهاته.",
   "translations": "الترجمات: "
  },
+ "ar-eg": {
+  "tagline": "دليل عملي لإدارة الخدمات في عصر ITIL 5: الرشاقة والذكاء الاصطناعي والأتمتة والتحليلات.",
+  "intro": "إدارة الخدمات هي الطريقة التي تشارك بها المؤسسات العملاء في صناعة القيمة. يضعها ITIL 5 حول المنتجات الرقمية والذكاء الاصطناعي والقيمة القابلة للقياس. يوضح هذا الدليل كيفية تشغيلها عبر أربع عدسات: الرشاقة والذكاء الاصطناعي والأتمتة والتحليلات، مع البحث والممارسات والأمثلة وأفكار للنقاش مع الفرق ومهارات الذكاء الاصطناعي وموجّهاته.",
+  "translations": "الترجمات: "
+ },
+ "ar-dz": {
+  "tagline": "دليل عملي لإدارة الخدمات في عصر ITIL 5: الرشاقة والذكاء الاصطناعي والأتمتة والتحليلات.",
+  "intro": "إدارة الخدمات هي الطريقة التي تشارك بها المؤسسات العملاء في صناعة القيمة. يضعها ITIL 5 حول المنتجات الرقمية والذكاء الاصطناعي والقيمة القابلة للقياس. يوضح هذا الدليل كيفية تشغيلها عبر أربع عدسات: الرشاقة والذكاء الاصطناعي والأتمتة والتحليلات، مع البحث والممارسات والأمثلة وأفكار للنقاش مع الفرق ومهارات الذكاء الاصطناعي وموجّهاته.",
+  "translations": "الترجمات: "
+ },
  "bn-001": {
+  "tagline": "ITIL 5-এর যুগে সেবা ব্যবস্থাপনার একটি ব্যবহারিক নির্দেশিকা: এজাইল, এআই, অটোমেশন ও বিশ্লেষণ।",
+  "intro": "সেবা ব্যবস্থাপনা হলো যেভাবে প্রতিষ্ঠানগুলো গ্রাহকদের সঙ্গে মিলে মূল্য সৃষ্টি করে। ITIL 5 একে ডিজিটাল পণ্য, এআই ও পরিমাপযোগ্য মূল্যকে ঘিরে সাজায়। এই নির্দেশিকা দেখায় কীভাবে চারটি দৃষ্টিকোণ দিয়ে তা পরিচালনা করা যায়: এজাইল, এআই, অটোমেশন ও বিশ্লেষণ, সঙ্গে গবেষণা, অনুশীলন, উদাহরণ, দলের সঙ্গে আলোচনার ভাবনা, এআই দক্ষতা ও এআই প্রম্পট।",
+  "translations": "অনুবাদ: "
+ },
+ "bn-bd": {
+  "tagline": "ITIL 5-এর যুগে সেবা ব্যবস্থাপনার একটি ব্যবহারিক নির্দেশিকা: এজাইল, এআই, অটোমেশন ও বিশ্লেষণ।",
+  "intro": "সেবা ব্যবস্থাপনা হলো যেভাবে প্রতিষ্ঠানগুলো গ্রাহকদের সঙ্গে মিলে মূল্য সৃষ্টি করে। ITIL 5 একে ডিজিটাল পণ্য, এআই ও পরিমাপযোগ্য মূল্যকে ঘিরে সাজায়। এই নির্দেশিকা দেখায় কীভাবে চারটি দৃষ্টিকোণ দিয়ে তা পরিচালনা করা যায়: এজাইল, এআই, অটোমেশন ও বিশ্লেষণ, সঙ্গে গবেষণা, অনুশীলন, উদাহরণ, দলের সঙ্গে আলোচনার ভাবনা, এআই দক্ষতা ও এআই প্রম্পট।",
+  "translations": "অনুবাদ: "
+ },
+ "bn-in": {
   "tagline": "ITIL 5-এর যুগে সেবা ব্যবস্থাপনার একটি ব্যবহারিক নির্দেশিকা: এজাইল, এআই, অটোমেশন ও বিশ্লেষণ।",
   "intro": "সেবা ব্যবস্থাপনা হলো যেভাবে প্রতিষ্ঠানগুলো গ্রাহকদের সঙ্গে মিলে মূল্য সৃষ্টি করে। ITIL 5 একে ডিজিটাল পণ্য, এআই ও পরিমাপযোগ্য মূল্যকে ঘিরে সাজায়। এই নির্দেশিকা দেখায় কীভাবে চারটি দৃষ্টিকোণ দিয়ে তা পরিচালনা করা যায়: এজাইল, এআই, অটোমেশন ও বিশ্লেষণ, সঙ্গে গবেষণা, অনুশীলন, উদাহরণ, দলের সঙ্গে আলোচনার ভাবনা, এআই দক্ষতা ও এআই প্রম্পট।",
   "translations": "অনুবাদ: "
@@ -60,6 +80,16 @@ export const HERO: Record<string, Record<string, string>> = {
   "intro": "La gestión de servicios es la forma en que las organizaciones cocrean valor con sus clientes. ITIL 5 la plantea en torno a los productos digitales, la IA y el valor medible. Esta guía muestra cómo ejecutarla a través de cuatro lentes: ágil, IA, automatización y analítica, con investigación, prácticas, ejemplos, ideas para conversar con los equipos, habilidades de IA y prompts de IA.",
   "translations": "Traducciones: "
  },
+ "es-es": {
+  "tagline": "Un manual práctico de gestión de servicios en la era de ITIL 5: ágil, IA, automatización y analítica.",
+  "intro": "La gestión de servicios es la forma en que las organizaciones cocrean valor con sus clientes. ITIL 5 la plantea en torno a los productos digitales, la IA y el valor medible. Esta guía muestra cómo ejecutarla a través de cuatro lentes: ágil, IA, automatización y analítica, con investigación, prácticas, ejemplos, ideas para conversar con los equipos, habilidades de IA y prompts de IA.",
+  "translations": "Traducciones: "
+ },
+ "es-mx": {
+  "tagline": "Un manual práctico de gestión de servicios en la era de ITIL 5: ágil, IA, automatización y analítica.",
+  "intro": "La gestión de servicios es la forma en que las organizaciones cocrean valor con sus clientes. ITIL 5 la plantea en torno a los productos digitales, la IA y el valor medible. Esta guía muestra cómo ejecutarla a través de cuatro lentes: ágil, IA, automatización y analítica, con investigación, prácticas, ejemplos, ideas para conversar con los equipos, habilidades de IA y prompts de IA.",
+  "translations": "Traducciones: "
+ },
  "fr-001": {
   "tagline": "Un manuel pratique de gestion des services à l'ère d'ITIL 5 : agilité, IA, automatisation et analytique.",
   "intro": "La gestion des services est la façon dont les organisations cocréent de la valeur avec leurs clients. ITIL 5 la structure autour des produits numériques, de l'IA et d'une valeur mesurable. Ce guide montre comment la pratiquer à travers quatre angles : agilité, IA, automatisation et analytique, avec des recherches, des pratiques, des exemples, des idées de discussion en équipe, des compétences d'IA et des invites d'IA.",
@@ -81,6 +111,11 @@ export const HERO: Record<string, Record<string, string>> = {
   "translations": "Terjemahan: "
  },
  "id-id": {
+  "tagline": "Buku panduan praktis manajemen layanan di era ITIL 5: agile, AI, otomatisasi, dan analitik.",
+  "intro": "Manajemen layanan adalah cara organisasi menciptakan nilai bersama pelanggan. ITIL 5 membingkainya di sekitar produk digital, AI, dan nilai yang terukur. Panduan ini menunjukkan cara menjalankannya melalui empat lensa: agile, AI, otomatisasi, dan analitik, lengkap dengan riset, praktik, contoh, gagasan untuk dibahas bersama tim, skill AI, dan prompt AI.",
+  "translations": "Terjemahan: "
+ },
+ "id-my": {
   "tagline": "Buku panduan praktis manajemen layanan di era ITIL 5: agile, AI, otomatisasi, dan analitik.",
   "intro": "Manajemen layanan adalah cara organisasi menciptakan nilai bersama pelanggan. ITIL 5 membingkainya di sekitar produk digital, AI, dan nilai yang terukur. Panduan ini menunjukkan cara menjalankannya melalui empat lensa: agile, AI, otomatisasi, dan analitik, lengkap dengan riset, praktik, contoh, gagasan untuk dibahas bersama tim, skill AI, dan prompt AI.",
   "translations": "Terjemahan: "
@@ -120,7 +155,27 @@ export const HERO: Record<string, Record<string, string>> = {
   "intro": "A gestão de serviços é a forma como as organizações cocriam valor com os clientes. O ITIL 5 a estrutura em torno de produtos digitais, IA e valor mensurável. Este guia mostra como conduzi-la por quatro lentes: ágil, IA, automação e análise, com pesquisa, práticas, exemplos, ideias para conversar com as equipes, habilidades de IA e prompts de IA.",
   "translations": "Traduções: "
  },
+ "pt-pt": {
+  "tagline": "Um manual prático de gestão de serviços na era do ITIL 5: ágil, IA, automação e análise.",
+  "intro": "A gestão de serviços é a forma como as organizações cocriam valor com os clientes. O ITIL 5 a estrutura em torno de produtos digitais, IA e valor mensurável. Este guia mostra como conduzi-la por quatro lentes: ágil, IA, automação e análise, com pesquisa, práticas, exemplos, ideias para conversar com as equipes, habilidades de IA e prompts de IA.",
+  "translations": "Traduções: "
+ },
+ "pt-br": {
+  "tagline": "Um manual prático de gestão de serviços na era do ITIL 5: ágil, IA, automação e análise.",
+  "intro": "A gestão de serviços é a forma como as organizações cocriam valor com os clientes. O ITIL 5 a estrutura em torno de produtos digitais, IA e valor mensurável. Este guia mostra como conduzi-la por quatro lentes: ágil, IA, automação e análise, com pesquisa, práticas, exemplos, ideias para conversar com as equipes, habilidades de IA e prompts de IA.",
+  "translations": "Traduções: "
+ },
  "ru-001": {
+  "tagline": "Практическое руководство по управлению услугами в эпоху ITIL 5: гибкость, ИИ, автоматизация и аналитика.",
+  "intro": "Управление услугами — это способ, которым организации совместно с клиентами создают ценность. ITIL 5 строит его вокруг цифровых продуктов, ИИ и измеримой ценности. Это руководство показывает, как управлять услугами через четыре линзы: гибкость, ИИ, автоматизацию и аналитику, с исследованиями, практиками, примерами, идеями для обсуждения в командах, ИИ-навыками и запросами к ИИ.",
+  "translations": "Переводы: "
+ },
+ "ru-ru": {
+  "tagline": "Практическое руководство по управлению услугами в эпоху ITIL 5: гибкость, ИИ, автоматизация и аналитика.",
+  "intro": "Управление услугами — это способ, которым организации совместно с клиентами создают ценность. ITIL 5 строит его вокруг цифровых продуктов, ИИ и измеримой ценности. Это руководство показывает, как управлять услугами через четыре линзы: гибкость, ИИ, автоматизацию и аналитику, с исследованиями, практиками, примерами, идеями для обсуждения в командах, ИИ-навыками и запросами к ИИ.",
+  "translations": "Переводы: "
+ },
+ "ru-by": {
   "tagline": "Практическое руководство по управлению услугами в эпоху ITIL 5: гибкость, ИИ, автоматизация и аналитика.",
   "intro": "Управление услугами — это способ, которым организации совместно с клиентами создают ценность. ITIL 5 строит его вокруг цифровых продуктов, ИИ и измеримой ценности. Это руководство показывает, как управлять услугами через четыре линзы: гибкость, ИИ, автоматизацию и аналитику, с исследованиями, практиками, примерами, идеями для обсуждения в командах, ИИ-навыками и запросами к ИИ.",
   "translations": "Переводы: "
@@ -174,7 +229,11 @@ export const HERO: Record<string, Record<string, string>> = {
 
 export const ENDONYMS: Record<string, string> = {
  "ar-001": "العربية",
+ "ar-eg": "العربية - مصر",
+ "ar-dz": "العربية - الجزائر",
  "bn-001": "বাংলা",
+ "bn-bd": "বাংলা - বাংলাদেশ",
+ "bn-in": "বাংলা - ভারত",
  "cy-001": "Cymraeg",
  "cy-gb": "Cymraeg (Prydain Fawr)",
  "da-001": "Dansk",
@@ -185,11 +244,14 @@ export const ENDONYMS: Record<string, string> = {
  "en-gb-oxendict": "English (Great Britain, Oxford)",
  "en-us": "English (United States)",
  "es-001": "Español",
+ "es-es": "Español - España",
+ "es-mx": "Español - México",
  "fr-001": "Français",
  "hi-001": "हिन्दी",
  "hi-in": "हिन्दी (भारत)",
  "id-001": "Bahasa Indonesia",
  "id-id": "Bahasa Indonesia (Indonesia)",
+ "id-my": "Bahasa Indonesia - Malaysia",
  "ja-001": "日本語",
  "ja-jp": "日本語（日本）",
  "ko-001": "한국어",
@@ -197,7 +259,11 @@ export const ENDONYMS: Record<string, string> = {
  "nl-001": "Nederlands",
  "nl-nl": "Nederlands (Nederland)",
  "pt-001": "Português",
+ "pt-pt": "Português - Portugal",
+ "pt-br": "Português - Brasil",
  "ru-001": "Русский",
+ "ru-ru": "Русский - Россия",
+ "ru-by": "Русский - Беларусь",
  "sv-001": "Svenska",
  "sv-se": "Svenska (Sverige)",
  "sw-001": "Kiswahili",

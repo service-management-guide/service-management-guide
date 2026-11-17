@@ -1,0 +1,127 @@
+{
+  "locale": {
+    "label": "Português (mundo)"
+  },
+  "siteTitle": "Guia de gestão de serviços",
+  "skipToContent": "Ir para o conteúdo",
+  "nav": {
+    "contents": "Conteúdo",
+    "glossary": "Glossário",
+    "index": "Índice",
+    "skills": "Habilidades",
+    "source": "Código-fonte"
+  },
+  "picker": {
+    "theme": "Tema",
+    "locale": "Idioma",
+    "textSize": "Tamanho do texto",
+    "share": "Compartilhar",
+    "search": "Buscar",
+    "searchInput": "Buscar no guia",
+    "searchSubmit": "Buscar"
+  },
+  "share": {
+    "emailLink": "Enviar link por e-mail",
+    "shareOnLinkedIn": "Compartilhar no LinkedIn",
+    "shareOnReddit": "Compartilhar no Reddit",
+    "shareOnBluesky": "Compartilhar no Bluesky",
+    "shareOnMastodon": "Compartilhar no Mastodon",
+    "copyLink": "Copiar link",
+    "copied": "Copiado",
+    "copyFailed": "Não foi possível copiar"
+  },
+  "links": {
+    "label": "Links",
+    "llms": "llms.txt (para agentes de IA)",
+    "skills": "Habilidades de IA no GitHub",
+    "issues": "Rastreador de problemas"
+  },
+  "footer": {
+    "tagline": "Gestão de serviços com agilidade, IA, automação e análise.",
+    "sourceAndContributions": "Código-fonte e contribuições:",
+    "builtWith": "Criado com",
+    "ledBy": "Criado por"
+  },
+  "breadcrumb": {
+    "home": "Início",
+    "contents": "Conteúdo",
+    "skills": "Habilidades",
+    "label": "Trilha de navegação"
+  },
+  "contents": {
+    "pageTitle": "Conteúdo",
+    "lead": "Oito partes e 65 tópicos sobre gestão de serviços na era do ITIL 5, por quatro lentes: ágil, IA, automação e análise, com perguntas para discussão, prompts de IA e habilidades de IA.",
+    "readingIn": "Lendo em {$language}",
+    "part": "Parte {$number}",
+    "reference": "Referência",
+    "comingSoon": "em breve"
+  },
+  "topic": {
+    "eyebrow": "Tópico {$number}",
+    "paginationLabel": "Navegação entre tópicos",
+    "previous": "Anterior",
+    "next": "Próximo"
+  },
+  "parts": {
+    "1": {
+      "tagline": "O que é a gestão de serviços e como o ITIL, incluindo o ITIL 5, a codifica."
+    },
+    "2": {
+      "tagline": "Valores e métodos ágeis aplicados à operação de serviços."
+    },
+    "3": {
+      "tagline": "As práticas do ITIL, enxutas, automatizadas e orientadas por dados."
+    },
+    "4": {
+      "tagline": "Saber o que se tem, quanto custa e como tudo se encaixa."
+    },
+    "5": {
+      "tagline": "O que a IA muda e como governá-la."
+    },
+    "6": {
+      "tagline": "Tornar o trabalho rotineiro realmente rotineiro."
+    },
+    "7": {
+      "tagline": "Usar dados para operar os serviços e melhorá-los."
+    },
+    "8": {
+      "tagline": "O lado humano da gestão de serviços com IA e automação."
+    }
+  },
+  "results": {
+    "button": "Buscar",
+    "label": "Resultados da busca",
+    "heading": "Resultados da busca por {$query}",
+    "failed": "Não foi possível carregar o índice de busca. Tente novamente mais tarde.",
+    "searching": "Buscando…",
+    "none": "Nada corresponde a {$query}.",
+    "browse": "Navegue pelo conteúdo.",
+    "count": "{$count} resultados.",
+    "limited": "Mostrando os {$count} melhores resultados."
+  },
+  "glossary": {
+    "title": "Glossário",
+    "lead": "Termos-chave definidos em linguagem simples, cada um apontando para o tópico responsável por ele."
+  },
+  "indexPage": {
+    "title": "Índice",
+    "lead": "Conceitos e frameworks, com os tópicos que os abordam."
+  },
+  "jumpToLetter": "Ir para a letra",
+  "skillsPage": {
+    "title": "Habilidades de IA",
+    "lead": "Habilidades no formato do Claude Code para as quais os tópicos apontam. Cada uma é um arquivo SKILL.md que você pode copiar para sua própria pasta de habilidades.",
+    "viewSource": "Ver no GitHub",
+    "backToList": "Todas as habilidades"
+  },
+  "error": {
+    "label": "Erro {$status}",
+    "notFound": "Essa página não está aqui",
+    "generic": "Algo deu errado",
+    "unknown": "Erro desconhecido",
+    "try": "Experimente o conteúdo, o glossário ou o índice."
+  },
+  "home": {
+    "continue": "Continuar para o Guia de gestão de serviços"
+  }
+}

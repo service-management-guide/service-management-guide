@@ -1,0 +1,127 @@
+{
+  "locale": {
+    "label": "Français (monde)"
+  },
+  "siteTitle": "Guide de la gestion des services",
+  "skipToContent": "Passer au contenu",
+  "nav": {
+    "contents": "Contenus",
+    "glossary": "Glossaire",
+    "index": "Index",
+    "skills": "Compétences",
+    "source": "Source"
+  },
+  "picker": {
+    "theme": "Thème",
+    "locale": "Langue",
+    "textSize": "Taille du texte",
+    "share": "Partager",
+    "search": "Rechercher",
+    "searchInput": "Rechercher dans le guide",
+    "searchSubmit": "Rechercher"
+  },
+  "share": {
+    "emailLink": "Envoyer le lien par courriel",
+    "shareOnLinkedIn": "Partager sur LinkedIn",
+    "shareOnReddit": "Partager sur Reddit",
+    "shareOnBluesky": "Partager sur Bluesky",
+    "shareOnMastodon": "Partager sur Mastodon",
+    "copyLink": "Copier le lien",
+    "copied": "Copié",
+    "copyFailed": "Échec de la copie"
+  },
+  "links": {
+    "label": "Liens",
+    "llms": "llms.txt (pour les agents d'IA)",
+    "skills": "Compétences d'IA sur GitHub",
+    "issues": "Suivi des tickets"
+  },
+  "footer": {
+    "tagline": "La gestion des services avec agilité, IA, automatisation et analytique.",
+    "sourceAndContributions": "Source et contributions :",
+    "builtWith": "Construit avec",
+    "ledBy": "Créé par"
+  },
+  "breadcrumb": {
+    "home": "Accueil",
+    "contents": "Contenus",
+    "skills": "Compétences",
+    "label": "Fil d'Ariane"
+  },
+  "contents": {
+    "pageTitle": "Contenus",
+    "lead": "Huit parties et 65 sujets sur la gestion des services à l'ère d'ITIL 5, à travers quatre angles : agilité, IA, automatisation et analytique, avec des questions de discussion, des invites d'IA et des compétences d'IA.",
+    "readingIn": "Lecture en {$language}",
+    "part": "Partie {$number}",
+    "reference": "Référence",
+    "comingSoon": "bientôt disponible"
+  },
+  "topic": {
+    "eyebrow": "Sujet {$number}",
+    "paginationLabel": "Navigation entre les sujets",
+    "previous": "Précédent",
+    "next": "Suivant"
+  },
+  "parts": {
+    "1": {
+      "tagline": "Ce qu'est la gestion des services et comment ITIL, y compris ITIL 5, la codifie."
+    },
+    "2": {
+      "tagline": "Les valeurs et méthodes agiles appliquées à l'exploitation des services."
+    },
+    "3": {
+      "tagline": "Les pratiques ITIL, allégées, automatisées et guidées par les données."
+    },
+    "4": {
+      "tagline": "Savoir ce que l'on possède, ce que cela coûte et comment tout s'articule."
+    },
+    "5": {
+      "tagline": "Ce que change l'IA et comment la gouverner."
+    },
+    "6": {
+      "tagline": "Rendre le travail de routine vraiment routinier."
+    },
+    "7": {
+      "tagline": "Utiliser les données pour exploiter les services et les améliorer."
+    },
+    "8": {
+      "tagline": "Le côté humain de la gestion des services avec l'IA et l'automatisation."
+    }
+  },
+  "results": {
+    "button": "Rechercher",
+    "label": "Résultats de la recherche",
+    "heading": "Résultats de la recherche pour {$query}",
+    "failed": "L'index de recherche n'a pas pu être chargé. Réessayez plus tard.",
+    "searching": "Recherche en cours…",
+    "none": "Rien ne correspond à {$query}.",
+    "browse": "Parcourez plutôt les contenus.",
+    "count": ".input {$count :integer}\n.match $count\none {{1 résultat.}}\n*   {{{$count} résultats.}}",
+    "limited": "Affichage des {$count} meilleurs résultats."
+  },
+  "glossary": {
+    "title": "Glossaire",
+    "lead": "Les termes clés définis simplement, chacun renvoyant au sujet qui le traite."
+  },
+  "indexPage": {
+    "title": "Index",
+    "lead": "Concepts et référentiels, avec les sujets qui les couvrent."
+  },
+  "jumpToLetter": "Aller à la lettre",
+  "skillsPage": {
+    "title": "Compétences d'IA",
+    "lead": "Des compétences au format Claude Code vers lesquelles renvoient les sujets. Chacune est un fichier SKILL.md que vous pouvez copier dans votre propre dossier de compétences.",
+    "viewSource": "Voir sur GitHub",
+    "backToList": "Toutes les compétences"
+  },
+  "error": {
+    "label": "Erreur {$status}",
+    "notFound": "Cette page n'est pas ici",
+    "generic": "Quelque chose a mal tourné",
+    "unknown": "Erreur inconnue",
+    "try": "Essayez les contenus, le glossaire ou l'index."
+  },
+  "home": {
+    "continue": "Continuer vers le Guide de la gestion des services"
+  }
+}
