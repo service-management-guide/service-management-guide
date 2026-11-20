@@ -40,6 +40,11 @@ export const HERO: Record<string, Record<string, string>> = {
   "intro": "Rheoli gwasanaethau yw'r ffordd y mae sefydliadau'n cyd-greu gwerth gyda chwsmeriaid. Mae ITIL 5 yn ei fframio o amgylch cynhyrchion digidol, AI a gwerth mesuradwy. Mae'r canllaw hwn yn dangos sut i'w redeg drwy bedwar lens: ystwyth, AI, awtomeiddio a dadansoddeg, gydag ymchwil, arferion, enghreifftiau, syniadau i'w trafod gyda thimau, sgiliau AI ac anogwyr AI.",
   "translations": "Cyfieithiadau: "
  },
+ "cy-ar": {
+  "tagline": "Llawlyfr ymarferol ar gyfer rheoli gwasanaethau yn oes ITIL 5: ystwyth, AI, awtomeiddio a dadansoddeg.",
+  "intro": "Rheoli gwasanaethau yw'r ffordd y mae sefydliadau'n cyd-greu gwerth gyda chwsmeriaid. Mae ITIL 5 yn ei fframio o amgylch cynhyrchion digidol, AI a gwerth mesuradwy. Mae'r canllaw hwn yn dangos sut i'w redeg drwy bedwar lens: ystwyth, AI, awtomeiddio a dadansoddeg, gydag ymchwil, arferion, enghreifftiau, syniadau i'w trafod gyda thimau, sgiliau AI ac anogwyr AI.",
+  "translations": "Cyfieithiadau: "
+ },
  "da-001": {
   "tagline": "En praktisk håndbog i servicestyring i ITIL 5's tidsalder: agilitet, AI, automatisering og analyse.",
   "intro": "Servicestyring er den måde, organisationer skaber værdi sammen med kunderne på. ITIL 5 rammer det ind omkring digitale produkter, AI og målbar værdi. Denne guide viser, hvordan man driver det gennem fire linser: agilitet, AI, automatisering og analyse, med forskning, praksis, eksempler, idéer til samtaler i teams, AI-færdigheder og AI-prompts.",
@@ -51,6 +56,11 @@ export const HERO: Record<string, Record<string, string>> = {
   "translations": "Übersetzungen: "
  },
  "de-de": {
+  "tagline": "Ein praktisches Handbuch für Service-Management im Zeitalter von ITIL 5: Agilität, KI, Automatisierung und Analytik.",
+  "intro": "Service-Management ist die Art, wie Organisationen gemeinsam mit Kunden Wert schaffen. ITIL 5 stellt es um digitale Produkte, KI und messbaren Nutzen herum auf. Dieser Leitfaden zeigt, wie Sie es durch vier Linsen betreiben: Agilität, KI, Automatisierung und Analytik, mit Forschung, Praktiken, Beispielen, Ideen für Teamgespräche, KI-Skills und KI-Prompts.",
+  "translations": "Übersetzungen: "
+ },
+ "de-at": {
   "tagline": "Ein praktisches Handbuch für Service-Management im Zeitalter von ITIL 5: Agilität, KI, Automatisierung und Analytik.",
   "intro": "Service-Management ist die Art, wie Organisationen gemeinsam mit Kunden Wert schaffen. ITIL 5 stellt es um digitale Produkte, KI und messbaren Nutzen herum auf. Dieser Leitfaden zeigt, wie Sie es durch vier Linsen betreiben: Agilität, KI, Automatisierung und Analytik, mit Forschung, Praktiken, Beispielen, Ideen für Teamgespräche, KI-Skills und KI-Prompts.",
   "translations": "Übersetzungen: "
@@ -101,6 +111,11 @@ export const HERO: Record<string, Record<string, string>> = {
   "translations": "अनुवाद: "
  },
  "hi-in": {
+  "tagline": "ITIL 5 के युग में सेवा प्रबंधन की एक व्यावहारिक पुस्तिका: एजाइल, AI, स्वचालन और विश्लेषण।",
+  "intro": "सेवा प्रबंधन वह तरीक़ा है जिससे संगठन ग्राहकों के साथ मिलकर मूल्य रचते हैं। ITIL 5 इसे डिजिटल उत्पादों, AI और मापने योग्य मूल्य के इर्द-गिर्द ढालता है। यह मार्गदर्शिका बताती है कि इसे चार दृष्टिकोणों से कैसे चलाएँ: एजाइल, AI, स्वचालन और विश्लेषण, शोध, अभ्यास, उदाहरण, टीम-चर्चा के विचार, AI कौशल और AI प्रॉम्प्ट के साथ।",
+  "translations": "अनुवाद: "
+ },
+ "hi-np": {
   "tagline": "ITIL 5 के युग में सेवा प्रबंधन की एक व्यावहारिक पुस्तिका: एजाइल, AI, स्वचालन और विश्लेषण।",
   "intro": "सेवा प्रबंधन वह तरीक़ा है जिससे संगठन ग्राहकों के साथ मिलकर मूल्य रचते हैं। ITIL 5 इसे डिजिटल उत्पादों, AI और मापने योग्य मूल्य के इर्द-गिर्द ढालता है। यह मार्गदर्शिका बताती है कि इसे चार दृष्टिकोणों से कैसे चलाएँ: एजाइल, AI, स्वचालन और विश्लेषण, शोध, अभ्यास, उदाहरण, टीम-चर्चा के विचार, AI कौशल और AI प्रॉम्प्ट के साथ।",
   "translations": "अनुवाद: "
@@ -224,7 +239,12 @@ export const HERO: Record<string, Record<string, string>> = {
   "tagline": "一本在 ITIL 5 时代做服务管理的实用手册：敏捷、AI、自动化与分析。",
   "intro": "服务管理是组织与客户共同创造价值的方式。ITIL 5 围绕数字产品、AI 和可度量的价值来构建它。本指南通过敏捷、AI、自动化与分析四个视角说明如何运行服务管理，并结合研究、实践、案例、可与团队讨论的想法、AI技能和AI提示词。",
   "translations": "翻译： "
- }
+ },
+ "zh-th": {
+  "tagline": "一本在 ITIL 5 时代做服务管理的实用手册：敏捷、AI、自动化与分析。",
+  "intro": "服务管理是组织与客户共同创造价值的方式。ITIL 5 围绕数字产品、AI 和可度量的价值来构建它。本指南通过敏捷、AI、自动化与分析四个视角说明如何运行服务管理，并结合研究、实践、案例、可与团队讨论的想法、AI技能和AI提示词。",
+  "translations": "翻译： "
+ },
 };
 
 export const ENDONYMS: Record<string, string> = {
@@ -236,9 +256,11 @@ export const ENDONYMS: Record<string, string> = {
  "bn-in": "বাংলা - ভারত",
  "cy-001": "Cymraeg",
  "cy-gb": "Cymraeg (Prydain Fawr)",
+ "cy-ar": "Cymraeg (Ariannin)",
  "da-001": "Dansk",
  "de-001": "Deutsch",
  "de-de": "Deutsch (Deutschland)",
+ "de-at": "Deutsch (Österreich)",
  "en-001": "English",
  "en-gb": "English (Great Britain)",
  "en-gb-oxendict": "English (Great Britain, Oxford)",
@@ -249,6 +271,7 @@ export const ENDONYMS: Record<string, string> = {
  "fr-001": "Français",
  "hi-001": "हिन्दी",
  "hi-in": "हिन्दी (भारत)",
+ "hi-np": "हिन्दी (नेपाल)",
  "id-001": "Bahasa Indonesia",
  "id-id": "Bahasa Indonesia (Indonesia)",
  "id-my": "Bahasa Indonesia - Malaysia",
@@ -272,5 +295,6 @@ export const ENDONYMS: Record<string, string> = {
  "vi-001": "Tiếng Việt",
  "vi-vn": "Tiếng Việt (Việt Nam)",
  "zh-001": "中文",
- "zh-cn": "简体中文"
+ "zh-cn": "简体中文",
+ "zh-th": "简体中文 (泰国)",
 };
